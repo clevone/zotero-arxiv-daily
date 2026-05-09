@@ -1,113 +1,254 @@
-from datetime import datetime, timezone
+import time
+import xml.etree.ElementTree as ET
+from urllib.parse import quote
+
+import requests
 from loguru import logger
 
 from .protocol import Paper
+from .paper_filter import is_ultrasound_related
 
 
-CLASSIC_ULTRASOUND_PAPERS = [
-    {
-        "title": "Ultrafast imaging in biomedical ultrasound",
-        "authors": ["Mickael Tanter", "Mathias Fink"],
-        "abstract": (
-            "A classic review of ultrafast biomedical ultrasound imaging, "
-            "including plane-wave insonification, coherent compounding, "
-            "ultrafast Doppler, elastography, and functional ultrasound imaging."
-        ),
-        "url": "https://pubmed.ncbi.nlm.nih.gov/24402899/",
-        "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/24402899/",
-        "tldr": "经典综述：系统介绍超快超声成像、平面波发射、相干复合、多普勒、弹性成像和功能超声。",
-    },
-    {
-        "title": "Coherent plane-wave compounding for very high frame rate ultrasonography and transient elastography",
-        "authors": ["Gabriel Montaldo", "Mickael Tanter", "Jeremy Bercoff", "Nicolas Benech", "Mathias Fink"],
-        "abstract": (
-            "A foundational paper on coherent plane-wave compounding, "
-            "using multiple tilted plane-wave transmissions to improve "
-            "ultrasound image quality while maintaining high frame rate."
-        ),
-        "url": "https://pubmed.ncbi.nlm.nih.gov/19411209/",
-        "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/19411209/",
-        "tldr": "经典方法论文：提出平面波角度复合，在高帧率条件下提升超声图像质量。",
-    },
-    {
-        "title": "Supersonic shear imaging: a new technique for soft tissue elasticity mapping",
-        "authors": ["Jeremy Bercoff", "Mickael Tanter", "Mathias Fink"],
-        "abstract": (
-            "A foundational paper on supersonic shear imaging for ultrasound "
-            "elastography, using focused ultrasound beams to generate shear waves "
-            "and ultrafast imaging to map tissue elasticity."
-        ),
-        "url": "https://pubmed.ncbi.nlm.nih.gov/15139541/",
-        "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/15139541/",
-        "tldr": "经典弹性成像论文：利用聚焦超声产生剪切波，并用超快成像重建组织弹性。",
-    },
-    {
-        "title": "Ultrafast ultrasound localization microscopy for deep super-resolution vascular imaging",
-        "authors": ["Claudia Errico", "Juliette Pierre", "Sophie Pezet", "Yann Desailly", "Zsolt Lenkei", "Olivier Couture", "Mickael Tanter"],
-        "abstract": (
-            "A landmark paper demonstrating ultrafast ultrasound localization "
-            "microscopy for deep super-resolution vascular imaging using "
-            "microbubble contrast agents."
-        ),
-        "url": "https://pubmed.ncbi.nlm.nih.gov/26607546/",
-        "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/26607546/",
-        "tldr": "经典超分辨超声论文：利用微泡和超快成像实现深部血管超分辨定位显微成像。",
-    },
-    {
-        "title": "FIELD: A program for simulating ultrasound systems",
-        "authors": ["Jorgen Arendt Jensen"],
-        "abstract": (
-            "A classic work introducing the Field II simulation framework "
-            "for modeling ultrasound transducer fields and ultrasound imaging systems."
-        ),
-        "url": "https://field-ii.dk/documents/jaj_nbc_1996.pdf",
-        "pdf_url": "https://field-ii.dk/documents/jaj_nbc_1996.pdf",
-        "tldr": "经典仿真工具论文：介绍 Field II，用于模拟超声换能器声场和成像系统。",
-    },
-]
+PUBMED_ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+PUBMED_EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 
 
-def get_fallback_papers(config, n_needed: int):
+DEFAULT_PUBMED_ULTRASOUND_QUERY = """
+(
+  ultrasound[Title/Abstract]
+  OR ultrasonography[Title/Abstract]
+  OR ultrasonic[Title/Abstract]
+  OR sonography[Title/Abstract]
+  OR echocardiography[Title/Abstract]
+  OR "focused ultrasound"[Title/Abstract]
+  OR HIFU[Title/Abstract]
+  OR "ultrafast ultrasound"[Title/Abstract]
+  OR "plane wave ultrasound"[Title/Abstract]
+  OR "contrast-enhanced ultrasound"[Title/Abstract]
+  OR "ultrasound localization microscopy"[Title/Abstract]
+  OR "super-resolution ultrasound"[Title/Abstract]
+  OR "shear wave elastography"[Title/Abstract]
+  OR photoacoustic[Title/Abstract]
+  OR optoacoustic[Title/Abstract]
+)
+AND
+(
+  imaging[Title/Abstract]
+  OR beamforming[Title/Abstract]
+  OR reconstruction[Title/Abstract]
+  OR localization[Title/Abstract]
+  OR microscopy[Title/Abstract]
+  OR elastography[Title/Abstract]
+  OR Doppler[Title/Abstract]
+  OR transducer[Title/Abstract]
+  OR "medical imaging"[Title/Abstract]
+)
+"""
+
+
+def _clean_query(q: str) -> str:
+    return " ".join(q.split())
+
+
+def _paper_key(paper: Paper) -> str:
+    return (paper.title or "").strip().lower()
+
+
+def _existing_title_set(existing_papers):
+    return {_paper_key(p) for p in existing_papers or [] if _paper_key(p)}
+
+
+def _pubmed_esearch(query: str, retmax: int, sort: str = "relevance") -> list[str]:
+    params = {
+        "db": "pubmed",
+        "term": query,
+        "retmode": "json",
+        "retmax": str(retmax),
+        "sort": sort,
+    }
+
+    response = requests.get(PUBMED_ESEARCH_URL, params=params, timeout=30)
+    response.raise_for_status()
+
+    data = response.json()
+    return data.get("esearchresult", {}).get("idlist", [])
+
+
+def _node_text(node):
+    if node is None:
+        return ""
+    return "".join(node.itertext()).strip()
+
+
+def _extract_article_ids(article):
+    ids = {}
+
+    for article_id in article.findall(".//ArticleId"):
+        id_type = article_id.attrib.get("IdType", "")
+        text = _node_text(article_id)
+        if id_type and text:
+            ids[id_type] = text
+
+    return ids
+
+
+def _extract_authors(article):
+    authors = []
+
+    for author in article.findall(".//AuthorList/Author"):
+        last = _node_text(author.find("LastName"))
+        fore = _node_text(author.find("ForeName"))
+        collective = _node_text(author.find("CollectiveName"))
+
+        if collective:
+            authors.append(collective)
+        elif last and fore:
+            authors.append(f"{fore} {last}")
+        elif last:
+            authors.append(last)
+
+    return authors
+
+
+def _extract_abstract(article):
+    parts = []
+
+    for abstract_text in article.findall(".//Abstract/AbstractText"):
+        label = abstract_text.attrib.get("Label")
+        text = _node_text(abstract_text)
+
+        if not text:
+            continue
+
+        if label:
+            parts.append(f"{label}: {text}")
+        else:
+            parts.append(text)
+
+    return "\n".join(parts)
+
+
+def _pubmed_efetch(pmids: list[str]) -> list[Paper]:
+    if not pmids:
+        return []
+
+    params = {
+        "db": "pubmed",
+        "id": ",".join(pmids),
+        "retmode": "xml",
+    }
+
+    response = requests.get(PUBMED_EFETCH_URL, params=params, timeout=60)
+    response.raise_for_status()
+
+    root = ET.fromstring(response.text)
+
+    papers = []
+
+    for article in root.findall(".//PubmedArticle"):
+        pmid = _node_text(article.find(".//PMID"))
+        title = _node_text(article.find(".//ArticleTitle"))
+        abstract = _extract_abstract(article)
+        authors = _extract_authors(article)
+        ids = _extract_article_ids(article)
+
+        if not pmid or not title:
+            continue
+
+        doi = ids.get("doi")
+        url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+        pdf_url = f"https://doi.org/{doi}" if doi else url
+
+        journal = _node_text(article.find(".//Journal/Title"))
+        pub_year = _node_text(article.find(".//PubDate/Year"))
+
+        extra = []
+        if journal:
+            extra.append(f"Journal: {journal}")
+        if pub_year:
+            extra.append(f"Year: {pub_year}")
+
+        full_text_preview = "\n".join(extra + [abstract])
+
+        papers.append(
+            Paper(
+                source="pubmed-fallback",
+                title=title,
+                authors=authors,
+                abstract=abstract,
+                url=url,
+                pdf_url=pdf_url,
+                full_text=full_text_preview,
+                tldr=None,
+                affiliations=None,
+                score=10.0,
+            )
+        )
+
+    return papers
+
+
+def get_pubmed_fallback_papers(config, n_needed: int, existing_papers=None) -> list[Paper]:
+    fallback_cfg = config.get("fallback", {})
+
+    query = fallback_cfg.get(
+        "pubmed_query",
+        DEFAULT_PUBMED_ULTRASOUND_QUERY,
+    )
+    query = _clean_query(query)
+
+    retmax = int(fallback_cfg.get("pubmed_retmax", 30))
+    sort = fallback_cfg.get("pubmed_sort", "relevance")
+
+    logger.info(f"Searching PubMed fallback papers with query: {query}")
+    logger.info(f"PubMed fallback sort={sort}, retmax={retmax}")
+
+    pmids = _pubmed_esearch(query=query, retmax=retmax, sort=sort)
+
+    # Be polite to NCBI.
+    time.sleep(0.34)
+
+    papers = _pubmed_efetch(pmids)
+
+    existing_titles = _existing_title_set(existing_papers)
+
+    filtered = []
+    for paper in papers:
+        key = _paper_key(paper)
+
+        if not key or key in existing_titles:
+            continue
+
+        # Keep only papers that still match our ultrasound detector.
+        if not is_ultrasound_related(paper, include_full_text=True):
+            continue
+
+        filtered.append(paper)
+
+        if len(filtered) >= n_needed:
+            break
+
+    logger.info(f"PubMed fallback returned {len(filtered)} papers")
+
+    return filtered
+
+
+def get_fallback_papers(config, n_needed: int, existing_papers=None) -> list[Paper]:
     fallback_cfg = config.get("fallback", {})
 
     if not fallback_cfg.get("enabled", False):
         return []
 
-    max_fallback = int(fallback_cfg.get("max_fallback_papers", n_needed))
-    n = max(0, min(n_needed, max_fallback))
+    mode = fallback_cfg.get("mode", "pubmed")
 
-    if n == 0:
+    if mode == "none":
         return []
 
-    pool = fallback_cfg.get("classic_pool", None)
-    if pool is None:
-        pool = CLASSIC_ULTRASOUND_PAPERS
-
-    if len(pool) == 0:
-        return []
-
-    # Rotate classics by day, so the same fallback papers are not always sent.
-    day_index = datetime.now(timezone.utc).timetuple().tm_yday
-    start = day_index % len(pool)
-    rotated = list(pool[start:]) + list(pool[:start])
-    selected = rotated[:n]
-
-    papers = []
-    for item in selected:
-        papers.append(
-            Paper(
-                source="classic-ultrasound",
-                title=item["title"],
-                authors=list(item.get("authors", [])),
-                abstract=item.get("abstract", ""),
-                url=item["url"],
-                pdf_url=item.get("pdf_url", item["url"]),
-                full_text=item.get("abstract", ""),
-                tldr=item.get("tldr", None),
-                affiliations=[],
-                score=10.0,
-            )
+    if mode == "pubmed":
+        return get_pubmed_fallback_papers(
+            config,
+            n_needed=n_needed,
+            existing_papers=existing_papers,
         )
 
-    logger.info(f"Added {len(papers)} fallback classic ultrasound papers")
-    return papers
+    raise ValueError(f"Unknown fallback mode: {mode}")
