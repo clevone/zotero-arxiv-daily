@@ -23,25 +23,36 @@ DEFAULT_ULTRASOUND_PATTERNS = [
     r"\bendoscopic ultrasound\b",
     r"\bEUS\b",
     r"\bshear[- ]wave elastograph\w*\b",
+    r"\belastograph\w*\b",
     r"\bacoustic radiation force\b",
     r"\bARFI\b",
     r"\bphotoacoustic\w*\b",
     r"\boptoacoustic\w*\b",
     r"\bmicrobubble\w*\b",
+    r"\bDoppler ultrasound\b",
+    r"\bbeamform\w*\b",
 ]
 
 
-def _paper_text(paper) -> str:
+def _get_filter_cfg(config):
+    return config.get("filter", {}) if config is not None else {}
+
+
+def _paper_text(paper, include_full_text=True) -> str:
     fields = [
         getattr(paper, "title", "") or "",
         getattr(paper, "abstract", "") or "",
-        getattr(paper, "full_text", "") or "",
     ]
+
+    if include_full_text:
+        fields.append(getattr(paper, "full_text", "") or "")
+
     return "\n".join(fields)
 
 
-def is_ultrasound_related(paper, patterns=None) -> bool:
-    text = _paper_text(paper)
+def is_ultrasound_related(paper, patterns=None, include_full_text=True) -> bool:
+    text = _paper_text(paper, include_full_text=include_full_text)
+
     if not text.strip():
         return False
 
@@ -55,44 +66,99 @@ def is_ultrasound_related(paper, patterns=None) -> bool:
 
 
 def filter_ultrasound_papers(papers, config):
-    filter_cfg = config.get("filter", {})
-    require_ultrasound_keyword = filter_cfg.get("require_ultrasound_keyword", True)
+    """
+    Candidate-stage keyword filter.
 
-    if not require_ultrasound_keyword:
+    Important:
+    This is disabled by default to avoid breaking the original tests and to avoid
+    filtering out papers before reranking. Enable it only when you really want a
+    strict pre-rerank keyword gate.
+    """
+    filter_cfg = _get_filter_cfg(config)
+
+    candidate_keyword_filter = bool(
+        filter_cfg.get("candidate_keyword_filter", False)
+    )
+
+    if not candidate_keyword_filter:
+        logger.info(
+            "Candidate-stage ultrasound keyword filter is disabled. "
+            "All retrieved papers will be sent to reranker."
+        )
         return papers
 
     patterns = filter_cfg.get("ultrasound_patterns", DEFAULT_ULTRASOUND_PATTERNS)
-    filtered = [p for p in papers if is_ultrasound_related(p, patterns)]
+    include_full_text = bool(filter_cfg.get("keyword_include_full_text", True))
+
+    filtered = [
+        p for p in papers
+        if is_ultrasound_related(
+            p,
+            patterns=patterns,
+            include_full_text=include_full_text,
+        )
+    ]
 
     logger.info(
-        f"Ultrasound hard filter: kept {len(filtered)}/{len(papers)} papers"
+        f"Candidate-stage ultrasound hard filter: kept {len(filtered)}/{len(papers)} papers"
     )
-
-    if len(papers) > 0 and len(filtered) == 0:
-        logger.info(
-            "No papers passed the ultrasound hard filter. "
-            "This is acceptable if there are no ultrasound-related papers today."
-        )
 
     return filtered
 
 
 def filter_by_score(papers, config):
-    filter_cfg = config.get("filter", {})
+    filter_cfg = _get_filter_cfg(config)
     min_score = filter_cfg.get("min_score", None)
 
     if min_score is None:
         return papers
 
     min_score = float(min_score)
+
     filtered = [
         p for p in papers
-        if getattr(p, "score", None) is not None and p.score >= min_score
+        if getattr(p, "score", None) is not None and float(p.score) >= min_score
     ]
 
     logger.info(
-        f"Score filter: kept {len(filtered)}/{len(papers)} papers "
-        f"with score >= {min_score}"
+        f"Score filter: kept {len(filtered)}/{len(papers)} papers with score >= {min_score}"
     )
 
-    return filteredS
+    return filtered
+
+
+def filter_ultrasound_after_rerank(papers, config):
+    """
+    Post-rerank ultrasound relevance gate.
+
+    This is the recommended filter:
+    1. first rerank by Zotero similarity;
+    2. then require ultrasound-related keywords;
+    3. then apply min_score.
+    """
+    filter_cfg = _get_filter_cfg(config)
+
+    require_ultrasound_keyword = bool(
+        filter_cfg.get("require_ultrasound_keyword", False)
+    )
+
+    if not require_ultrasound_keyword:
+        return papers
+
+    patterns = filter_cfg.get("ultrasound_patterns", DEFAULT_ULTRASOUND_PATTERNS)
+    include_full_text = bool(filter_cfg.get("keyword_include_full_text", True))
+
+    filtered = [
+        p for p in papers
+        if is_ultrasound_related(
+            p,
+            patterns=patterns,
+            include_full_text=include_full_text,
+        )
+    ]
+
+    logger.info(
+        f"Post-rerank ultrasound relevance filter: kept {len(filtered)}/{len(papers)} papers"
+    )
+
+    return filtered
