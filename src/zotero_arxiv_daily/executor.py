@@ -11,7 +11,12 @@ from .construct_email import render_email
 from .utils import send_email
 from openai import OpenAI
 from tqdm import tqdm
-from .paper_filter import filter_ultrasound_papers, filter_by_score
+from .paper_filter import (
+    filter_ultrasound_papers,
+    filter_ultrasound_after_rerank,
+    filter_by_score,
+)
+from .fallback import get_fallback_papers
 from .fallback import get_fallback_papers
 
 def normalize_path_patterns(patterns: list[str] | ListConfig | None, config_key: str) -> list[str] | None:
@@ -116,37 +121,44 @@ class Executor:
 
         logger.info(f"Total {len(all_papers)} papers retrieved from all sources")
 
-        # 1. Hard filter: only keep ultrasound-related papers.
+        # Optional candidate-stage filter.
+        # Disabled by default. This avoids killing all papers before reranking.
         all_papers = filter_ultrasound_papers(all_papers, self.config)
-        logger.info(f"Total {len(all_papers)} papers after ultrasound hard filter")
+        logger.info(f"Total {len(all_papers)} papers after optional candidate filter")
 
         reranked_papers = []
 
-        # 2. Rerank only ultrasound-related candidates.
         if len(all_papers) > 0:
             logger.info("Reranking papers...")
             reranked_papers = self.reranker.rerank(all_papers, corpus)
 
-            # 3. Score threshold filter.
+            # Recommended order:
+            # 1. rerank by Zotero similarity
+            # 2. require ultrasound relevance
+            # 3. apply score threshold
+            reranked_papers = filter_ultrasound_after_rerank(reranked_papers, self.config)
             reranked_papers = filter_by_score(reranked_papers, self.config)
 
             max_paper_num = int(self.config.executor.get("max_paper_num", 100))
             reranked_papers = reranked_papers[:max_paper_num]
-
         else:
-            logger.info("No new papers passed the ultrasound hard filter.")
+            logger.info("No papers available for reranking.")
 
-        # 4. Fallback: add classic ultrasound papers if too few strong new papers.
+        # Online fallback: if too few strong new papers, search PubMed online.
         fallback_cfg = self.config.get("fallback", {})
         if fallback_cfg.get("enabled", False):
             min_total_papers = int(fallback_cfg.get("min_total_papers", 0))
             if len(reranked_papers) < min_total_papers:
                 n_needed = min_total_papers - len(reranked_papers)
-                fallback_papers = get_fallback_papers(self.config, n_needed)
+                fallback_papers = get_fallback_papers(
+                    self.config,
+                    n_needed=n_needed,
+                    existing_papers=reranked_papers,
+                )
                 reranked_papers.extend(fallback_papers)
 
         if len(reranked_papers) == 0 and not self.config.executor.send_empty:
-            logger.info("No new papers found after filtering. No email will be sent.")
+            logger.info("No papers found after filtering. No email will be sent.")
             return
 
         logger.info("Generating TLDR and affiliations...")
