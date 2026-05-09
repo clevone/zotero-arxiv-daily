@@ -11,7 +11,8 @@ from .construct_email import render_email
 from .utils import send_email
 from openai import OpenAI
 from tqdm import tqdm
-
+from .paper_filter import filter_ultrasound_papers, filter_by_score
+from .fallback import get_fallback_papers
 
 def normalize_path_patterns(patterns: list[str] | ListConfig | None, config_key: str) -> list[str] | None:
     if patterns is None:
