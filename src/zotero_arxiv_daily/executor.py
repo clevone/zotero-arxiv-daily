@@ -94,31 +94,70 @@ class Executor:
     def run(self):
         corpus = self.fetch_zotero_corpus()
         corpus = self.filter_corpus(corpus)
+
         if len(corpus) == 0:
-            logger.error(f"No zotero papers found. Please check your zotero settings:\n{self.config.zotero}")
+            logger.error(
+                f"No zotero papers found. Please check your zotero settings:\n{self.config.zotero}"
+            )
             return
+
         all_papers = []
+
         for source, retriever in self.retrievers.items():
             logger.info(f"Retrieving {source} papers...")
             papers = retriever.retrieve_papers()
+
             if len(papers) == 0:
                 logger.info(f"No {source} papers found")
                 continue
+
             logger.info(f"Retrieved {len(papers)} {source} papers")
             all_papers.extend(papers)
+
         logger.info(f"Total {len(all_papers)} papers retrieved from all sources")
+
+        # 1. Hard filter: only keep ultrasound-related papers.
+        all_papers = filter_ultrasound_papers(all_papers, self.config)
+        logger.info(f"Total {len(all_papers)} papers after ultrasound hard filter")
+
         reranked_papers = []
+
+        # 2. Rerank only ultrasound-related candidates.
         if len(all_papers) > 0:
             logger.info("Reranking papers...")
             reranked_papers = self.reranker.rerank(all_papers, corpus)
-            reranked_papers = reranked_papers[:self.config.executor.max_paper_num]
-            logger.info("Generating TLDR and affiliations...")
-            for p in tqdm(reranked_papers):
-                p.generate_tldr(self.openai_client, self.config.llm)
-                p.generate_affiliations(self.openai_client, self.config.llm)
-        elif not self.config.executor.send_empty:
-            logger.info("No new papers found. No email will be sent.")
+
+            # 3. Score threshold filter.
+            reranked_papers = filter_by_score(reranked_papers, self.config)
+
+            max_paper_num = int(self.config.executor.get("max_paper_num", 100))
+            reranked_papers = reranked_papers[:max_paper_num]
+
+        else:
+            logger.info("No new papers passed the ultrasound hard filter.")
+
+        # 4. Fallback: add classic ultrasound papers if too few strong new papers.
+        fallback_cfg = self.config.get("fallback", {})
+        if fallback_cfg.get("enabled", False):
+            min_total_papers = int(fallback_cfg.get("min_total_papers", 0))
+            if len(reranked_papers) < min_total_papers:
+                n_needed = min_total_papers - len(reranked_papers)
+                fallback_papers = get_fallback_papers(self.config, n_needed)
+                reranked_papers.extend(fallback_papers)
+
+        if len(reranked_papers) == 0 and not self.config.executor.send_empty:
+            logger.info("No new papers found after filtering. No email will be sent.")
             return
+
+        logger.info("Generating TLDR and affiliations...")
+
+        for p in tqdm(reranked_papers):
+            if p.tldr is None:
+                p.generate_tldr(self.openai_client, self.config.llm)
+
+            if p.affiliations is None:
+                p.generate_affiliations(self.openai_client, self.config.llm)
+
         logger.info("Sending email...")
         email_content = render_email(reranked_papers)
         send_email(self.config, email_content)
