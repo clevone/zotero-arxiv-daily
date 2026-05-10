@@ -1,4 +1,5 @@
 import re
+
 from loguru import logger
 
 
@@ -34,6 +35,7 @@ DEFAULT_ULTRASOUND_PATTERNS = [
 
     # Wearable-ultrasound focus terms
     r"\bwearable ultrasound\b",
+    r"\bwearable ultrasonic\b",
     r"\bultrasound patch\b",
     r"\bultrasonic patch\b",
     r"\bbioadhesive ultrasound\b",
@@ -70,16 +72,20 @@ def is_ultrasound_related(paper, patterns=None, include_full_text=True) -> bool:
 
     patterns = patterns or DEFAULT_ULTRASOUND_PATTERNS
 
-    for pattern in patterns:
-        if re.search(pattern, text, flags=re.IGNORECASE):
-            return True
-
-    return False
+    return any(
+        re.search(pattern, text, flags=re.IGNORECASE)
+        for pattern in patterns
+    )
 
 
 def filter_ultrasound_papers(papers, config):
-    filter_cfg = _get_filter_cfg(config)
+    """
+    Candidate-stage keyword filter.
 
+    It is controlled by `filter.candidate_keyword_filter` so that the project can
+    still keep the original behavior when this advanced filtering is not desired.
+    """
+    filter_cfg = _get_filter_cfg(config)
     candidate_keyword_filter = bool(
         filter_cfg.get("candidate_keyword_filter", False)
     )
@@ -133,8 +139,10 @@ def filter_by_score(papers, config):
 
 
 def filter_ultrasound_after_rerank(papers, config):
+    """
+    Post-rerank ultrasound relevance gate.
+    """
     filter_cfg = _get_filter_cfg(config)
-
     require_ultrasound_keyword = bool(
         filter_cfg.get("require_ultrasound_keyword", False)
     )
