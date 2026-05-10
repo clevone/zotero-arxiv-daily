@@ -16,7 +16,6 @@ PUBMED_ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi
 PUBMED_EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 
 
-# General terms used for bioRxiv/medRxiv backfill and for filtering candidate pools.
 DEFAULT_SEARCH_TERMS = [
     "ultrasound",
     "ultrasonography",
@@ -42,8 +41,7 @@ DEFAULT_SEARCH_TERMS = [
     '"ultrasonic-system-on-patch"',
 ]
 
-# arXiv backfill uses a deliberately compact query.
-# A very long OR-chain + many categories easily causes 503/429 on arXiv API.
+# Keep arXiv backfill queries compact to reduce 503/429 risk.
 DEFAULT_ARXIV_BACKFILL_TERMS = [
     "ultrasound",
     "ultrasonography",
@@ -126,7 +124,6 @@ def _clean_query(query: str) -> str:
 
 
 def _arxiv_term(term: str) -> str:
-    # arXiv query strings accept quoted phrases, e.g. all:"focused ultrasound".
     return f"all:{term}"
 
 
@@ -134,10 +131,9 @@ def _build_arxiv_query(config) -> str:
     """
     Compact arXiv query for recent backfill.
 
-    设计原则：
-    1. 默认只用少量强相关词，避免 arXiv API 因查询过长而 503/429；
-    2. 默认不叠加 category OR，因为后续还会做超声关键词过滤与 Zotero 重排；
-    3. 如果你确实想限制分类，可在配置中设 arxiv_backfill_use_categories: true。
+    By default we deliberately do not add a long category OR-chain because:
+    1. it makes the API query much heavier;
+    2. the downstream pipeline still applies ultrasound filtering and reranking.
     """
     preprint_cfg = config.get("preprint", {})
 
@@ -185,8 +181,6 @@ def retrieve_recent_arxiv_candidates(config) -> list[Paper]:
         sort_order=arxiv.SortOrder.Descending,
     )
 
-    # Explicitly keep this request light. If arXiv is temporarily unavailable,
-    # skip this source for the current run instead of crashing the entire email job.
     client = arxiv.Client(
         page_size=retmax,
         delay_seconds=10.0,
@@ -216,7 +210,7 @@ def _convert_biorxiv_item(item: dict[str, Any], server: str) -> Paper:
     return Paper(
         source=server,
         title=item["title"],
-        authors=[a.strip() for a in item["authors"].split(";")],
+        authors=[author.strip() for author in item["authors"].split(";")],
         abstract=item["abstract"],
         url=abstract_url,
         pdf_url=pdf_url,
@@ -273,8 +267,6 @@ def retrieve_recent_biorxiv_family_candidates(config, server: str) -> list[Paper
             if len(papers) >= retmax:
                 break
 
-        # The API pages in chunks; when the current page is shorter than the
-        # typical page size, there is usually nothing more to fetch.
         if len(collection) < 100:
             break
 
@@ -285,12 +277,6 @@ def retrieve_recent_biorxiv_family_candidates(config, server: str) -> list[Paper
 
 
 def retrieve_recent_preprint_candidates(config) -> list[Paper]:
-    """
-    Retrieve recent preprints from enabled sources for backfill.
-
-    Any single remote source may fail temporarily. One failure must not prevent
-    the whole daily email from being sent.
-    """
     enabled_sources = set(config.executor.source)
     papers: list[Paper] = []
 
@@ -298,7 +284,9 @@ def retrieve_recent_preprint_candidates(config) -> list[Paper]:
         try:
             papers.extend(retrieve_recent_arxiv_candidates(config))
         except Exception as exc:
-            logger.warning(f"arXiv backfill failed and will be skipped in this run: {exc}")
+            logger.warning(
+                f"arXiv backfill failed and will be skipped in this run: {exc}"
+            )
 
     if "biorxiv" in enabled_sources:
         try:
@@ -306,7 +294,9 @@ def retrieve_recent_preprint_candidates(config) -> list[Paper]:
                 retrieve_recent_biorxiv_family_candidates(config, "biorxiv")
             )
         except Exception as exc:
-            logger.warning(f"bioRxiv backfill failed and will be skipped in this run: {exc}")
+            logger.warning(
+                f"bioRxiv backfill failed and will be skipped in this run: {exc}"
+            )
 
     if "medrxiv" in enabled_sources:
         try:
@@ -314,7 +304,9 @@ def retrieve_recent_preprint_candidates(config) -> list[Paper]:
                 retrieve_recent_biorxiv_family_candidates(config, "medrxiv")
             )
         except Exception as exc:
-            logger.warning(f"medRxiv backfill failed and will be skipped in this run: {exc}")
+            logger.warning(
+                f"medRxiv backfill failed and will be skipped in this run: {exc}"
+            )
 
     return papers
 
@@ -327,9 +319,16 @@ def _node_text(node) -> str:
 
 
 def _extract_article_ids(article) -> dict[str, str]:
+    """
+    Extract only the IDs that belong to the current PubMed article itself.
+
+    Using `.//ArticleId` is too broad because it can accidentally pick up nested
+    IDs from referenced records. Restricting to `./PubmedData/ArticleIdList`
+    avoids mismatched DOI links.
+    """
     ids: dict[str, str] = {}
 
-    for article_id in article.findall(".//ArticleId"):
+    for article_id in article.findall("./PubmedData/ArticleIdList/ArticleId"):
         id_type = article_id.attrib.get("IdType", "")
         text = _node_text(article_id)
 
@@ -431,7 +430,6 @@ def _pubmed_efetch(pmids: list[str], config) -> list[Paper]:
         pmid = _node_text(article.find(".//PMID"))
         abstract = _extract_abstract(article)
         authors = _extract_authors(article)
-        ids = _extract_article_ids(article)
         journal = _node_text(article.find(".//Journal/Title"))
         year = _article_year(article)
 
@@ -444,9 +442,9 @@ def _pubmed_efetch(pmids: list[str], config) -> list[Paper]:
         if journal_whitelist and journal.lower() not in journal_whitelist:
             continue
 
-        doi = ids.get("doi")
+        # Keep PubMed recommendations linked to the stable PubMed record page.
+        # Do not pretend publisher/DOI pages are direct PDF links.
         url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
-        pdf_url = f"https://doi.org/{doi}" if doi else url
 
         full_text = "\n".join(
             part
@@ -465,7 +463,7 @@ def _pubmed_efetch(pmids: list[str], config) -> list[Paper]:
                 authors=authors,
                 abstract=abstract,
                 url=url,
-                pdf_url=pdf_url,
+                pdf_url=None,
                 full_text=full_text,
             )
         )
