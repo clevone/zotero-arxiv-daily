@@ -125,6 +125,48 @@
       "title": "A submicrometre silicon-on-insulator resonator for ultrasound detection.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32939068/",
       "sent_at": "2026-05-10T10:42:02.772749+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.04856v1",
+      "source": "arxiv",
+      "title": "3D Ultrasound-Derived Pseudo-CT Synthesis Using a Transformer-Augmented Residual Network for Real-Time Operator Guidance",
+      "url": "http://arxiv.org/abs/2605.04856v1",
+      "sent_at": "2026-05-10T22:43:02.086615+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.28011v1",
+      "source": "arxiv",
+      "title": "Echo-α: Large Agentic Multimodal Reasoning Model for Ultrasound Interpretation",
+      "url": "http://arxiv.org/abs/2604.28011v1",
+      "sent_at": "2026-05-10T22:43:02.086615+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.23839v1",
+      "source": "arxiv",
+      "title": "Focus on What Matters: Two-Stage ROI-Aware Refinement for Anatomy-Preserving Fetal Ultrasound Reconstruction",
+      "url": "http://arxiv.org/abs/2604.23839v1",
+      "sent_at": "2026-05-10T22:43:02.086615+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/31973952/",
+      "source": "pubmed",
+      "title": "Super-resolution Ultrasound Imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31973952/",
+      "sent_at": "2026-05-10T22:43:02.086615+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/38640052/",
+      "source": "pubmed",
+      "title": "RF-ULM: Ultrasound Localization Microscopy Learned From Radio-Frequency Wavefronts.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38640052/",
+      "sent_at": "2026-05-10T22:43:02.086615+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/34710041/",
+      "source": "pubmed",
+      "title": "In Vivo Pulsatility Measurement of Cerebral Microcirculation in Rodents Using Dynamic Ultrasound Localization Microscopy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34710041/",
+      "sent_at": "2026-05-10T22:43:02.086615+00:00"
     }
   ]
 }
