@@ -95,12 +95,19 @@ class Executor:
         )
 
         collections = zot.everything(zot.collections())
-        collections = {collection["key"]: collection for collection in collections}
+        collections = {
+            collection["key"]: collection
+            for collection in collections
+        }
 
         corpus = zot.everything(
             zot.items(itemType="conferencePaper || journalArticle || preprint")
         )
-        corpus = [item for item in corpus if item["data"]["abstractNote"] != ""]
+        corpus = [
+            item
+            for item in corpus
+            if item["data"]["abstractNote"] != ""
+        ]
 
         def get_collection_path(col_key: str) -> str:
             if parent := collections[col_key]["data"]["parentCollection"]:
@@ -167,7 +174,10 @@ class Executor:
         if self.include_path_patterns or self.ignore_path_patterns:
             samples = random.sample(corpus, min(5, len(corpus)))
             samples = "\n".join(
-                [item.title + " - " + "\n".join(item.paths) for item in samples]
+                [
+                    item.title + " - " + "\n".join(item.paths)
+                    for item in samples
+                ]
             )
             logger.info(f"Selected {len(corpus)} zotero papers:\n{samples}\n...")
 
@@ -229,6 +239,7 @@ class Executor:
             )
         )
 
+        # 1) Today's papers: keyword filter first, then semantic reranking.
         daily_candidates = filter_ultrasound_papers(
             daily_preprints,
             self.config,
@@ -236,6 +247,7 @@ class Executor:
         daily_ranked = self._rerank_and_filter(daily_candidates, corpus)
         daily_unseen = filter_unseen_papers(daily_ranked, history)
 
+        # Cache all strong unseen candidates before selecting what to send today.
         add_papers_to_cache(cache, daily_unseen)
 
         selected = select_with_topic_preferences(
@@ -250,6 +262,7 @@ class Executor:
             f"Selected {len(selected)} unseen daily preprints before cache/backfill"
         )
 
+        # 2) If today's papers are not enough, fill from the unsent cache first.
         if len(selected) < min_per_email:
             cache_candidates = filter_unseen_papers(
                 cached_papers(cache),
@@ -275,6 +288,7 @@ class Executor:
                 f"After cache fill: selected {len(selected)} preprints"
             )
 
+        # 3) If cache is still not enough, search recent online backfill candidates.
         if len(selected) < min_per_email:
             need = min_per_email - len(selected)
             logger.info(
@@ -431,6 +445,7 @@ class Executor:
         send_email(self.config, email_content)
         logger.info("Email sent successfully")
 
+        # Only mark as sent after the email has actually been sent.
         mark_papers_sent(history, all_selected)
         save_history(
             history_path,
@@ -438,6 +453,7 @@ class Executor:
             max_records=history_max_records,
         )
 
+        # Remove the preprints that were sent today; leave the rest as future cache.
         remove_papers_from_cache(cache, preprints)
         save_preprint_cache(
             cache_path,
