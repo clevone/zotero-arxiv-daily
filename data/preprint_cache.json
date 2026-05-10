@@ -1,0 +1,518 @@
+{
+  "items": [
+    {
+      "key": "url::http://arxiv.org/abs/2604.27428v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Wave-Equation Migration Velocity Analysis for Multistatic Synthetic Aperture Ultrasound",
+        "authors": [
+          "Rehman Ali",
+          "Trevor M. Mitcham",
+          "Marvin M. Doyley",
+          "Nebojsa Duric",
+          "Jeremy J. Dahl"
+        ],
+        "abstract": "Sound speed heterogeneities can create aberrations in B-mode ultrasound images by inducing tissue-dependent delays and diffractive effects that conventional beamforming does not incorporate. By using the Fourier split-step method to simulate pressure fields in heterogenous sound speed media, reverse-time migration (RTM) can reconstruct the B-mode image by cross-correlating transmitted and received pressure fields. As a result, RTM is differentiable with respect to sound speed. This enables the reconstruction of the sound speed profile that minimizes the aberration in the B-mode image. In seismic imaging, this form of diffraction tomography, known as wave-equation migration velocity analysis, can roughly be understood as a type of full-waveform inversion (FWI) that acts in the image domain rather than errors in the received channel data. This is the first work applying WEMVA to medical pulse-echo ultrasound imaging. Phantom experiments show dramatic improvements in image quality with measured improvements in point target resolution from 1.22$\\pm$1.01 to 0.32$\\pm$0.07 mm and lesion contrast from 3.05 to 4.39 dB.",
+        "url": "http://arxiv.org/abs/2604.27428v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.27428v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.9260387409231305
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.22889v2",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Fixed-phase Resonance Tracking for Fast Nonlinear Resonant Ultrasound Spectroscopy",
+        "authors": [
+          "Jan Kober",
+          "Radovan Zeman",
+          "Marco Scalerandi"
+        ],
+        "abstract": "Nonlinear Resonant Ultrasound Spectroscopy (NRUS) experiments that rely on repeated sampling of resonance curves are inherently sensitive to measurement protocol due to evolution of material parameters caused by fast and slow dynamic effects. We introduce a model-assisted discrete-time resonance tracking method that maintains a system at its instantaneous resonance condition without the need to acquire full frequency sweeps. Resonance is defined through a prescribed phase relation between excitation and response, and the excitation frequency is iteratively updated using a linearized frequency--phase model. The procedure allows controlled suppression of transient wave buildup using optional feedforward correction with respect to an external control parameter. The method is demonstrated on NRUS and on conditioning--relaxation protocol conducted on a sandstone bar, providing estimates of resonance frequency and damping. Comparison with conventional approaches shows that measurement speed and mode stability significantly influence the inferred nonlinear indicators. The proposed framework is not limited to nonlinear acoustics and can be applied to arbitrary resonant systems with slowly evolving parameters.",
+        "url": "http://arxiv.org/abs/2604.22889v2",
+        "pdf_url": "https://arxiv.org/pdf/2604.22889v2",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.889039301561203
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.22666v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "A CMUT-Based Transcranial Focused Ultrasound Platform for Blood-Brain Barrier Opening in Small Animal Models",
+        "authors": [
+          "Sait Kilinc",
+          "Reza Pakdaman Zangabad",
+          "Victor Menezes",
+          "Hohyun Lee",
+          "Costas Arvanitis",
+          "Levent Degertekin"
+        ],
+        "abstract": "Drug delivery to the brain is limited by the blood-brain barrier (BBB). We developed a capacitive micromachined ultrasonic transducer (CMUT)-based transcranial focused ultrasound system capable of both delivering therapy via BBB opening and monitoring microbubble activity across a broad frequency range. The performance of the geometrically focused half-ring array consisting of five transmitters and one receiving element was first assessed through simulations and in-vitro acoustic measurements with microbubbles. Use of phase-inversion (PI) during transmission effectively suppressed CMUT-generated harmonics and enhanced broadband detection of microbubble emissions. In rats, the same system achieved spatially localized BBB opening, confirmed by T1-weighted magnetic resonance imaging. BBB permeability mapping using dynamic contrast-enhanced magnetic resonance imaging (Ktrans) scaled with pressure. Time-resolved acoustic spectra captured microbubble arrival and decay kinetics, and 7-20dB enhancement in the effective dynamic range is observed with PI processing of acoustic emission signals. Together, these findings establish an integrated CMUT platform for combined therapeutic and sensing applications for BBB opening in small animal models, providing a foundation for future real-time, frequency-agile, closed-loop control of ultrasound-mediated drug delivery to the brain.",
+        "url": "http://arxiv.org/abs/2604.22666v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.22666v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.782543294535623
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.25646v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "SAMe: A Semantic Anatomy Mapping Engine for Robotic Ultrasound",
+        "authors": [
+          "Jing Zhang",
+          "Duojie Chen",
+          "Wentao Jiang",
+          "Zihan Lou",
+          "Jianxin Liu",
+          "Xinwu Cui",
+          "Qinghong Zhao",
+          "Bo Du",
+          "Christoph F. Dietrich",
+          "Dacheng Tao"
+        ],
+        "abstract": "Robotic ultrasound has advanced local image-driven control, contact regulation, and view optimization, yet current systems lack the anatomical understanding needed to determine what to scan, where to begin, and how to adapt to individual patient anatomy. These gaps make systems still reliant on expert intervention to initiate scanning. Here we present SAMe, a semantic anatomy mapping engine that provides robotic ultrasound with an explicit anatomical prior layer. SAMe addresses scan initiation as a target-to-anatomy-to-action process: it grounds under-specified clinical complaints into structured target organs, instantiates a patient-specific anatomical representation for the grounded targets from a single external body image, and translates this representation into control-facing 6-DoF probe initialization states without any additional registration using preoperative CT or MRI. The anatomical representation maintained by SAMe is explicit, lightweight (single-organ inference in 0.08s), and compatible with downstream control by design. Across semantic grounding, anatomical instantiation, and real-robot evaluation, SAMe shows strong performance across the full initialization pipeline. In real-robot experiments, SAMe achieved overall organ-hit rates of 97.3% for liver initialization and 81.7% for kidney initialization across the evaluated target sets. Even when restricted to the centroid target, SAMe outperformed the surface-heuristic baseline for both liver and kidney initialization. These results establish an explicit anatomical prior layer that addresses scan initialization and is designed to support broader downstream autonomous scanning pipelines, providing the anatomical foundation for complaint-driven, anatomically informed robotic ultrasonography.",
+        "url": "http://arxiv.org/abs/2604.25646v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.25646v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.683274429722231
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.27774v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Leveraging natural fluctuations for matrix-based aberration correction in photoacoustic imaging",
+        "authors": [
+          "Yevgeny Slobodkin",
+          "Ori Katz"
+        ],
+        "abstract": "Photoacoustic imaging is the leading technique for deep tissue optical imaging, allowing single-shot imaging at depths. However, its resolution may be limited by acoustic aberrations, caused by natural unknown heterogeneities in the tissue speed of sound. In recent years, reflection-matrix based scattering-compensation techniques have been successfully employed in ultrasound, optics, and seismology, to computationally correct such distortions. However, they have not been adapted to photoacoustic imaging since they rely on multiple acquisitions under different controlled excitations, such as input plane-wave illuminations, which do not result in signal changes in photoacoustics. Here, we introduce a framework that enables the direct application of the state-of-the-art reflection-matrix based aberration correction techniques to photoacoustic imaging of dynamic targets. Specifically, we show that a covariance matrix analysis of a conventional set of photoacoustic frames of dynamic targets, such as flowing red blood cells in blood vessels, yields a virtual reflection-matrix that is mathematically analogous to a pulse-echo reflection-matrix, and lends itself to direct processing by conventional reflection-matrix based scattering-compensation algorithms. We validate and demonstrate the approach for photoacoustic aberration correction of vessel-mimicking targets containing flowing absorbers in both simulations and experiments.",
+        "url": "http://arxiv.org/abs/2604.27774v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.27774v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.6595162793695515
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.05447v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "EchoXFlow: A Beamspace Echocardiography Dataset for Cardiac Motion, Flow, and Function",
+        "authors": [
+          "Elias Stenhede",
+          "Joanna Sulkowska",
+          "Eivind Bjørkan Orstad",
+          "Henrik Schirmer",
+          "Arian Ranjbar"
+        ],
+        "abstract": "We introduce EchoXFlow, a clinical echocardiography dataset for learning from ultrasound in its native acquisition geometry rather than from scan-converted Cartesian videos. Existing public datasets offer limited opportunities to study cross-modal relationships between cardiac anatomy, myocardial motion, and blood flow, as Doppler is typically absent or fused as RGB overlays, and acquisitions are released after lossy vendor display processing. EchoXFlow comprises 37125 recordings from 666 routine-care examinations, preserving the timing, geometry, and modality relationships needed for physically grounded echo learning. Each recording is retained as separable modality-specific streams: temporally resolved 1D, 2D, and 3D data alongside multiple Doppler modalities, paired with a synchronized ECG. Clinical annotations span guideline-based measurements to dense 2D myocardial contours and 3D left-ventricular endocardial meshes. With its associated open-source tooling, EchoXFlow enables cross-modal, acquisition-aware learning tasks that cannot be formulated from conventional scan-converted videos alone, and serves as a testbed for 4D vision and physically grounded multi-modal learning more broadly.",
+        "url": "http://arxiv.org/abs/2605.05447v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.05447v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.606447788854197
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.04856v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "3D Ultrasound-Derived Pseudo-CT Synthesis Using a Transformer-Augmented Residual Network for Real-Time Operator Guidance",
+        "authors": [
+          "Sapna Sachan",
+          "Amulya Kumar Mahto"
+        ],
+        "abstract": "Computed tomography (CT) is indispensable for clinical diagnosis and image-guided interventions but exposes patients to ionizing radiation, motivating the development of safer imaging alternatives. Ultrasound (US) is non-ionizing and widely accessible; however, it is highly operator dependent and lacks quantitative tissue characterization, often leading to diagnostic uncertainty and unnecessary CT examinations. This work presents a 3D ultrasound-derived pseudo-CT (UD-pCT) framework that generates CT-like anatomical reference volumes inferred from US, without aiming to reproduce physically accurate Hounsfield Units. Paired 3D kidney US and CT volumes from the TRUSTED dataset are first spatially aligned using a landmark-based multimodal registration pipeline, creating high-quality paired inputs for supervised training of an adversarial framework. The proposed Bottleneck Transformer Residual U-Net3D (BT-ResUNet3D) model employs a 3D residual encoder-decoder generator augmented with a transformer bottleneck, enabling effective modeling of fine-grained local anatomical structures as well as long-range volumetric dependencies, while a 3D Conditional PatchGAN discriminator enforces local structural realism in the synthesized pseudo-CT volumes. Quantitative evaluation using PSNR and SSIM demonstrates that the proposed method outperforms established baselines in structural fidelity and perceptual image quality. The UD-pCT volumes provide real-time anatomical reference for operator guidance, potentially reducing acquisition variability and unnecessary CT use. A limitation of this study is the relatively small paired dataset, which may limit the generalizability of the proposed model.",
+        "url": "http://arxiv.org/abs/2605.04856v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.04856v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.5248084681573486
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.28011v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Echo-α: Large Agentic Multimodal Reasoning Model for Ultrasound Interpretation",
+        "authors": [
+          "Jing Zhang",
+          "Wentao Jiang",
+          "Tao Huang",
+          "Zhiwei Wang",
+          "Jianxin Liu",
+          "Jian Chen",
+          "Ping Ye",
+          "Gang Wang",
+          "Zengmao Wang",
+          "Bo Du",
+          "Dacheng Tao"
+        ],
+        "abstract": "Ultrasound interpretation requires both precise lesion localization and holistic clinical reasoning, yet existing methods typically excel at only one of these capabilities: specialized detectors offer strong localization but limited reasoning, whereas multimodal large language models (MLLMs) provide flexible reasoning but weak grounding in specialized medical domains. We present Echo-α, an agentic multimodal reasoning model for ultrasound interpretation that unifies these strengths within an invoke-and-reason framework. Echo-α is trained to coordinate organ-specific detector outputs, integrate them with global visual context, and convert the resulting evidence into grounded diagnostic decisions beyond detector-only inference. This behavior is established through a nine-task supervised curriculum and then refined by sequential reinforcement learning under different reward trade-offs, yielding Echo-α-Grounding for lesion anchoring and Echo-α-Diagnosis for final diagnosis. On multi-center renal and breast ultrasound benchmarks, Echo-α outperforms competitive baselines on both grounding and diagnosis. In particular, on cross-center test sets, Echo-α-Grounding attains 56.73%/43.78% F1@0.5 and Echo- α-Diagnosis reaches 74.90%/49.20% overall accuracy on renal/breast ultrasound. These results suggest that agentic multimodal reasoning can turn specialized detectors into verifiable clinical evidence, offering a practical route toward ultrasound AI systems that are more accurate, interpretable, and transferable. The repository is at https://github.com/MiliLab/Echo-Alpha.",
+        "url": "http://arxiv.org/abs/2604.28011v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.28011v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.472615287814313
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.23839v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Focus on What Matters: Two-Stage ROI-Aware Refinement for Anatomy-Preserving Fetal Ultrasound Reconstruction",
+        "authors": [
+          "Ines Abbes",
+          "Mahmood Alzubaidi",
+          "Mowafa Househ",
+          "Khalid Alyafei",
+          "Marco Agus",
+          "Samir Brahim Belhaouari"
+        ],
+        "abstract": "Measurement-critical ultrasound tasks often depend on a small anatomical region, making global reconstruction metrics an unreliable proxy for clinical fidelity. We propose an ROI-aware representation learning framework and instantiate it for first-trimester nuchal translucency (NT) screening under multi-hospital domain shift. A two-phase convolutional autoencoder (CAE) first learns a globally faithful 128-D latent code via MS-SSIM, then refines the NT ROI using intensity (L1) and normalized Sobel-edge constraints. To combine these heterogeneous objectives without manual tuning, we initialize loss weights via gradient-based calibration from per-term gradient magnitudes. Under strict hospital-wise evaluation with one hospital held out, ROI refinement improves both global and measurement-relevant quality: on the standard dev split it increases PSNR by +0.27 dB (val) and +0.29 dB (held-out test), reduces ROI MAE by 8.87% (val) and 6.43% (held-out test), and reduces ROI Edge-MAE by 11.10% on source hospitals and 4.90% on the unseen hospital. Beyond reconstruction, frozen-latent probes provide additional evidence of generalization: hospital provenance becomes less confidently predictable on the unseen site (0.556 to 0.541 max-softmax; 0.684 to 0.688 entropy) while OOD detection remains strong across site-held-out protocols (Mahalanobis AUROC up to 0.9956, with modest KNN gains in challenging splits). The same ROI-aware refinement principle is anatomy-agnostic and can be adopted for other fetal biometry targets (e.g., crown-rump length (CRL), nasal bone (NB)) and broader medical imaging settings where small ROIs dominate clinical decisions.",
+        "url": "http://arxiv.org/abs/2604.23839v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.23839v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.3055565773658406
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.00872v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Multi-View Hierarchical Representation Learning of Fetal Hemodynamics for Maternal Hypertension Detection at the Edge",
+        "authors": [
+          "Alireza Rafiei",
+          "Anahí Venzor Strader",
+          "Esteban Castro Aragón",
+          "Victoriana Rosibely Sut Serech",
+          "Enma Carolina Coyote Ixen",
+          "Reza Sameni",
+          "Peter Rohloff",
+          "Gari D. Clifford",
+          "Nasim Katebi"
+        ],
+        "abstract": "Hypertensive disorders of pregnancy remain a leading cause of maternal and fetal morbidity worldwide, yet diagnosis relies on intermittent cuff-based blood pressure measurements that are prone to bias and fail to capture continuous physiological dynamics. Growing evidence suggests that fetal cardiovascular activity is associated with maternal-placental hemodynamics and may encode markers of maternal hypertension. To analyze this, we collected a large-scale dataset of fetal one-dimensional Doppler ultrasound recordings paired with maternal blood pressure from 3,255 pregnant women across 8,170 antenatal visits in rural Guatemala. We developed AutoHyPE, a hierarchical attention network that models short- and long-term signal structure, incorporating a novel prototype-based contrastive learning and multi-view strategy to enhance representation robustness under long-tailed class distribution and biological variability. AutoHyPE achieved an AUROC of 0.80 for maternal hypertension detection, outperforming baseline approaches while maintaining balanced performance across classes, with no performance degradation in an edge deployment scenario. Our findings demonstrated that fetal cardiac mechanical activity contains hemodynamic features indicative of maternal hypertension status. This supports a promising paradigm shift toward continuous, objective monitoring of maternal health using existing, low-cost ultrasound technology and introduces a complementary approach to traditional methods based on blood pressure measurements, advancing scalable prenatal care.",
+        "url": "http://arxiv.org/abs/2605.00872v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.00872v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.291960088123569
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.24168v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Sub-acoustic resolution photoacoustic imaging through scattering layers using speckle correlations",
+        "authors": [
+          "Benjamin Keenlyside",
+          "Arnon A. B.",
+          "Dylan Marques",
+          "Ivo Vellekoop",
+          "James Guggenheim"
+        ],
+        "abstract": "Optical scattering presents a major obstacle to high resolution imaging in biological tissue and other turbid media. Conventional photoacoustic imaging can partially overcome this obstacle, enabling imaging of optical absorption in the multiple-scattering regime, but its resolution remains limited by acoustic diffraction. In this work we explore a strategy to overcome this limit by exploiting correlations in the illumination patterns produced by coherent scattered light. Combining controlled speckle translations with photoacoustic signal detection, this method enables the recovery of optical resolution images within acoustically selected regions, while overcoming the strict decorrelation range limitations of other speckle correlation techniques. In proof-of-concept experiments, we demonstrate imaging of objects hidden behind an opaque diffuser at sub-acoustic diffraction limited (<11um) resolution, over a >5mm^2 field of view much larger than the effective speckle decorrelation range. These results suggest that speckle correlation based photoacoustic imaging may offer a route to high resolution imaging of optical absorption under scattering conditions where conventional optical or photoacoustic techniques are fundamentally limited.",
+        "url": "http://arxiv.org/abs/2604.24168v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.24168v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.2455073764129505
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.00881v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "A Coupled Fourth Order Telegraph Diffusion Framework Using Grayscale Indicators for Image Despeckling",
+        "authors": [
+          "Manish Kumar",
+          "Rajendra K. Ray"
+        ],
+        "abstract": "Speckle noise severely limits the quality of images acquired from coherent imaging systems such as Synthetic Aperture Radar (SAR) and medical ultrasound. Traditional second-order PDE-based despeckling approaches, although popular, often introduce staircase artifacts and blur fine details. To overcome these limitations, we present a nonlinear, fourth-order coupled hyperbolic-parabolic PDE model that effectively reduces noise while preserving the structure. The framework consists of two evolution equations: one governing fourth-order diffusion for effective speckle reduction and smooth intensity transitions, and another refining an edge indicator to protect textures and structural features. The diffusion coefficient is adaptively constructed using both the image intensity variable u and a grayscale-based indicator function, ensuring structure-aware denoising while avoiding blocky artifacts and preserving fine details. We also prove the existence of a weak solution to the proposed model by applying Schauder fixed-point theorem. A finite-difference scheme with Gauss Seidel iteration is employed for efficient implementation. We compare the proposed model with the existing coupled second-order PDE model (HPCPDE) and the fourth-order telegraph diffusion model (TDFM). The results show that our model consistently outperforms these approaches. Experiments on standard grayscale images, real SAR and ultrasound data, as well as speckle-corrupted color images, demonstrate that the proposed method achieves superior performance over conventional PDE-based techniques in terms of PSNR, MSSIM, and Speckle Index.",
+        "url": "http://arxiv.org/abs/2605.00881v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.00881v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.210074617111604
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.04596v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "A Physics-Constrained Learning Framework for Wave Propagation in Complex Poroelastic Multilayered Media",
+        "authors": [
+          "Ya Gao",
+          "Yifan Wang",
+          "Yiming Chen",
+          "Haohan Sun",
+          "Shoukun Lyu",
+          "Junmei Cao",
+          "Weijiang Xu",
+          "Qian Cheng"
+        ],
+        "abstract": "Wave propagation through complex poroelastic multilayered media is difficult to model and invert because pronounced heterogeneity, scattering, mode conversion and fluid-solid coupling jointly distort acoustic signals during propagation. Here we present Physics-Constrained Learning for Complex Multilayered Media (PCL-CMM), a general framework that integrates Biot's poroelastic theory with the elastic wave equation to bridge the gap between physically rigorous wave modelling and data-driven learning. PCL-CMM constructs a high-fidelity digital twin that dynamically computes an effective acoustic stiffness tensor for forward wave modelling and incorporates the resulting physical constraint as a loss term to regularize the training of deep neural networks. We demonstrate PCL-CMM on transcranial photoacoustic imaging, where skull-induced acoustic distortions severely degrade image formation. Across simulations and ex vivo experiments, PCL-CMM effectively compensates for these distortions and improves SSIM by more than 0.06 compared with purely data-driven neural networks. This work establishes a physics-constrained learning framework for acoustic wave modelling in complex poroelastic multilayered media.",
+        "url": "http://arxiv.org/abs/2605.04596v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.04596v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 3.0475829610152383
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.06336v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Nonlinear RMM-GKS for Large-Scale Dynamic and Streaming Inverse Problems with Uncertain Forward Operators",
+        "authors": [
+          "Toluwani Okunola",
+          "Mirjeta Pasha",
+          "Misha E. Kilmer",
+          "James G. Nagy",
+          "Eric de Sturler"
+        ],
+        "abstract": "Many practical imaging systems suffer from uncertainty in acquisition geometry -- such as projection angles in computed tomography or sensor positions in photoacoustic tomography -- leading to nonlinear inverse problems that require joint estimation of both the image and the forward model parameters. Standard approaches that assume a known linear forward operator fail to account for these uncertainties, resulting in significant reconstruction artifacts.\n  We propose a nonlinear recycled majorization-minimization generalized Krylov subspace (NL-RMM-GKS) framework for large-scale inverse problems with uncertain forward operators. The method extends MM-GKS to nonlinear settings by combining majorization-minimization for nonsmooth regularization with Krylov subspace projection and subspace recycling, ensuring bounded memory usage.\n  Two complementary formulations are developed: an alternating minimization approach that alternates between image updates and Gauss-Newton parameter estimation, and a variable projection approach that eliminates the image variable and optimizes directly over the parameters using inexact inner solves. We further introduce streaming variants that process data sequentially, enabling reconstruction from large or dynamically acquired datasets without storing the full operator. For dynamic problems, we incorporate two temporal regularization strategies -- optical flow and anisotropic total variation -- as plug-in choices within the framework.\n  We carry out rigorous numerical experiments in fan-beam computed tomography and photoacoustic tomography to demonstrate that our proposed framework achieves high-quality reconstructions with bounded memory requirements, making it suitable for large-scale dynamic imaging problems.",
+        "url": "http://arxiv.org/abs/2605.06336v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.06336v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.9453119089816653
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.02942v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "A Framework for Exploring and Disentangling Intersectional Bias: A Case Study in Fetal Ultrasound",
+        "authors": [
+          "Aya Elgebaly",
+          "Joris Fournel",
+          "Benjamin Laine Jønch Jurgensen",
+          "Kamil Mikolaj",
+          "Anders Christensen",
+          "Martin Tolsgaard",
+          "Claes Ladefoged",
+          "Aasa Feragen"
+        ],
+        "abstract": "Bias in medical AI is often framed as a problem of representation. However, in image-based tasks such as fetal ultrasound, performance disparities can arise even when representation is adequate, because predictive accuracy depends strongly on image quality. Image quality is shaped by acquisition conditions and operator expertise, as well as patient-dependent factors such as maternal body mass index (BMI), all of which may correlate with sensitive demographic features. Consequently, observed disparities may reflect the combined influence of demographic, clinical, and acquisition-related factors rather than data imbalance alone, and may obscure underlying interaction or confounding effects. We propose a structured framework to explore and detect intersectional bias, combining unsupervised slice discovery, systematic factor-wise analysis, and targeted intersectional evaluation. In a case study of over 94{,}000 ultrasound images for fetal weight estimation, we analyze bias in a state-of-the-art deep learning (DL) model and the clinical standard Hadlock, a regression formula using biometric measurements. Pixel spacing (PS) -- a parameter considered suboptimal in current acquisition protocols -- emerged as a consistent driver of performance differences, with higher PS associated with improvements of up to 24\\% in selected subgroups for both models. Because PS is often adapted in cases of high BMI or low gestational age (GA), this effect carries a substantial risk of confounding. Our intersectional analysis revealed that part of the PS-associated signal is explained by GA, while PS-related improvements persist across BMI strata, highlighting the importance of acquisition-aware and interaction-aware evaluation in medical AI fairness research.",
+        "url": "http://arxiv.org/abs/2605.02942v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.02942v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.8954395139177724
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.22388v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "HFS-TriNet: A Three-Branch Collaborative Feature Learning Network for Prostate Cancer Classification from TRUS Videos",
+        "authors": [
+          "Xu Lu",
+          "Qianhong Peng",
+          "Qihao Zhou",
+          "Shaopeng Liu",
+          "Xiuqin Ye",
+          "Chuan Yang",
+          "Yuan Yuan"
+        ],
+        "abstract": "Transrectal ultrasound (TRUS) imaging is a cost-effective and non-invasive modality widely used in the diagnosis of prostate cancer. The computer-aided diagnosis (CAD) relying on TRUS images has been extensively investigated recently. Compared to static images, TRUS video provides richer spatial-temporal information, which make it a promising alternative for improving the accuracy and robustness of CAD systems. However, TRUS video analysis also introduces new challenges. These include information redundancy, which increases computational costs; high intra- and inter-class similarity, which complicates feature extraction; and a low signal-to-noise ratio, which hinders the identification of clinically relevant information. To address these problems, we propose a heuristic frame selection (HFS) and a three-branch collaborative feature learning network (HFS-TriNet) for prostate cancer classification from TRUS videos. Specifically, selecting a clip of video frames at intervals for training can mitigate redundancy. The HFS strategy dynamically initializes the starting point of each training clip, which ensures that the sampled clips span the entire video sequence. For better feature extraction, besides a regular ResNet50 branch, we also utilize 1) a large model branch based a pre-trained medical segment anything model (SAM) to extract deep features of each frame and a normalization-based attention module to explore the temporal consistency; and 2) a wavelet transform convolutional residual (WTCR) branch that extracts lesion edge information in the high-frequency domain and performs denoising in the low-frequency domain.",
+        "url": "http://arxiv.org/abs/2604.22388v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.22388v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.8772763765001
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.02126v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Ultrasound Vision-Language Alignment via Contrastive Learning",
+        "authors": [
+          "Zhuoyang Lyu",
+          "Yiyang Zhang",
+          "Tongxin Wang",
+          "Ruirui Lan"
+        ],
+        "abstract": "Ultrasound foundation models have achieved strong performance on structured prediction tasks but remain exclusively vision-based, limiting zero-shot and few-shot transfer to novel tasks where task-specific annotation is scarce. We address this gap with EchoCare-CLIP, a CLIP-style dual-encoder contrastive framework that aligns ultrasound images with clinical text in a shared embedding space. We curate a multi-organ corpus of over 16K image-text pairs spanning breast, liver, lung, and thyroid, with over 78% of captions derived from expert-annotated reports, and complement the remainder with a three-tier template-based and LLM-based caption generation pipeline. We evaluate model configurations spanning two text encoder families (CLIP, BioClinicalBERT) and two caption strategies (template-based, LLM-generated) against OpenAI CLIP and BiomedCLIP baselines. Our trained models consistently improve cross-modal alignment over baselines, with the best configuration achieving a paired alignment score of 0.682. However, stronger alignment does not guarantee better downstream performance: CLIP-based variants with partial fine-tuning achieve the strongest zero-shot classification on external held-out datasets (0.709 on BUSI; 0.626 on AULI), while full end-to-end fine-tuning degrades transfer due to overfitting. On linear probing and few-shot adaptation, model rankings are dataset-dependent, reflecting a trade-off between domain adaptation and representational generalizability. We further show that template-based captions match or outperform LLM-generated captions, suggesting lexical diversity is not a proxy for caption quality. Taken together, our results demonstrate that ultrasound vision-language alignment is achievable from public data alone, but robust clinical transfer requires careful balancing of domain adaptation, encoder capacity, and caption supervision quality.",
+        "url": "http://arxiv.org/abs/2605.02126v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.02126v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.8606103518854886
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.27876v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Acoustic modulation of shear thickening transition in dense adhesive suspensions",
+        "authors": [
+          "Aoxuan Wang",
+          "Fabrice Toussaint",
+          "Thomas Gibaud"
+        ],
+        "abstract": "Discontinuous shear thickening (DST) in dense suspensions leads to flow instabilities that limit processing in many systems. While high-power ultrasound has been reported to reduce the apparent viscosity of such materials, the origin of this effect remains unclear. Here, we investigate dense adhesive cornstarch suspensions, where shear thickening arises from fragile, load-bearing force networks embedded in heterogeneous density-wave structures. Using a rheo-ultrasound setup, we show that ultrasound does not directly reduce viscosity but instead shifts the shear-thickening transition toward higher shear rates. This is evidenced by the collapse of stress probability distributions onto master curves, revealing a continuous evolution toward more fluid-like states without a sharp threshold. We interpret these results through a separation of time scales, in which the suspension behaves as an effectively immobile porous medium subjected to high-frequency interstitial flows. Fluidization then arises from a combination of boundary slip, bulk destabilization of force networks by drag-force fluctuations, and localized acoustic streaming. Beyond these mechanisms, we propose that ultrasound modifies the stability of force networks by introducing fluctuating hydrodynamic forces at the pore scale. As a result, larger stresses or shear rates are required to sustain jammed states, leading to a continuous renormalization of the DST transition. These findings provide a consistent physical picture of acoustic fluidization in adhesive suspensions and establish ultrasound as a powerful tool to control discontinuous shear thickening in confined flows.",
+        "url": "http://arxiv.org/abs/2604.27876v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.27876v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.802152963962979
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.03343v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "MedSR-Vision: Deep Learning Framework for Multi-Domain Medical Image Super-Resolution",
+        "authors": [
+          "Subhash Gurappa",
+          "Trivikram Satharasi",
+          "Yashas Hariprasad",
+          "Sundararaj Sitharama Iyengar"
+        ],
+        "abstract": "Medical image super-resolution (MedSR) is essential for improving diagnostic precision across diverse imaging modalities such as MRI, CT, X-ray, Ultrasound, and Fundus imaging. Despite rapid advances in deep learning, challenges remain in preserving anatomical accuracy, maintaining perceptual quality, and generalizing across medical domains. This paper presents MedSR-Vision, a novel unified deep learning framework for evaluating and comparing super-resolution models across five modalities: Brain MRI, Chest X-ray, Renal Ultrasound, Nephrolithiasis CT, and Spine MRI, at magnification scales of $\\times2$, $\\times3$, and $\\times4$. Three representative models namely SRCNN, SwinIR, and Real-ESRGAN are benchmarked using multiple quantitative metrics encompassing fidelity, perceptual realism, and sharpness.\n  Experimental analysis demonstrates that Real-ESRGAN achieves superior perceptual quality and edge recovery at higher scales, SwinIR excels in preserving structural and diagnostic features, and SRCNN provides efficient and stable performance at lower magnifications. The results establish domain-specific insights and practical guidelines for model selection in clinical imaging workflows, offering a standardized evaluation framework for future medical image super-resolution research and deployment.",
+        "url": "http://arxiv.org/abs/2605.03343v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.03343v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.6790109201872703
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.00871v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "NAKUL-Med: Spectral-Graph State Space Models with Dynamics Kernels for Medical Signals",
+        "authors": [
+          "Badri N. Patro",
+          "Vijay S. Agneeswaran"
+        ],
+        "abstract": "State space models (SSMs) achieve linear-time complexity but struggle with multi-channel physiological signals due to three limitations: fixed kernels cannot capture multi-scale temporal dynamics (motor preparation over hundreds of milliseconds vs. execution transients in tens of milliseconds), Markovian state updates restrict global context for periodic oscillations, and channel-independent processing ignores spatial electrode topology. We introduce NAKUL, extending SSMs for medical signal analysis through three contributions: (1) Dynamic Kernel Generation-parallel SSM branches with varying kernel sizes (3, 5, 7, 11 timesteps) are weighted by a meta-network that analyzes input statistics, enabling adaptive temporal scale selection; (2) Spectral Context Modeling-FFT-based operations with learnable Gaussian frequency band filters capture global periodic patterns in $O(N \\log N)$ complexity; (3) Graph-Guided Spatial Attention-fixed electrode topology provides spatial biases to multi-head attention for principled cross-channel interaction. On BCI Competition IV-2a motor imagery (our primary benchmark), NAKUL achieves 91.7$\\pm$0.6\\% accuracy, matching EEG-Conformer (92.1$\\pm$0.7\\%) while using 28\\% fewer parameters (2.5M vs 3.5M) and 2.0$\\times$ faster inference (4.3ms vs 8.7ms). The model generalizes to EEG emotion recognition (83.6\\%), multimodal EEG-fMRI (91.4\\%), and medical imaging (92.8\\% on ultrasound), demonstrating architectural versatility. Ablations show dynamic kernels contribute +2.6\\% and exhibit interpretable scale selection patterns correlated with known neural dynamics.",
+        "url": "http://arxiv.org/abs/2605.00871v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.00871v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.6629041028119556
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.03059v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "Learning to Segment using Summary Statistics and Weak Supervision",
+        "authors": [
+          "Omkar Kulkarni",
+          "Edward Raff",
+          "Tim Oates"
+        ],
+        "abstract": "Medical experts often manually segment images to obtain diagnostic statistics and discard the resulting annotations. We aim to train segmentation models to alleviate this burden, but constrained to the retained summary statistics (e.g., the area of the annotated region). Empirical results suggest that statistics alone are insufficient for this task, but adding weak information in the form of a few pixels within the area of interest significantly improves performance. We use a novel loss function that combines terms for image reconstruction quality, matching to summary statistics, and overlap between the predicted foreground and the weak supervisory signal. Experiments on standard image, ultrasound (breast cancer), and Computed Tomography (CT) scan (kidney tumors) data demonstrate the utility and potential of the approach.",
+        "url": "http://arxiv.org/abs/2605.03059v1",
+        "pdf_url": "https://arxiv.org/pdf/2605.03059v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.6155963367222297
+      }
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.24876v1",
+      "added_at": "2026-05-10T07:47:29.467256+00:00",
+      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
+      "paper": {
+        "source": "arxiv",
+        "title": "ESICA: A Scalable Framework for Text-Guided 3D Medical Image Segmentation",
+        "authors": [
+          "Yu Xin",
+          "Gorkem Can Ates",
+          "Jun Ma",
+          "Sumin Kim",
+          "Ying Zhang",
+          "Kaleb E Smith",
+          "Kuang Gong",
+          "Wei Shao"
+        ],
+        "abstract": "Text guided 3D medical image segmentation offers a flexible alternative to class based and spatial prompt based models by allowing users to specify regions of interest directly in natural language. This paradigm avoids reliance on predefined label sets, reduces ambiguous outputs, and aligns more naturally with clinical workflows. However, existing text guided frameworks are often computationally expensive, exhibit weak text volume feature alignment, and fail to capture fine anatomical details. We propose ESICA, a lightweight and scalable framework that addresses these challenges through three innovations: (1) a similarity matrix based mask prediction formulation that enhances semantic alignment, (2) an efficient decomposed decoder with adapter modules for accurate volumetric decoding, and (3) a two pass refinement strategy that sharpens boundaries and resolves uncertain regions. To improve training stability and generalization, ESICA adopts a two stage scheme consisting of positive only pretraining followed by balanced fine tuning. On the CVPR BiomedSegFM benchmark spanning five imaging modalities (CT, MRI, PET, ultrasound, and microscopy), ESICA achieves state of the art segmentation accuracy, while the compact ESICA4 Lite variant attains similar segmentation performance with substantially fewer parameters, yielding a superior efficiency accuracy trade off. Our framework advances text guided segmentation toward efficient, scalable, and clinically deployable systems. Code will be made publicly available at https://github.com/mirthAI/ESICA.",
+        "url": "http://arxiv.org/abs/2604.24876v1",
+        "pdf_url": "https://arxiv.org/pdf/2604.24876v1",
+        "full_text": null,
+        "tldr": null,
+        "affiliations": null,
+        "score": 2.6116546622968078
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "sent": [
+    {
+      "key": "url::http://arxiv.org/abs/2604.24187v1",
+      "source": "arxiv",
+      "title": "Multivariate Gaussian NeRF for Wide Field-of-View Ultrasound Reconstruction",
+      "url": "http://arxiv.org/abs/2604.24187v1",
+      "sent_at": "2026-05-10T07:57:55.623141+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.22457v1",
+      "source": "arxiv",
+      "title": "Cross Fusion and Correlation Beamformer for Row-Column Array Based 3D Ultrasound Imaging",
+      "url": "http://arxiv.org/abs/2604.22457v1",
+      "sent_at": "2026-05-10T07:57:55.623141+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.01538v2",
+      "source": "arxiv",
+      "title": "Automatic Aberration Correction for Transcranial Functional and Super-Resolution Ultrasound Imaging in Rodents and Nonhuman Primates",
+      "url": "http://arxiv.org/abs/2605.01538v2",
+      "sent_at": "2026-05-10T07:57:55.623141+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/33351759/",
+      "source": "pubmed",
+      "title": "CNN-Based Ultrasound Image Reconstruction for Ultrafast Displacement Tracking.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33351759/",
+      "sent_at": "2026-05-10T07:57:55.623141+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/28669429/",
+      "source": "pubmed",
+      "title": "Hybrid Photoacoustic/Ultrasound Tomograph for Real-Time Finger Imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28669429/",
+      "sent_at": "2026-05-10T07:57:55.623141+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/32813650/",
+      "source": "pubmed",
+      "title": "Video-Rate Ring-Array Ultrasound and Photoacoustic Tomography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32813650/",
+      "sent_at": "2026-05-10T07:57:55.623141+00:00"
+    }
+  ]
+}
