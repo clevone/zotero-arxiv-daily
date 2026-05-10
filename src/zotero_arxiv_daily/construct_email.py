@@ -102,6 +102,11 @@ framework = """
       background: #ef4444;
       color: #ffffff;
       font-size: 13px;
+      margin-right: 8px;
+      margin-bottom: 6px;
+    }}
+    .links a.secondary {{
+      background: #4b5563;
     }}
     .empty {{
       background: #ffffff;
@@ -154,17 +159,54 @@ def _source_label(source: str | None) -> str:
     return mapping.get((source or "").lower(), source or "Unknown")
 
 
+def _build_links_html(
+    *,
+    source: str | None,
+    article_url: str | None,
+    pdf_url: str | None,
+) -> str:
+    links = []
+    normalized_source = (source or "").lower()
+
+    # PubMed entries are bibliographic records; do not label publisher/DOI links
+    # as "PDF". For PubMed, only show the stable PubMed record page.
+    if normalized_source == "pubmed":
+        if article_url:
+            links.append(
+                f'<a class="secondary" href="{_escape(article_url)}">PubMed / 文章页</a>'
+            )
+        return "".join(links)
+
+    # For preprints, show both the abstract/article page and a real PDF link when available.
+    if article_url:
+        links.append(
+            f'<a class="secondary" href="{_escape(article_url)}">Article page / 文章页</a>'
+        )
+
+    if pdf_url:
+        links.append(
+            f'<a href="{_escape(pdf_url)}">PDF</a>'
+        )
+
+    return "".join(links)
+
+
 def get_block_html(
     title: str,
     authors: str,
     rate: str,
     tldr: str,
-    pdf_url: str,
+    pdf_url: str | None,
     affiliations: str = None,
     source: str | None = None,
     title_zh: str | None = None,
     tldr_zh: str | None = None,
+    article_url: str | None = None,
 ):
+    """
+    Backward-compatible signature:
+    old tests still call get_block_html(title, authors, rate, tldr, pdf_url, affiliations).
+    """
     source_html = (
         f'<div class="badge">{_escape(_source_label(source))}</div>'
         if source
@@ -180,6 +222,16 @@ def get_block_html(
         if tldr_zh
         else ""
     )
+    links_html = _build_links_html(
+        source=source,
+        article_url=article_url,
+        pdf_url=pdf_url,
+    )
+
+    # Compatibility for the old direct get_block_html() test:
+    # if no source/article_url is supplied, preserve the simple PDF link behavior.
+    if not links_html and pdf_url:
+        links_html = f'<a href="{_escape(pdf_url)}">PDF</a>'
 
     block_template = """
     <div class="card">
@@ -191,7 +243,7 @@ def get_block_html(
       <div class="meta">Relevance / 相关性：{rate}</div>
       <div class="summary"><b>TLDR (EN)：</b>{tldr}</div>
       {tldr_zh_html}
-      <div class="links"><a href="{pdf_url}">PDF</a></div>
+      <div class="links">{links_html}</div>
     </div>
     """
 
@@ -204,7 +256,7 @@ def get_block_html(
         rate=_escape(str(rate)),
         tldr=_escape(tldr or ""),
         tldr_zh_html=tldr_zh_html,
-        pdf_url=_escape(pdf_url or ""),
+        links_html=links_html,
     )
 
 
@@ -233,7 +285,7 @@ def get_stars(score: float):
 
 
 def _format_authors(paper: Paper) -> str:
-    author_list = [author for author in paper.authors]
+    author_list = list(paper.authors)
     num_authors = len(author_list)
 
     if num_authors <= 5:
@@ -260,18 +312,18 @@ def _render_paper_cards(papers: list[Paper]) -> str:
 
     for paper in papers:
         rate = round(paper.score, 1) if paper.score is not None else "Unknown"
-
         parts.append(
             get_block_html(
-                paper.title,
-                _format_authors(paper),
-                rate,
-                paper.tldr_en or paper.tldr,
-                paper.pdf_url,
-                _format_affiliations(paper),
+                title=paper.title,
+                authors=_format_authors(paper),
+                rate=rate,
+                tldr=paper.tldr_en or paper.tldr,
+                pdf_url=paper.pdf_url,
+                affiliations=_format_affiliations(paper),
                 source=paper.source,
                 title_zh=paper.title_zh,
                 tldr_zh=paper.tldr_zh,
+                article_url=paper.url,
             )
         )
 
@@ -294,6 +346,11 @@ def render_email(
     papers: list[Paper],
     published_papers: list[Paper] | None = None,
 ) -> str:
+    """
+    Backward compatible:
+    - render_email(papers) keeps the old single-list behavior;
+    - render_email(preprints, published) renders the two bilingual sections.
+    """
     if published_papers is None:
         if len(papers) == 0:
             return framework.replace("__CONTENT__", get_empty_html())
