@@ -295,11 +295,15 @@ class Paper:
                 {
                     "role": "system",
                     "content": (
-                        "You extract author affiliations from scientific papers. "
-                        'Return only a Python/JSON list, e.g. ["Tsinghua University", '
-                        '"Peking University"]. If an affiliation has multiple levels, '
-                        "return only the top-level institution. Remove duplicates. "
-                        "If none are found, return []."
+                        "You are an assistant who perfectly extracts affiliations of authors "
+                        "from a paper. You should return a Python list of affiliations sorted "
+                        'by the author order, like ["TsingHua University","Peking University"]. '
+                        "If an affiliation consists of multi-level affiliations, like "
+                        "'Department of Computer Science, TsingHua University', you should return "
+                        "the top-level affiliation 'TsingHua University' only. Do not contain "
+                        "duplicated affiliations. If there is no affiliation found, you should "
+                        "return an empty list []. You should only return the final list of "
+                        "affiliations, and do not return any intermediate results."
                     ),
                 },
                 {"role": "user", "content": prompt},
