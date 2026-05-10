@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import json
@@ -18,16 +17,18 @@ def paper_key(paper: Paper) -> str:
     """
     Stable key used for cross-run deduplication.
 
-    Prefer URL because arXiv/PubMed/bioRxiv URLs are stable. If URL is missing,
-    fall back to normalized title.
+    Prefer URL because arXiv/PubMed/bioRxiv/medRxiv URLs are stable. If URL is
+    missing, fall back to normalized title.
     """
     if paper.url:
         return f"url::{_normalize_text(paper.url)}"
+
     return f"title::{_normalize_text(paper.title)}"
 
 
 def load_history(path: str | Path) -> dict:
     path = Path(path)
+
     if not path.exists():
         return {"sent": []}
 
@@ -47,6 +48,7 @@ def save_history(path: str | Path, history: dict, max_records: int = 2000) -> No
     path.parent.mkdir(parents=True, exist_ok=True)
 
     sent = history.get("sent", [])
+
     if max_records > 0:
         sent = sent[-max_records:]
 
@@ -71,6 +73,7 @@ def filter_unseen_papers(
     extra_seen_keys: set[str] | None = None,
 ) -> list[Paper]:
     seen = seen_keys(history)
+
     if extra_seen_keys:
         seen |= set(extra_seen_keys)
 
@@ -79,8 +82,10 @@ def filter_unseen_papers(
 
     for paper in papers:
         key = paper_key(paper)
+
         if key in seen or key in local_seen:
             continue
+
         unique.append(paper)
         local_seen.add(key)
 
@@ -90,11 +95,11 @@ def filter_unseen_papers(
 def mark_papers_sent(history: dict, papers: Iterable[Paper]) -> dict:
     now = datetime.now(timezone.utc).isoformat()
     sent = history.setdefault("sent", [])
-
     existing = seen_keys(history)
 
     for paper in papers:
         key = paper_key(paper)
+
         if key in existing:
             continue
 
