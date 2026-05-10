@@ -28,6 +28,11 @@ from .history import (
     paper_key,
     save_history,
 )
+from .interest import (
+    apply_topic_boosts,
+    augment_corpus_with_interest_profiles,
+    select_with_topic_preferences,
+)
 from .paper_filter import (
     filter_by_score,
     filter_ultrasound_after_rerank,
@@ -90,36 +95,42 @@ class Executor:
         )
 
         collections = zot.everything(zot.collections())
-        collections = {c["key"]: c for c in collections}
+        collections = {collection["key"]: collection for collection in collections}
 
         corpus = zot.everything(
             zot.items(itemType="conferencePaper || journalArticle || preprint")
         )
-        corpus = [c for c in corpus if c["data"]["abstractNote"] != ""]
+        corpus = [item for item in corpus if item["data"]["abstractNote"] != ""]
 
         def get_collection_path(col_key: str) -> str:
-            if p := collections[col_key]["data"]["parentCollection"]:
-                return get_collection_path(p) + "/" + collections[col_key]["data"]["name"]
+            if parent := collections[col_key]["data"]["parentCollection"]:
+                return (
+                    get_collection_path(parent)
+                    + "/"
+                    + collections[col_key]["data"]["name"]
+                )
 
             return collections[col_key]["data"]["name"]
 
-        for c in corpus:
-            paths = [get_collection_path(col) for col in c["data"]["collections"]]
-            c["paths"] = paths
+        for item in corpus:
+            item["paths"] = [
+                get_collection_path(collection)
+                for collection in item["data"]["collections"]
+            ]
 
         logger.info(f"Fetched {len(corpus)} zotero papers")
 
         return [
             CorpusPaper(
-                title=c["data"]["title"],
-                abstract=c["data"]["abstractNote"],
+                title=item["data"]["title"],
+                abstract=item["data"]["abstractNote"],
                 added_date=datetime.strptime(
-                    c["data"]["dateAdded"],
+                    item["data"]["dateAdded"],
                     "%Y-%m-%dT%H:%M:%SZ",
                 ),
-                paths=c["paths"],
+                paths=item["paths"],
             )
-            for c in corpus
+            for item in corpus
         ]
 
     def filter_corpus(self, corpus: list[CorpusPaper]) -> list[CorpusPaper]:
@@ -129,11 +140,11 @@ class Executor:
                 f"{self.include_path_patterns}"
             )
             corpus = [
-                c
-                for c in corpus
+                item
+                for item in corpus
                 if any(
                     glob_match(path, pattern)
-                    for path in c.paths
+                    for path in item.paths
                     for pattern in self.include_path_patterns
                 )
             ]
@@ -144,11 +155,11 @@ class Executor:
                 f"{self.ignore_path_patterns}"
             )
             corpus = [
-                c
-                for c in corpus
+                item
+                for item in corpus
                 if not any(
                     glob_match(path, pattern)
-                    for path in c.paths
+                    for path in item.paths
                     for pattern in self.ignore_path_patterns
                 )
             ]
@@ -156,30 +167,29 @@ class Executor:
         if self.include_path_patterns or self.ignore_path_patterns:
             samples = random.sample(corpus, min(5, len(corpus)))
             samples = "\n".join(
-                [c.title + " - " + "\n".join(c.paths) for c in samples]
+                [item.title + " - " + "\n".join(item.paths) for item in samples]
             )
             logger.info(f"Selected {len(corpus)} zotero papers:\n{samples}\n...")
 
         return corpus
 
     def _is_advanced_mode(self) -> bool:
-        """
-        Keep the original project behavior for legacy configs/tests.
-
-        新版逻辑只有在配置中出现 preprint / published / history 任一板块时启用。
-        这样旧测试和旧配置仍然按原项目流程运行。
-        """
         return any(
             section in self.config
-            for section in ("preprint", "published", "history")
+            for section in ("preprint", "published", "history", "interests")
         )
 
-    def _rerank_and_filter(self, papers: list[Paper], corpus: list[CorpusPaper]) -> list[Paper]:
+    def _rerank_and_filter(
+        self,
+        papers: list[Paper],
+        corpus: list[CorpusPaper],
+    ) -> list[Paper]:
         if len(papers) == 0:
             return []
 
         logger.info(f"Reranking {len(papers)} papers...")
         reranked = self.reranker.rerank(papers, corpus)
+        reranked = apply_topic_boosts(reranked, self.config)
         reranked = filter_ultrasound_after_rerank(reranked, self.config)
         reranked = filter_by_score(reranked, self.config)
         return reranked
@@ -219,7 +229,6 @@ class Executor:
             )
         )
 
-        # 1) 今天的新预印本：先按关键词初筛，再按 Zotero 相关性重排。
         daily_candidates = filter_ultrasound_papers(
             daily_preprints,
             self.config,
@@ -227,41 +236,45 @@ class Executor:
         daily_ranked = self._rerank_and_filter(daily_candidates, corpus)
         daily_unseen = filter_unseen_papers(daily_ranked, history)
 
-        # 所有尚未发送的强相关今日预印本都先进入缓存池；
-        # 真正发出后再从缓存池移除。
         add_papers_to_cache(cache, daily_unseen)
 
-        selected = daily_unseen[:max_per_email]
+        selected = select_with_topic_preferences(
+            daily_unseen,
+            limit=max_per_email,
+            config=self.config,
+            quota_key="min_preprints_per_email",
+        )
         selected_keys = {paper_key(paper) for paper in selected}
 
         logger.info(
             f"Selected {len(selected)} unseen daily preprints before cache/backfill"
         )
 
-        # 2) 今日不足最低配额时，先从“未发送缓存池”补。
         if len(selected) < min_per_email:
-            need = min_per_email - len(selected)
-
             cache_candidates = filter_unseen_papers(
                 cached_papers(cache),
                 history,
                 extra_seen_keys=selected_keys,
             )
-
             cache_candidates = filter_ultrasound_after_rerank(
                 cache_candidates,
                 self.config,
             )
             cache_candidates = filter_by_score(cache_candidates, self.config)
 
-            selected.extend(cache_candidates[:need])
+            selected = select_with_topic_preferences(
+                cache_candidates,
+                limit=min_per_email,
+                config=self.config,
+                quota_key="min_preprints_per_email",
+                already_selected=selected,
+            )
             selected_keys = {paper_key(paper) for paper in selected}
 
             logger.info(
                 f"After cache fill: selected {len(selected)} preprints"
             )
 
-        # 3) 缓存池仍不足时，再在线抓最近一段时间内的未发送预印本。
         if len(selected) < min_per_email:
             need = min_per_email - len(selected)
             logger.info(
@@ -283,7 +296,13 @@ class Executor:
 
             add_papers_to_cache(cache, backfill_unseen)
 
-            selected.extend(backfill_unseen[:need])
+            selected = select_with_topic_preferences(
+                backfill_unseen,
+                limit=min_per_email,
+                config=self.config,
+                quota_key="min_preprints_per_email",
+                already_selected=selected,
+            )
 
             logger.info(
                 f"After recent-backfill fill: selected {len(selected)} preprints"
@@ -321,24 +340,36 @@ class Executor:
             extra_seen_keys=extra_seen_keys,
         )
 
-        selected = published_unseen[:num_per_email]
+        selected = select_with_topic_preferences(
+            published_unseen,
+            limit=num_per_email,
+            config=self.config,
+            quota_key="min_published_per_email",
+        )
         logger.info(f"Selected {len(selected)} published papers")
         return selected
 
     def _generate_missing_metadata(self, papers: list[Paper]) -> None:
-        logger.info("Generating TLDR and affiliations...")
+        logger.info("Generating bilingual summaries and affiliations...")
 
         for paper in tqdm(papers):
-            if paper.tldr is None:
-                paper.generate_tldr(self.openai_client, self.config.llm)
+            if (
+                paper.title_zh is None
+                or paper.tldr_en is None
+                or paper.tldr_zh is None
+            ):
+                paper.generate_bilingual_summary(
+                    self.openai_client,
+                    self.config.llm,
+                )
 
             if paper.affiliations is None:
-                paper.generate_affiliations(self.openai_client, self.config.llm)
+                paper.generate_affiliations(
+                    self.openai_client,
+                    self.config.llm,
+                )
 
     def _run_legacy_mode(self, corpus: list[CorpusPaper]) -> None:
-        """
-        Original single-list pipeline retained for legacy configs and tests.
-        """
         all_papers = self._retrieve_daily_preprints()
         all_papers = filter_ultrasound_papers(all_papers, self.config)
 
@@ -400,7 +431,6 @@ class Executor:
         send_email(self.config, email_content)
         logger.info("Email sent successfully")
 
-        # 只有邮件成功发送后，才把它们记为 sent，避免失败时误标记。
         mark_papers_sent(history, all_selected)
         save_history(
             history_path,
@@ -408,8 +438,6 @@ class Executor:
             max_records=history_max_records,
         )
 
-        # 已经发送过的预印本从缓存池移除；剩余强相关、未发送的预印本
-        # 留作未来日期不足 3 篇时补位。
         remove_papers_from_cache(cache, preprints)
         save_preprint_cache(
             cache_path,
@@ -421,6 +449,7 @@ class Executor:
     def run(self):
         corpus = self.fetch_zotero_corpus()
         corpus = self.filter_corpus(corpus)
+        corpus = augment_corpus_with_interest_profiles(corpus, self.config)
 
         if len(corpus) == 0:
             logger.error(

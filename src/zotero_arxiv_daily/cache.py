@@ -20,6 +20,7 @@ def _now_iso() -> str:
 def _parse_dt(value: str | None) -> datetime | None:
     if not value:
         return None
+
     try:
         return datetime.fromisoformat(value)
     except ValueError:
@@ -36,6 +37,9 @@ def _paper_to_dict(paper: Paper) -> dict:
         "pdf_url": paper.pdf_url,
         "full_text": paper.full_text,
         "tldr": paper.tldr,
+        "title_zh": paper.title_zh,
+        "tldr_en": paper.tldr_en,
+        "tldr_zh": paper.tldr_zh,
         "affiliations": paper.affiliations,
         "score": paper.score,
     }
@@ -55,27 +59,15 @@ def _paper_from_dict(data: dict) -> Paper | None:
         pdf_url=data.get("pdf_url"),
         full_text=data.get("full_text"),
         tldr=data.get("tldr"),
+        title_zh=data.get("title_zh"),
+        tldr_en=data.get("tldr_en"),
+        tldr_zh=data.get("tldr_zh"),
         affiliations=data.get("affiliations"),
         score=data.get("score"),
     )
 
 
 def load_preprint_cache(path: str | Path) -> dict:
-    """
-    Load the persistent cache of strong but unsent preprints.
-
-    File format:
-    {
-      "items": [
-        {
-          "key": "...",
-          "added_at": "...",
-          "last_seen_at": "...",
-          "paper": {...}
-        }
-      ]
-    }
-    """
     path = Path(path)
 
     if not path.exists():
@@ -124,6 +116,7 @@ def prune_preprint_cache(
     cutoff = now - timedelta(days=max_age_days)
 
     items = []
+
     for item in cache.get("items", []):
         if not isinstance(item, dict):
             continue
@@ -142,12 +135,18 @@ def prune_preprint_cache(
 
         items.append(item)
 
-    # Keep stronger papers first; for ties, prefer newer papers.
     def _sort_key(item: dict):
         paper_score = item.get("paper", {}).get("score")
-        score = float(paper_score) if isinstance(paper_score, (int, float)) else float("-inf")
-        added_at = _parse_dt(item.get("added_at")) or datetime.min.replace(tzinfo=timezone.utc)
-        return (score, added_at)
+        score = (
+            float(paper_score)
+            if isinstance(paper_score, (int, float))
+            else float("-inf")
+        )
+        added_at = (
+            _parse_dt(item.get("added_at"))
+            or datetime.min.replace(tzinfo=timezone.utc)
+        )
+        return score, added_at
 
     items.sort(key=_sort_key, reverse=True)
 
@@ -166,12 +165,6 @@ def cache_keys(cache: dict) -> set[str]:
 
 
 def add_papers_to_cache(cache: dict, papers: Iterable[Paper]) -> dict:
-    """
-    Add strong, unsent preprints to the cache.
-
-    If a paper already exists in the cache, update the stored paper payload and
-    `last_seen_at`, but preserve its original `added_at`.
-    """
     now = _now_iso()
     items = list(cache.get("items", []))
     index = {
@@ -182,6 +175,7 @@ def add_papers_to_cache(cache: dict, papers: Iterable[Paper]) -> dict:
 
     for paper in papers:
         key = paper_key(paper)
+
         if not key:
             continue
 
@@ -218,10 +212,12 @@ def cached_papers(cache: dict) -> list[Paper]:
         if paper is not None:
             papers.append(paper)
 
-    # Use the already-computed scores stored in the cache. This avoids rerunning
-    # the expensive embedding model every day over the whole cache.
     papers.sort(
-        key=lambda p: float(p.score) if p.score is not None else float("-inf"),
+        key=lambda paper: (
+            float(paper.score)
+            if paper.score is not None
+            else float("-inf")
+        ),
         reverse=True,
     )
     return papers

@@ -31,6 +31,18 @@ DEFAULT_ULTRASOUND_PATTERNS = [
     r"\bmicrobubble\w*\b",
     r"\bDoppler ultrasound\b",
     r"\bbeamform\w*\b",
+
+    # Wearable-ultrasound focus terms
+    r"\bwearable ultrasound\b",
+    r"\bultrasound patch\b",
+    r"\bultrasonic patch\b",
+    r"\bbioadhesive ultrasound\b",
+    r"\bconformal ultrasound\b",
+    r"\bflexible ultrasound\b",
+    r"\bwearable Doppler ultrasound\b",
+    r"\bwearable cardiac ultrasound\b",
+    r"\bultrasonic[- ]system[- ]on[- ]patch\b",
+    r"\bUSoP\b",
 ]
 
 
@@ -66,14 +78,6 @@ def is_ultrasound_related(paper, patterns=None, include_full_text=True) -> bool:
 
 
 def filter_ultrasound_papers(papers, config):
-    """
-    Candidate-stage keyword filter.
-
-    Important:
-    This is disabled by default to avoid breaking the original tests and to avoid
-    filtering out papers before reranking. Enable it only when you really want a
-    strict pre-rerank keyword gate.
-    """
     filter_cfg = _get_filter_cfg(config)
 
     candidate_keyword_filter = bool(
@@ -91,9 +95,10 @@ def filter_ultrasound_papers(papers, config):
     include_full_text = bool(filter_cfg.get("keyword_include_full_text", True))
 
     filtered = [
-        p for p in papers
+        paper
+        for paper in papers
         if is_ultrasound_related(
-            p,
+            paper,
             patterns=patterns,
             include_full_text=include_full_text,
         )
@@ -102,7 +107,6 @@ def filter_ultrasound_papers(papers, config):
     logger.info(
         f"Candidate-stage ultrasound hard filter: kept {len(filtered)}/{len(papers)} papers"
     )
-
     return filtered
 
 
@@ -116,26 +120,19 @@ def filter_by_score(papers, config):
     min_score = float(min_score)
 
     filtered = [
-        p for p in papers
-        if getattr(p, "score", None) is not None and float(p.score) >= min_score
+        paper
+        for paper in papers
+        if getattr(paper, "score", None) is not None
+        and float(paper.score) >= min_score
     ]
 
     logger.info(
         f"Score filter: kept {len(filtered)}/{len(papers)} papers with score >= {min_score}"
     )
-
     return filtered
 
 
 def filter_ultrasound_after_rerank(papers, config):
-    """
-    Post-rerank ultrasound relevance gate.
-
-    This is the recommended filter:
-    1. first rerank by Zotero similarity;
-    2. then require ultrasound-related keywords;
-    3. then apply min_score.
-    """
     filter_cfg = _get_filter_cfg(config)
 
     require_ultrasound_keyword = bool(
@@ -149,9 +146,10 @@ def filter_ultrasound_after_rerank(papers, config):
     include_full_text = bool(filter_cfg.get("keyword_include_full_text", True))
 
     filtered = [
-        p for p in papers
+        paper
+        for paper in papers
         if is_ultrasound_related(
-            p,
+            paper,
             patterns=patterns,
             include_full_text=include_full_text,
         )
@@ -160,5 +158,4 @@ def filter_ultrasound_after_rerank(papers, config):
     logger.info(
         f"Post-rerank ultrasound relevance filter: kept {len(filtered)}/{len(papers)} papers"
     )
-
     return filtered

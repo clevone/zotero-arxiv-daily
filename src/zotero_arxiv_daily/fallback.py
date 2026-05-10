@@ -32,6 +32,14 @@ DEFAULT_SEARCH_TERMS = [
     '"shear wave elastography"',
     "photoacoustic",
     "optoacoustic",
+    '"wearable ultrasound"',
+    '"ultrasound patch"',
+    '"bioadhesive ultrasound"',
+    '"conformal ultrasound"',
+    '"flexible ultrasound"',
+    '"wearable Doppler ultrasound"',
+    '"wearable cardiac ultrasound"',
+    '"ultrasonic-system-on-patch"',
 ]
 
 # arXiv backfill uses a deliberately compact query.
@@ -42,45 +50,65 @@ DEFAULT_ARXIV_BACKFILL_TERMS = [
     "photoacoustic",
     "optoacoustic",
     "HIFU",
+    '"wearable ultrasound"',
+    '"ultrasound patch"',
 ]
 
 DEFAULT_PUBMED_QUERY = """
 (
-  ultrasound[Title/Abstract]
-  OR ultrasonography[Title/Abstract]
-  OR ultrasonic[Title/Abstract]
-  OR sonography[Title/Abstract]
-  OR echocardiography[Title/Abstract]
-  OR "focused ultrasound"[Title/Abstract]
-  OR HIFU[Title/Abstract]
-  OR "ultrafast ultrasound"[Title/Abstract]
-  OR "plane wave ultrasound"[Title/Abstract]
-  OR "contrast-enhanced ultrasound"[Title/Abstract]
-  OR "ultrasound localization microscopy"[Title/Abstract]
-  OR "super-resolution ultrasound"[Title/Abstract]
-  OR "shear wave elastography"[Title/Abstract]
-  OR photoacoustic[Title/Abstract]
-  OR optoacoustic[Title/Abstract]
+  (
+    ultrasound[Title/Abstract]
+    OR ultrasonography[Title/Abstract]
+    OR ultrasonic[Title/Abstract]
+    OR sonography[Title/Abstract]
+    OR echocardiography[Title/Abstract]
+    OR "focused ultrasound"[Title/Abstract]
+    OR HIFU[Title/Abstract]
+    OR "ultrafast ultrasound"[Title/Abstract]
+    OR "plane wave ultrasound"[Title/Abstract]
+    OR "contrast-enhanced ultrasound"[Title/Abstract]
+    OR "ultrasound localization microscopy"[Title/Abstract]
+    OR "super-resolution ultrasound"[Title/Abstract]
+    OR "shear wave elastography"[Title/Abstract]
+    OR photoacoustic[Title/Abstract]
+    OR optoacoustic[Title/Abstract]
+  )
+  AND
+  (
+    imaging[Title/Abstract]
+    OR beamforming[Title/Abstract]
+    OR reconstruction[Title/Abstract]
+    OR localization[Title/Abstract]
+    OR microscopy[Title/Abstract]
+    OR elastography[Title/Abstract]
+    OR Doppler[Title/Abstract]
+    OR transducer[Title/Abstract]
+    OR "medical imaging"[Title/Abstract]
+  )
 )
-AND
+OR
 (
-  imaging[Title/Abstract]
-  OR beamforming[Title/Abstract]
-  OR reconstruction[Title/Abstract]
-  OR localization[Title/Abstract]
-  OR microscopy[Title/Abstract]
-  OR elastography[Title/Abstract]
-  OR Doppler[Title/Abstract]
-  OR transducer[Title/Abstract]
-  OR "medical imaging"[Title/Abstract]
+  "wearable ultrasound"[Title/Abstract]
+  OR "ultrasound patch"[Title/Abstract]
+  OR "ultrasonic patch"[Title/Abstract]
+  OR "bioadhesive ultrasound"[Title/Abstract]
+  OR "conformal ultrasound"[Title/Abstract]
+  OR "flexible ultrasound"[Title/Abstract]
+  OR "wearable Doppler ultrasound"[Title/Abstract]
+  OR "wearable cardiac ultrasound"[Title/Abstract]
+  OR "ultrasonic-system-on-patch"[Title/Abstract]
 )
 """
 
 DEFAULT_JOURNAL_WHITELIST = [
+    "Nature",
+    "Science",
     "Nature Biomedical Engineering",
+    "Nature Biotechnology",
     "Nature Medicine",
     "Nature Communications",
     "Science Advances",
+    "Science Translational Medicine",
     "Radiology",
     "IEEE Transactions on Medical Imaging",
     "Medical Image Analysis",

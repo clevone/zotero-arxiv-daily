@@ -65,11 +65,18 @@ framework = """
       color: #3730a3;
       margin-bottom: 10px;
     }}
-    .title {{
+    .title-en {{
       font-size: 18px;
       font-weight: 700;
       line-height: 1.35;
-      margin: 0 0 8px 0;
+      margin: 0 0 5px 0;
+    }}
+    .title-zh {{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.45;
+      color: #374151;
+      margin: 0 0 10px 0;
     }}
     .meta {{
       color: #4b5563;
@@ -77,9 +84,12 @@ framework = """
       line-height: 1.5;
       margin-bottom: 6px;
     }}
-    .tldr {{
+    .summary {{
       margin-top: 10px;
       line-height: 1.6;
+    }}
+    .summary + .summary {{
+      margin-top: 8px;
     }}
     .links {{
       margin-top: 12px;
@@ -113,12 +123,12 @@ framework = """
 <body>
   <div class="container">
     <div class="header">
-      <h1>Daily Literature Digest</h1>
-      <p>根据你的 Zotero 文献库兴趣画像生成。</p>
+      <h1>Daily Literature Digest / 每日文献速递</h1>
+      <p>Generated from your Zotero library and manually added focus topics. / 根据你的 Zotero 文献库和手动关注主题生成。</p>
     </div>
     __CONTENT__
     <div class="footer">
-      To unsubscribe, remove your email in your GitHub Actions setting.
+      To unsubscribe, remove your email in your GitHub Actions setting. / 如需停止接收，请在 GitHub Actions 设置中移除邮箱。
     </div>
   </div>
 </body>
@@ -127,7 +137,7 @@ framework = """
 
 
 def get_empty_html():
-    return '<div class="empty">No Papers Today. Take a Rest!</div>'
+    return '<div class="empty">No Papers Today. Take a Rest! / 今日暂无论文，休息一下吧。</div>'
 
 
 def _escape(value: str | None) -> str:
@@ -152,25 +162,35 @@ def get_block_html(
     pdf_url: str,
     affiliations: str = None,
     source: str | None = None,
+    title_zh: str | None = None,
+    tldr_zh: str | None = None,
 ):
-    """
-    保持原来的函数名和参数顺序，保证旧测试兼容；
-    新增 source 为可选参数，用于在邮件卡片里显示来源标签。
-    """
     source_html = (
         f'<div class="badge">{_escape(_source_label(source))}</div>'
         if source
+        else ""
+    )
+    title_zh_html = (
+        f'<div class="title-zh">{_escape(title_zh)}</div>'
+        if title_zh
+        else ""
+    )
+    tldr_zh_html = (
+        f'<div class="summary"><b>中文摘要：</b>{_escape(tldr_zh)}</div>'
+        if tldr_zh
         else ""
     )
 
     block_template = """
     <div class="card">
       {source_html}
-      <div class="title">{title}</div>
+      <div class="title-en">{title}</div>
+      {title_zh_html}
       <div class="meta">{authors}</div>
       <div class="meta">{affiliations}</div>
-      <div class="meta">Relevance: {rate}</div>
-      <div class="tldr"><b>TLDR:</b> {tldr}</div>
+      <div class="meta">Relevance / 相关性：{rate}</div>
+      <div class="summary"><b>TLDR (EN)：</b>{tldr}</div>
+      {tldr_zh_html}
       <div class="links"><a href="{pdf_url}">PDF</a></div>
     </div>
     """
@@ -178,10 +198,12 @@ def get_block_html(
     return block_template.format(
         source_html=source_html,
         title=_escape(title),
+        title_zh_html=title_zh_html,
         authors=_escape(authors),
         affiliations=_escape(affiliations or "Unknown Affiliation"),
         rate=_escape(str(rate)),
         tldr=_escape(tldr or ""),
+        tldr_zh_html=tldr_zh_html,
         pdf_url=_escape(pdf_url or ""),
     )
 
@@ -194,24 +216,24 @@ def get_stars(score: float):
 
     if score <= low:
         return ""
-    elif score >= high:
+    if score >= high:
         return full_star * 5
-    else:
-        interval = (high - low) / 10
-        star_num = math.ceil((score - low) / interval)
-        full_star_num = int(star_num / 2)
-        half_star_num = star_num - full_star_num * 2
 
-        return (
-            '<div class="star-wrapper">'
-            + full_star * full_star_num
-            + half_star * half_star_num
-            + "</div>"
-        )
+    interval = (high - low) / 10
+    star_num = math.ceil((score - low) / interval)
+    full_star_num = int(star_num / 2)
+    half_star_num = star_num - full_star_num * 2
+
+    return (
+        '<div class="star-wrapper">'
+        + full_star * full_star_num
+        + half_star * half_star_num
+        + "</div>"
+    )
 
 
 def _format_authors(paper: Paper) -> str:
-    author_list = [a for a in paper.authors]
+    author_list = [author for author in paper.authors]
     num_authors = len(author_list)
 
     if num_authors <= 5:
@@ -238,15 +260,18 @@ def _render_paper_cards(papers: list[Paper]) -> str:
 
     for paper in papers:
         rate = round(paper.score, 1) if paper.score is not None else "Unknown"
+
         parts.append(
             get_block_html(
                 paper.title,
                 _format_authors(paper),
                 rate,
-                paper.tldr,
+                paper.tldr_en or paper.tldr,
                 paper.pdf_url,
                 _format_affiliations(paper),
                 source=paper.source,
+                title_zh=paper.title_zh,
+                tldr_zh=paper.tldr_zh,
             )
         )
 
@@ -269,12 +294,6 @@ def render_email(
     papers: list[Paper],
     published_papers: list[Paper] | None = None,
 ) -> str:
-    """
-    Backward compatible:
-    - render_email(papers) 保持旧行为，测试仍然可用；
-    - render_email(preprints, published) 生成两个板块：
-      “今日预印本” 与 “已发表精选”。
-    """
     if published_papers is None:
         if len(papers) == 0:
             return framework.replace("__CONTENT__", get_empty_html())
@@ -287,13 +306,15 @@ def render_email(
     content = "".join(
         [
             _render_section(
-                "今日预印本",
-                "优先展示当天新预印本；若当天不足 3 篇，则自动从未发送缓存池和近 30 天回补池中补齐。",
+                "今日预印本 / Today's Preprints",
+                "优先展示当天新预印本；若当天不足 3 篇，则自动从未发送缓存池和近 30 天回补池中补齐。 / "
+                "Prioritizes today's new preprints; if fewer than 3 are available, unsent cache and recent backfill are used.",
                 papers,
             ),
             _render_section(
-                "已发表精选",
-                "来自 PubMed 在线检索，并经高水平期刊白名单、超声相关性过滤和 Zotero 相关性排序筛选。",
+                "已发表精选 / Published Picks",
+                "来自 PubMed 在线检索，并经高水平期刊白名单、超声相关性过滤和 Zotero 相关性排序筛选。 / "
+                "Retrieved online from PubMed, then filtered by journal whitelist, ultrasound relevance, and Zotero-based ranking.",
                 published_papers,
             ),
         ]
