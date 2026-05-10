@@ -1,4 +1,3 @@
-
 name: Send emails daily
 
 on:
@@ -12,41 +11,41 @@ permissions:
 jobs:
   calculate-and-send:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          repository: ${{ vars.REPOSITORY }}
-          ref: ${{ vars.REF }}
+    env:
+      ZOTERO_ID: ${{ secrets.ZOTERO_ID }}
+      ZOTERO_KEY: ${{ secrets.ZOTERO_KEY }}
+      SENDER: ${{ secrets.SENDER }}
+      SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+      RECEIVER: ${{ secrets.RECEIVER }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
+      CUSTOM_CONFIG: ${{ vars.CUSTOM_CONFIG }}
 
-      - name: Setup uv
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
         uses: astral-sh/setup-uv@v7
 
-      - name: Run script
-        env:
-          ZOTERO_ID: ${{ secrets.ZOTERO_ID }}
-          ZOTERO_KEY: ${{ secrets.ZOTERO_KEY }}
-          SENDER: ${{ secrets.SENDER }}
-          RECEIVER: ${{ secrets.RECEIVER }}
-          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
-          CUSTOM_CONFIG: ${{ vars.CUSTOM_CONFIG }}
+      - name: Write custom config
         run: |
           echo "Use custom config:"
           echo "$CUSTOM_CONFIG"
-          printf "%s\n" "$CUSTOM_CONFIG" > config/custom.yaml
-          uv run src/zotero_arxiv_daily/main.py
+          mkdir -p config
+          echo "$CUSTOM_CONFIG" > config/custom.yaml
 
-      - name: Persist sent history
+      - name: Run script
+        run: uv run src/zotero_arxiv_daily/main.py
+
+      - name: Commit recommendation state
         if: success()
         run: |
-          if [ -f data/sent_history.json ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/sent_history.json
-            if ! git diff --cached --quiet; then
-              git commit -m "chore: update sent paper history [skip ci]"
-              git push
-            fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sent_history.json data/preprint_cache.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No recommendation state changes to commit."
+          else
+            git commit -m "Update recommendation state [skip ci]"
+            git push
           fi
