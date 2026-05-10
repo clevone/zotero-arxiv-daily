@@ -41,6 +41,48 @@
       "title": "Video-Rate Ring-Array Ultrasound and Photoacoustic Tomography.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32813650/",
       "sent_at": "2026-05-10T07:57:55.623141+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.27428v1",
+      "source": "arxiv",
+      "title": "Wave-Equation Migration Velocity Analysis for Multistatic Synthetic Aperture Ultrasound",
+      "url": "http://arxiv.org/abs/2604.27428v1",
+      "sent_at": "2026-05-10T08:46:33.036213+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.22889v2",
+      "source": "arxiv",
+      "title": "Fixed-phase Resonance Tracking for Fast Nonlinear Resonant Ultrasound Spectroscopy",
+      "url": "http://arxiv.org/abs/2604.22889v2",
+      "sent_at": "2026-05-10T08:46:33.036213+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.22666v1",
+      "source": "arxiv",
+      "title": "A CMUT-Based Transcranial Focused Ultrasound Platform for Blood-Brain Barrier Opening in Small Animal Models",
+      "url": "http://arxiv.org/abs/2604.22666v1",
+      "sent_at": "2026-05-10T08:46:33.036213+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/37217752/",
+      "source": "pubmed",
+      "title": "A fully integrated wearable ultrasound system to monitor deep tissues in moving subjects.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37217752/",
+      "sent_at": "2026-05-10T08:46:33.036213+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40676025/",
+      "source": "pubmed",
+      "title": "Silicon nanocolumn-based disposable and flexible ultrasound patches.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40676025/",
+      "sent_at": "2026-05-10T08:46:33.036213+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/35304481/",
+      "source": "pubmed",
+      "title": "Silicon-photonics acoustic detector for optoacoustic micro-tomography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35304481/",
+      "sent_at": "2026-05-10T08:46:33.036213+00:00"
     }
   ]
 }
