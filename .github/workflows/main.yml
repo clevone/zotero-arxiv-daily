@@ -11,33 +11,33 @@ permissions:
 jobs:
   calculate-and-send:
     runs-on: ubuntu-latest
-    env:
-      ZOTERO_ID: ${{ secrets.ZOTERO_ID }}
-      ZOTERO_KEY: ${{ secrets.ZOTERO_KEY }}
-      SENDER: ${{ secrets.SENDER }}
-      SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
-      RECEIVER: ${{ secrets.RECEIVER }}
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
-      CUSTOM_CONFIG: ${{ vars.CUSTOM_CONFIG }}
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ vars.REPOSITORY }}
+          ref: ${{ vars.REF }}
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v7
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v7.1.4
 
-      - name: Write custom config
+      - name: Run script
+        env:
+          ZOTERO_ID: ${{ secrets.ZOTERO_ID }}
+          ZOTERO_KEY: ${{ secrets.ZOTERO_KEY }}
+          SENDER: ${{ secrets.SENDER }}
+          RECEIVER: ${{ secrets.RECEIVER }}
+          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
+          CUSTOM_CONFIG: ${{ vars.CUSTOM_CONFIG }}
         run: |
           echo "Use custom config:"
           echo "$CUSTOM_CONFIG"
-          mkdir -p config
-          echo "$CUSTOM_CONFIG" > config/custom.yaml
+          printf "%s\n" "$CUSTOM_CONFIG" > config/custom.yaml
+          uv run src/zotero_arxiv_daily/main.py
 
-      - name: Run script
-        run: uv run src/zotero_arxiv_daily/main.py
-
-      - name: Commit recommendation state
+      - name: Persist recommendation state
         if: success()
         run: |
           git config user.name "github-actions[bot]"
@@ -46,6 +46,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No recommendation state changes to commit."
           else
-            git commit -m "Update recommendation state [skip ci]"
+            git commit -m "chore: update recommendation state [skip ci]"
             git push
           fi
