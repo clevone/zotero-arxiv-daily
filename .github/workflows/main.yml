@@ -1,8 +1,13 @@
+
 name: Send emails daily
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 22 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   calculate-and-send:
@@ -28,7 +33,20 @@ jobs:
           OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
           CUSTOM_CONFIG: ${{ vars.CUSTOM_CONFIG }}
         run: |
-          printf "%b\n" "$CUSTOM_CONFIG" > config/custom.yaml
-          echo "Use custom config: "
-          cat config/custom.yaml
+          echo "Use custom config:"
+          echo "$CUSTOM_CONFIG"
+          printf "%s\n" "$CUSTOM_CONFIG" > config/custom.yaml
           uv run src/zotero_arxiv_daily/main.py
+
+      - name: Persist sent history
+        if: success()
+        run: |
+          if [ -f data/sent_history.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/sent_history.json
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: update sent paper history [skip ci]"
+              git push
+            fi
+          fi
