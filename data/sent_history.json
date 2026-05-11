@@ -167,6 +167,62 @@
       "title": "In Vivo Pulsatility Measurement of Cerebral Microcirculation in Rodents Using Dynamic Ultrasound Localization Microscopy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/34710041/",
       "sent_at": "2026-05-10T22:43:02.086615+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.05.07.723418v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Super-Resolution Macrophage Imaging via Ultrasound Localization Microscopy and Blinking Nanodroplets",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.07.723418v1.full.pdf",
+      "sent_at": "2026-05-11T23:28:04.620074+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.07966v1",
+      "source": "arxiv",
+      "title": "Bubble jetting in acoustic microdroplet vaporization",
+      "url": "http://arxiv.org/abs/2605.07966v1",
+      "sent_at": "2026-05-11T23:28:04.620074+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.07466v1",
+      "source": "arxiv",
+      "title": "A Unified Framework for the Detection and Classification of Fatty Pancreas in Ultrasound Images",
+      "url": "http://arxiv.org/abs/2605.07466v1",
+      "sent_at": "2026-05-11T23:28:04.620074+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.07697v1",
+      "source": "arxiv",
+      "title": "A Novel Framework for the Characterization of Continuous Electromagnetic Manifolds",
+      "url": "http://arxiv.org/abs/2605.07697v1",
+      "sent_at": "2026-05-11T23:28:04.620074+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.06930v1",
+      "source": "arxiv",
+      "title": "Homomorphic Directional Beamforming with Analog True Time Delay Arrays",
+      "url": "http://arxiv.org/abs/2605.06930v1",
+      "sent_at": "2026-05-11T23:28:04.620074+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/38778234/",
+      "source": "pubmed",
+      "title": "Transcranial volumetric imaging using a conformal ultrasound patch.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38778234/",
+      "sent_at": "2026-05-11T23:28:04.620074+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/38163298/",
+      "source": "pubmed",
+      "title": "Wearable Ultrasound Imaging Device for Dynamic Dual-Direction Shear Wave Elastography of Shoulder Muscle.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38163298/",
+      "sent_at": "2026-05-11T23:28:04.620074+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/30946662/",
+      "source": "pubmed",
+      "title": "Ultrafast 3D Ultrasound Localization Microscopy Using a 32 × 32 Matrix Array.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30946662/",
+      "sent_at": "2026-05-11T23:28:04.620074+00:00"
     }
   ]
 }
