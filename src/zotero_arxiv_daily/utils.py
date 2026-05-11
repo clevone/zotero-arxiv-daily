@@ -9,7 +9,7 @@ from email.mime.text import MIMEText
 from email.utils import parseaddr, formataddr
 from loguru import logger
 import datetime
-from omegaconf import DictConfig
+from omegaconf import DictConfig, ListConfig, OmegaConf
 import pymupdf
 import pymupdf.layout
 pymupdf.TOOLS.mupdf_display_errors(False)
