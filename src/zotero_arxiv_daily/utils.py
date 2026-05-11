@@ -146,16 +146,31 @@ def send_email(config: DictConfig, html: str):
     smtp_server = config.email.smtp_server
     smtp_port = config.email.smtp_port
 
-    # 支持两种写法：
-    # 1) 单个字符串：receiver: someone@example.com
-    # 2) 列表：receiver: [a@example.com, b@example.com]
+    # OmegaConf 的 YAML list 类型是 ListConfig，不是普通 Python list。
+    # 必须先 resolve 成普通 list，否则 str(receiver_cfg) 会变成：
+    # "['${oc.env:RECEIVER}', '${oc.env:RECEIVER_2}']"
+    if isinstance(receiver_cfg, ListConfig):
+        receiver_cfg = OmegaConf.to_container(receiver_cfg, resolve=True)
+
     if isinstance(receiver_cfg, (list, tuple)):
-        receivers = [str(addr).strip() for addr in receiver_cfg if str(addr).strip()]
+        receivers = [
+            str(addr).strip()
+            for addr in receiver_cfg
+            if str(addr).strip()
+        ]
     else:
-        # 兼容逗号分隔字符串
+        # 兼容单个邮箱，或逗号/分号分隔的多个邮箱。
+        receiver_text = str(receiver_cfg).strip()
+
+        # 防御性处理：如果有人误写成 "['a@x.com', 'b@y.com']" 字符串，
+        # 去掉方括号和引号后再拆分。
+        receiver_text = receiver_text.strip("[]")
+        receiver_text = receiver_text.replace("'", "").replace('"', "")
+
         receivers = [
             addr.strip()
-            for addr in str(receiver_cfg).split(",")
+            for part in receiver_text.split(";")
+            for addr in part.split(",")
             if addr.strip()
         ]
 
