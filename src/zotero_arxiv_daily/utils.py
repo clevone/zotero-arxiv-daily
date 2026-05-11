@@ -139,21 +139,42 @@ def glob_match(path:str, pattern:str) -> bool:
     re_pattern = glob.translate(pattern,recursive=True)
     return re.match(re_pattern, path) is not None
 
-def send_email(config:DictConfig, html:str):
+def send_email(config: DictConfig, html: str):
     sender = config.email.sender
-    receiver = config.email.receiver
+    receiver_cfg = config.email.receiver
     password = config.email.sender_password
     smtp_server = config.email.smtp_server
     smtp_port = config.email.smtp_port
+
+    # 支持两种写法：
+    # 1) 单个字符串：receiver: someone@example.com
+    # 2) 列表：receiver: [a@example.com, b@example.com]
+    if isinstance(receiver_cfg, (list, tuple)):
+        receivers = [str(addr).strip() for addr in receiver_cfg if str(addr).strip()]
+    else:
+        # 兼容逗号分隔字符串
+        receivers = [
+            addr.strip()
+            for addr in str(receiver_cfg).split(",")
+            if addr.strip()
+        ]
+
+    if len(receivers) == 0:
+        raise ValueError("No valid receiver email address found in config.email.receiver")
+
     def _format_addr(s):
         name, addr = parseaddr(s)
-        return formataddr((Header(name, 'utf-8').encode(), addr))
+        return formataddr((Header(name, "utf-8").encode(), addr))
 
-    msg = MIMEText(html, 'html', 'utf-8')
-    msg['From'] = _format_addr('Github Action <%s>' % sender)
-    msg['To'] = _format_addr('You <%s>' % receiver)
-    today = datetime.datetime.now().strftime('%Y/%m/%d')
-    msg['Subject'] = Header(f'Daily arXiv {today}', 'utf-8').encode()
+    msg = MIMEText(html, "html", "utf-8")
+    msg["From"] = _format_addr("Github Action <%s>" % sender)
+    msg["To"] = ", ".join(
+        _format_addr("You <%s>" % receiver)
+        for receiver in receivers
+    )
+
+    today = datetime.datetime.now().strftime("%Y/%m/%d")
+    msg["Subject"] = Header(f"Daily arXiv {today}", "utf-8").encode()
 
     try:
         server = smtplib.SMTP(smtp_server, smtp_port)
@@ -167,5 +188,5 @@ def send_email(config:DictConfig, html:str):
             server = smtplib.SMTP(smtp_server, smtp_port)
 
     server.login(sender, password)
-    server.sendmail(sender, [receiver], msg.as_string())
+    server.sendmail(sender, receivers, msg.as_string())
     server.quit()
