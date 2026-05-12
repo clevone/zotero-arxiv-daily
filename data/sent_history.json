@@ -223,6 +223,55 @@
       "title": "Ultrafast 3D Ultrasound Localization Microscopy Using a 32 × 32 Matrix Array.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/30946662/",
       "sent_at": "2026-05-11T23:28:04.620074+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.08282v1",
+      "source": "arxiv",
+      "title": "A Paired Point-of-Care Ultrasound Dataset for Image Quality Enhancement and Benchmarking via a cGAN Baseline",
+      "url": "http://arxiv.org/abs/2605.08282v1",
+      "sent_at": "2026-05-12T23:51:19.948601+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.10745v1",
+      "source": "arxiv",
+      "title": "How Time-Sensitive are IoBNT Networks? An Age of Information Perspective for In-Body Monitoring",
+      "url": "http://arxiv.org/abs/2605.10745v1",
+      "sent_at": "2026-05-12T23:51:19.948601+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.08852v1",
+      "source": "arxiv",
+      "title": "Holographic Surface Enabled Integrated Sensing and Communications",
+      "url": "http://arxiv.org/abs/2605.08852v1",
+      "sent_at": "2026-05-12T23:51:19.948601+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.09750v1",
+      "source": "arxiv",
+      "title": "Fetal Brain Imaging: A Composite Neural Network Approach for Keyframe Detection in Ultrasound Videos",
+      "url": "http://arxiv.org/abs/2605.09750v1",
+      "sent_at": "2026-05-12T23:51:19.948601+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/34847025/",
+      "source": "pubmed",
+      "title": "CNN-Based Image Reconstruction Method for Ultrafast Ultrasound Imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34847025/",
+      "sent_at": "2026-05-12T23:51:19.948601+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/37566494/",
+      "source": "pubmed",
+      "title": "Contrast-Free Super-Resolution Power Doppler (CS-PD) Based on Deep Neural Networks.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37566494/",
+      "sent_at": "2026-05-12T23:51:19.948601+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/36399587/",
+      "source": "pubmed",
+      "title": "Fast and Selective Super-Resolution Ultrasound In Vivo With Acoustically Activated Nanodroplets.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36399587/",
+      "sent_at": "2026-05-12T23:51:19.948601+00:00"
     }
   ]
 }
