@@ -301,6 +301,31 @@
         "affiliations": null,
         "score": 2.6116546622968078
       }
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.05.09.723959v1.full.pdf",
+      "added_at": "2026-05-13T23:28:45.082315+00:00",
+      "last_seen_at": "2026-05-13T23:28:45.082315+00:00",
+      "paper": {
+        "source": "biorxiv",
+        "title": "Frequency-Dependent Modulation of Adult Hippocampal Neurogenesis, Memory, and BDNF Signaling by Low-Intensity Focused Ultrasound",
+        "authors": [
+          "Kanaan, K.",
+          "Badawe, H.",
+          "Abou-Kheir, W.",
+          "Khraiche, M."
+        ],
+        "abstract": "Adult hippocampal neurogenesis plays a central role in learning, memory formation, and adaptive neural plasticity, making it an attractive target for noninvasive neuromodulation strategies. Low-intensity focused ultrasound (LIFU) has emerged as a promising modality for modulating brain function, yet its effects on adult neurogenesis and the role of stimulation frequency remain incompletely understood. In this study, we evaluated whether transcranial LIFU applied to the dentate gyrus influences neurogenic and cognitive outcomes in a frequency-dependent manner. Adult rats received twice-weekly ultrasound stimulation for four weeks at 0.5, 1, or 5 MHz. Neurogenesis was assessed through BrdU incorporation and neuronal differentiation by BrdU/NeuN co-labeling, while expression of neurogenesis-associated markers (BDNF, FGF-2, and Sox-2) was quantified using qRT-PCR. Behavioral effects were examined using the novel object recognition task. Among the tested conditions, 0.5 MHz stimulation produced the most pronounced neurogenic response, with increased cellular proliferation in the dentate gyrus, elevated expression of neurogenic markers, and improved recognition memory relative to sham-treated animals. Higher stimulation frequencies yielded comparatively weaker effects. These findings identify stimulation frequency as a critical determinant of LIFU-driven neuroplastic responses and support the potential of focused ultrasound as a noninvasive approach for promoting hippocampal regeneration and functional recovery.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.09.723959v1.full.pdf",
+        "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.09.723959v1.full.pdf",
+        "full_text": null,
+        "tldr": null,
+        "title_zh": null,
+        "tldr_en": null,
+        "tldr_zh": null,
+        "affiliations": null,
+        "score": 2.5359379567273415
+      }
     }
   ]
 }
