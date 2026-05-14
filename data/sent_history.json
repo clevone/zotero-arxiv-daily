@@ -328,6 +328,48 @@
       "title": "Performance benchmarking of microbubble-localization algorithms for ultrasound localization microscopy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/35177778/",
       "sent_at": "2026-05-13T23:36:05.079336+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.12567v1",
+      "source": "arxiv",
+      "title": "Pyramid Self-contrastive Learning Framework for Test-time Ultrasound Image Denoising",
+      "url": "http://arxiv.org/abs/2605.12567v1",
+      "sent_at": "2026-05-14T23:21:25.851233+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.13057v1",
+      "source": "arxiv",
+      "title": "Identifiability Limits in Ultrasonic Microstructure Characterisation: A Canonical and Stochastic Framework",
+      "url": "http://arxiv.org/abs/2605.13057v1",
+      "sent_at": "2026-05-14T23:21:25.851233+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.12544v1",
+      "source": "arxiv",
+      "title": "Dual-Correction Physics-Informed Neural Networks for Hemodynamic Reconstruction from Sparse Data",
+      "url": "http://arxiv.org/abs/2605.12544v1",
+      "sent_at": "2026-05-14T23:21:25.851233+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/39321018/",
+      "source": "pubmed",
+      "title": "Ultrasound Localization Microscopy Precision of Clinical 3-D Ultrasound Systems.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39321018/",
+      "sent_at": "2026-05-14T23:21:25.851233+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/37072402/",
+      "source": "pubmed",
+      "title": "Hybrid photoacoustic and fast super-resolution ultrasound imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37072402/",
+      "sent_at": "2026-05-14T23:21:25.851233+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/37224370/",
+      "source": "pubmed",
+      "title": "Ultrafast Ultrasound Vector Doppler for Small Vasculature Imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37224370/",
+      "sent_at": "2026-05-14T23:21:25.851233+00:00"
     }
   ]
 }
