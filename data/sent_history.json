@@ -370,6 +370,48 @@
       "title": "Ultrafast Ultrasound Vector Doppler for Small Vasculature Imaging.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/37224370/",
       "sent_at": "2026-05-14T23:21:25.851233+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.14949v1",
+      "source": "arxiv",
+      "title": "A CUBS-Compatible Ultrasound Morphology and Uncertainty-Aware Baseline for Carotid Intima-Media Segmentation and Preliminary Risk Prediction",
+      "url": "http://arxiv.org/abs/2605.14949v1",
+      "sent_at": "2026-05-15T23:19:55.826826+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.14736v1",
+      "source": "arxiv",
+      "title": "IsoNet: Spatially-aware audio-visual target speech extraction in complex acoustic environments",
+      "url": "http://arxiv.org/abs/2605.14736v1",
+      "sent_at": "2026-05-15T23:19:55.826826+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.14919v1",
+      "source": "arxiv",
+      "title": "Transmit Beamforming for High-Rate Underwater Acoustic Communications",
+      "url": "http://arxiv.org/abs/2605.14919v1",
+      "sent_at": "2026-05-15T23:19:55.826826+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/33723412/",
+      "source": "pubmed",
+      "title": "Transcranial ultrafast ultrasound localization microscopy of brain vasculature in patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33723412/",
+      "sent_at": "2026-05-15T23:19:55.826826+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/38857146/",
+      "source": "pubmed",
+      "title": "Super-Resolution Ultrasound Imaging Using the Erythrocytes-Part II: Velocity Images.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38857146/",
+      "sent_at": "2026-05-15T23:19:55.826826+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40866163/",
+      "source": "pubmed",
+      "title": "Ultrasound Localization Microscopy for the Assessment of Microvascular Abnormalities in Transplant Renal Artery Stenosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40866163/",
+      "sent_at": "2026-05-15T23:19:55.826826+00:00"
     }
   ]
 }
