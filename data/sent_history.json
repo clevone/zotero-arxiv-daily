@@ -412,6 +412,41 @@
       "title": "Ultrasound Localization Microscopy for the Assessment of Microvascular Abnormalities in Transplant Renal Artery Stenosis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40866163/",
       "sent_at": "2026-05-15T23:19:55.826826+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.00872v1",
+      "source": "arxiv",
+      "title": "Multi-View Hierarchical Representation Learning of Fetal Hemodynamics for Maternal Hypertension Detection at the Edge",
+      "url": "http://arxiv.org/abs/2605.00872v1",
+      "sent_at": "2026-05-16T23:01:05.565036+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.24168v1",
+      "source": "arxiv",
+      "title": "Sub-acoustic resolution photoacoustic imaging through scattering layers using speckle correlations",
+      "url": "http://arxiv.org/abs/2604.24168v1",
+      "sent_at": "2026-05-16T23:01:05.565036+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.00881v1",
+      "source": "arxiv",
+      "title": "A Coupled Fourth Order Telegraph Diffusion Framework Using Grayscale Indicators for Image Despeckling",
+      "url": "http://arxiv.org/abs/2605.00881v1",
+      "sent_at": "2026-05-16T23:01:05.565036+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/37451953/",
+      "source": "pubmed",
+      "title": "Super-resolution Ultrasound Microvascular Angiography for Spinal Cord Penumbra Imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37451953/",
+      "sent_at": "2026-05-16T23:01:05.565036+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40024830/",
+      "source": "pubmed",
+      "title": "An Early Progression Biomarker in Glioblastoma: Microcirculatory Heterogeneity on Ultrasound Localization Microscopy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40024830/",
+      "sent_at": "2026-05-16T23:01:05.565036+00:00"
     }
   ]
 }
