@@ -447,6 +447,27 @@
       "title": "An Early Progression Biomarker in Glioblastoma: Microcirculatory Heterogeneity on Ultrasound Localization Microscopy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40024830/",
       "sent_at": "2026-05-16T23:01:05.565036+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.04596v1",
+      "source": "arxiv",
+      "title": "A Physics-Constrained Learning Framework for Wave Propagation in Complex Poroelastic Multilayered Media",
+      "url": "http://arxiv.org/abs/2605.04596v1",
+      "sent_at": "2026-05-17T23:02:01.510565+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.06336v1",
+      "source": "arxiv",
+      "title": "Nonlinear RMM-GKS for Large-Scale Dynamic and Streaming Inverse Problems with Uncertain Forward Operators",
+      "url": "http://arxiv.org/abs/2605.06336v1",
+      "sent_at": "2026-05-17T23:02:01.510565+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.02942v1",
+      "source": "arxiv",
+      "title": "A Framework for Exploring and Disentangling Intersectional Bias: A Case Study in Fetal Ultrasound",
+      "url": "http://arxiv.org/abs/2605.02942v1",
+      "sent_at": "2026-05-17T23:02:01.510565+00:00"
     }
   ]
 }
