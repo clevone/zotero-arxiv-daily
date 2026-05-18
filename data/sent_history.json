@@ -468,6 +468,27 @@
       "title": "A Framework for Exploring and Disentangling Intersectional Bias: A Case Study in Fetal Ultrasound",
       "url": "http://arxiv.org/abs/2605.02942v1",
       "sent_at": "2026-05-17T23:02:01.510565+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.15954v1",
+      "source": "arxiv",
+      "title": "Robust Beamforming for Near-Field STAR-RIS-Enabled ISCPT",
+      "url": "http://arxiv.org/abs/2605.15954v1",
+      "sent_at": "2026-05-18T23:28:04.879337+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.15808v1",
+      "source": "arxiv",
+      "title": "Joint Mobile User Positioning and Passive Target Sensing using Optimized Sequential Beamforming",
+      "url": "http://arxiv.org/abs/2605.15808v1",
+      "sent_at": "2026-05-18T23:28:04.879337+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.16057v1",
+      "source": "arxiv",
+      "title": "Holographic Airy Beamforming: Curved Trajectory Optimization for Blockage-Resilient Terahertz Communications",
+      "url": "http://arxiv.org/abs/2605.16057v1",
+      "sent_at": "2026-05-18T23:28:04.879337+00:00"
     }
   ]
 }
