@@ -489,6 +489,27 @@
       "title": "Holographic Airy Beamforming: Curved Trajectory Optimization for Blockage-Resilient Terahertz Communications",
       "url": "http://arxiv.org/abs/2605.16057v1",
       "sent_at": "2026-05-18T23:28:04.879337+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.19799v1",
+      "source": "arxiv",
+      "title": "Synergistic Foundation Models for Semi-Supervised Fetal Cardiac Ultrasound Analysis: SAM-Med2D Boundary Refinement and DINOv3 Semantic Enhancement",
+      "url": "http://arxiv.org/abs/2605.19799v1",
+      "sent_at": "2026-05-20T23:31:34.757341+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.18878v1",
+      "source": "arxiv",
+      "title": "Prognostic Value of Lung Ultrasound Biomarkers for Readmission Risk in Congestive Heart Failure: A Pilot Data-Driven Analysis",
+      "url": "http://arxiv.org/abs/2605.18878v1",
+      "sent_at": "2026-05-20T23:31:34.757341+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.22388v1",
+      "source": "arxiv",
+      "title": "HFS-TriNet: A Three-Branch Collaborative Feature Learning Network for Prostate Cancer Classification from TRUS Videos",
+      "url": "http://arxiv.org/abs/2604.22388v1",
+      "sent_at": "2026-05-20T23:31:34.757341+00:00"
     }
   ]
 }

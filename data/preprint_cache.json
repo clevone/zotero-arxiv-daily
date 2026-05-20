@@ -1,31 +1,6 @@
 {
   "items": [
     {
-      "key": "url::http://arxiv.org/abs/2604.22388v1",
-      "added_at": "2026-05-10T07:47:29.467256+00:00",
-      "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
-      "paper": {
-        "source": "arxiv",
-        "title": "HFS-TriNet: A Three-Branch Collaborative Feature Learning Network for Prostate Cancer Classification from TRUS Videos",
-        "authors": [
-          "Xu Lu",
-          "Qianhong Peng",
-          "Qihao Zhou",
-          "Shaopeng Liu",
-          "Xiuqin Ye",
-          "Chuan Yang",
-          "Yuan Yuan"
-        ],
-        "abstract": "Transrectal ultrasound (TRUS) imaging is a cost-effective and non-invasive modality widely used in the diagnosis of prostate cancer. The computer-aided diagnosis (CAD) relying on TRUS images has been extensively investigated recently. Compared to static images, TRUS video provides richer spatial-temporal information, which make it a promising alternative for improving the accuracy and robustness of CAD systems. However, TRUS video analysis also introduces new challenges. These include information redundancy, which increases computational costs; high intra- and inter-class similarity, which complicates feature extraction; and a low signal-to-noise ratio, which hinders the identification of clinically relevant information. To address these problems, we propose a heuristic frame selection (HFS) and a three-branch collaborative feature learning network (HFS-TriNet) for prostate cancer classification from TRUS videos. Specifically, selecting a clip of video frames at intervals for training can mitigate redundancy. The HFS strategy dynamically initializes the starting point of each training clip, which ensures that the sampled clips span the entire video sequence. For better feature extraction, besides a regular ResNet50 branch, we also utilize 1) a large model branch based a pre-trained medical segment anything model (SAM) to extract deep features of each frame and a normalization-based attention module to explore the temporal consistency; and 2) a wavelet transform convolutional residual (WTCR) branch that extracts lesion edge information in the high-frequency domain and performs denoising in the low-frequency domain.",
-        "url": "http://arxiv.org/abs/2604.22388v1",
-        "pdf_url": "https://arxiv.org/pdf/2604.22388v1",
-        "full_text": null,
-        "tldr": null,
-        "affiliations": null,
-        "score": 2.8772763765001
-      }
-    },
-    {
       "key": "url::http://arxiv.org/abs/2605.02126v1",
       "added_at": "2026-05-10T07:47:29.467256+00:00",
       "last_seen_at": "2026-05-10T07:47:29.467256+00:00",
