@@ -510,6 +510,48 @@
       "title": "HFS-TriNet: A Three-Branch Collaborative Feature Learning Network for Prostate Cancer Classification from TRUS Videos",
       "url": "http://arxiv.org/abs/2604.22388v1",
       "sent_at": "2026-05-20T23:31:34.757341+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.22066v1",
+      "source": "arxiv",
+      "title": "Echo4DIR: 4D Implicit Heart Reconstruction from 2D Echocardiography Videos",
+      "url": "http://arxiv.org/abs/2605.22066v1",
+      "sent_at": "2026-05-22T23:28:48.276819+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.22024v1",
+      "source": "arxiv",
+      "title": "A Reciprocity-Based Signal Compensation Framework for Ultrasonic Backscatter Measurements in Heterogeneous Scattering Media",
+      "url": "http://arxiv.org/abs/2605.22024v1",
+      "sent_at": "2026-05-22T23:28:48.276819+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.21652v1",
+      "source": "arxiv",
+      "title": "Look-Closer-Then-Diagnose: Confidence-Aware Ultrasound VQA via Active Zooming",
+      "url": "http://arxiv.org/abs/2605.21652v1",
+      "sent_at": "2026-05-22T23:28:48.276819+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.22360v1",
+      "source": "arxiv",
+      "title": "Low-Complexity Tensor Beamforming for RIS-Aided Multiuser Multistream MIMO Systems",
+      "url": "http://arxiv.org/abs/2605.22360v1",
+      "sent_at": "2026-05-22T23:28:48.276819+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.22117v1",
+      "source": "arxiv",
+      "title": "Beyond Spherical Wavefront: Near-Field Channel Estimation Under Wavefront Anisotropy",
+      "url": "http://arxiv.org/abs/2605.22117v1",
+      "sent_at": "2026-05-22T23:28:48.276819+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40456081/",
+      "source": "pubmed",
+      "title": "Microvascular Ultrasound Imaging in the Neonatal Brain: From Advanced Doppler to Super-Resolution.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40456081/",
+      "sent_at": "2026-05-22T23:28:48.276819+00:00"
     }
   ]
 }
