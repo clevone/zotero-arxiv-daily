@@ -552,6 +552,34 @@
       "title": "Microvascular Ultrasound Imaging in the Neonatal Brain: From Advanced Doppler to Super-Resolution.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40456081/",
       "sent_at": "2026-05-22T23:28:48.276819+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.02126v1",
+      "source": "arxiv",
+      "title": "Ultrasound Vision-Language Alignment via Contrastive Learning",
+      "url": "http://arxiv.org/abs/2605.02126v1",
+      "sent_at": "2026-05-23T22:51:13.156798+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.27876v1",
+      "source": "arxiv",
+      "title": "Acoustic modulation of shear thickening transition in dense adhesive suspensions",
+      "url": "http://arxiv.org/abs/2604.27876v1",
+      "sent_at": "2026-05-23T22:51:13.156798+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.03343v1",
+      "source": "arxiv",
+      "title": "MedSR-Vision: Deep Learning Framework for Multi-Domain Medical Image Super-Resolution",
+      "url": "http://arxiv.org/abs/2605.03343v1",
+      "sent_at": "2026-05-23T22:51:13.156798+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/42139135/",
+      "source": "pubmed",
+      "title": "Fast 3D Ultrasound Localization Microscopy via Projection-based Processing Framework.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42139135/",
+      "sent_at": "2026-05-23T22:51:13.156798+00:00"
     }
   ]
 }
