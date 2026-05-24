@@ -580,6 +580,27 @@
       "title": "Fast 3D Ultrasound Localization Microscopy via Projection-based Processing Framework.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42139135/",
       "sent_at": "2026-05-23T22:51:13.156798+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.00871v1",
+      "source": "arxiv",
+      "title": "NAKUL-Med: Spectral-Graph State Space Models with Dynamics Kernels for Medical Signals",
+      "url": "http://arxiv.org/abs/2605.00871v1",
+      "sent_at": "2026-05-24T23:01:15.882159+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.03059v1",
+      "source": "arxiv",
+      "title": "Learning to Segment using Summary Statistics and Weak Supervision",
+      "url": "http://arxiv.org/abs/2605.03059v1",
+      "sent_at": "2026-05-24T23:01:15.882159+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2604.24876v1",
+      "source": "arxiv",
+      "title": "ESICA: A Scalable Framework for Text-Guided 3D Medical Image Segmentation",
+      "url": "http://arxiv.org/abs/2604.24876v1",
+      "sent_at": "2026-05-24T23:01:15.882159+00:00"
     }
   ]
 }
