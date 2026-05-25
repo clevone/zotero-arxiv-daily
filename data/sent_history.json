@@ -601,6 +601,34 @@
       "title": "ESICA: A Scalable Framework for Text-Guided 3D Medical Image Segmentation",
       "url": "http://arxiv.org/abs/2604.24876v1",
       "sent_at": "2026-05-24T23:01:15.882159+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.23427v1",
+      "source": "arxiv",
+      "title": "Movable-Antenna-Enhanced ISAC: Optimal Antenna Trajectory and Beamforming Design",
+      "url": "http://arxiv.org/abs/2605.23427v1",
+      "sent_at": "2026-05-25T23:19:33.824487+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.22968v1",
+      "source": "arxiv",
+      "title": "Uncertainty-aware classification and triage of structural heart disease using electrocardiography and echocardiography metrics",
+      "url": "http://arxiv.org/abs/2605.22968v1",
+      "sent_at": "2026-05-25T23:19:33.824487+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.05.09.723959v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Frequency-Dependent Modulation of Adult Hippocampal Neurogenesis, Memory, and BDNF Signaling by Low-Intensity Focused Ultrasound",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.09.723959v1.full.pdf",
+      "sent_at": "2026-05-25T23:19:33.824487+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/32746171/",
+      "source": "pubmed",
+      "title": "Parallel Receive Beamforming Improves the Performance of Focused Transmit-Based Single-Track Location Shear Wave Elastography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32746171/",
+      "sent_at": "2026-05-25T23:19:33.824487+00:00"
     }
   ]
 }
