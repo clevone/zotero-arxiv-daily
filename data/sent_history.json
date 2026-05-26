@@ -629,6 +629,41 @@
       "title": "Parallel Receive Beamforming Improves the Performance of Focused Transmit-Based Single-Track Location Shear Wave Elastography.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32746171/",
       "sent_at": "2026-05-25T23:19:33.824487+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.25139v1",
+      "source": "arxiv",
+      "title": "Hybrid Full Waveform Inversion Assisted by Rytov Approximation for Musculoskeletal Ultrasound Computed Tomography",
+      "url": "http://arxiv.org/abs/2605.25139v1",
+      "sent_at": "2026-05-26T23:54:49.329099+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.25024v1",
+      "source": "arxiv",
+      "title": "DA-UCT: Self-Supervised Domain-Adaptive Ultrasound Computed Tomography for Rapid Musculoskeletal Sound Speed Reconstruction",
+      "url": "http://arxiv.org/abs/2605.25024v1",
+      "sent_at": "2026-05-26T23:54:49.329099+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.25944v1",
+      "source": "arxiv",
+      "title": "EchoPilot: Training-Free Ultrasound Video Segmentation via Scale-Space Semantic Prompting and Reliability-Gated Memory",
+      "url": "http://arxiv.org/abs/2605.25944v1",
+      "sent_at": "2026-05-26T23:54:49.329099+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.25396v1",
+      "source": "arxiv",
+      "title": "Subspace-Guided Semantic and Topological Invariant Registration for Annotation-Free Ultrasound Plane Quality Control",
+      "url": "http://arxiv.org/abs/2605.25396v1",
+      "sent_at": "2026-05-26T23:54:49.329099+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.05.21.727023v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Machine Learning Assisted Optimization Framework for Designing Transcranial Focused Ultrasound Phased Array Transducer for Deep Brain Neuromodulation in Mice",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.727023v1.full.pdf",
+      "sent_at": "2026-05-26T23:54:49.329099+00:00"
     }
   ]
 }
