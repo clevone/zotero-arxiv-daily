@@ -664,6 +664,34 @@
       "title": "Machine Learning Assisted Optimization Framework for Designing Transcranial Focused Ultrasound Phased Array Transducer for Deep Brain Neuromodulation in Mice",
       "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.727023v1.full.pdf",
       "sent_at": "2026-05-26T23:54:49.329099+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.26752v1",
+      "source": "arxiv",
+      "title": "Reconstructing 3D Neural Hemodynamics using Sparse Ultrasound Localization Microscopy Data",
+      "url": "http://arxiv.org/abs/2605.26752v1",
+      "sent_at": "2026-05-27T23:44:14.139613+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.26774v1",
+      "source": "arxiv",
+      "title": "Cesarean Scar Defect Segmentation in Transvaginal Ultrasound Images: a Dataset and Benchmark",
+      "url": "http://arxiv.org/abs/2605.26774v1",
+      "sent_at": "2026-05-27T23:44:14.139613+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.26249v1",
+      "source": "arxiv",
+      "title": "Blind Channel Estimation and Data Detection for Near-Field XL-MIMO Systems",
+      "url": "http://arxiv.org/abs/2605.26249v1",
+      "sent_at": "2026-05-27T23:44:14.139613+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.26714v1",
+      "source": "arxiv",
+      "title": "Amplitude-Tunable Pinching Antenna Systems: Single-Mode Phase-Mismatch Radiation and Multiuser Beamforming",
+      "url": "http://arxiv.org/abs/2605.26714v1",
+      "sent_at": "2026-05-27T23:44:14.139613+00:00"
     }
   ]
 }
