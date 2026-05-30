@@ -720,6 +720,27 @@
       "title": "A Lightweight Method for Multiple Signal Direction Estimation with Adaptive Notch Filters",
       "url": "http://arxiv.org/abs/2605.28361v1",
       "sent_at": "2026-05-28T23:52:22.682597+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.25402v1",
+      "source": "arxiv",
+      "title": "Anatomy-Anchored Self-Supervision: Distilling Vision Foundation Models for Invariant Ultrasound Representation",
+      "url": "http://arxiv.org/abs/2605.25402v1",
+      "sent_at": "2026-05-30T23:02:28.065951+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.05.21.727004v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Noninvasive Diagnostic Ultrasound-Guided Focused Ultrasound Enables Selective, Reversible Inhibition of Peripheral Nociceptive Fibers and Prevents Acute Pain",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.727004v1.full.pdf",
+      "sent_at": "2026-05-30T23:02:28.065951+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.25357v1",
+      "source": "arxiv",
+      "title": "Towards Reliable Fetal Ultrasound Interpretation with Multi-Agent Collaboration",
+      "url": "http://arxiv.org/abs/2605.25357v1",
+      "sent_at": "2026-05-30T23:02:28.065951+00:00"
     }
   ]
 }
