@@ -741,6 +741,34 @@
       "title": "Towards Reliable Fetal Ultrasound Interpretation with Multi-Agent Collaboration",
       "url": "http://arxiv.org/abs/2605.25357v1",
       "sent_at": "2026-05-30T23:02:28.065951+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.24825v1",
+      "source": "arxiv",
+      "title": "Time Segmented Beamforming via Dynamic Programming: Theory and Implementation",
+      "url": "http://arxiv.org/abs/2605.24825v1",
+      "sent_at": "2026-05-31T23:04:30.737261+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.25518v1",
+      "source": "arxiv",
+      "title": "Cross-Stage Attention Multi-Expert Network for Radiologist-Inspired Breast Ultrasound Diagnosis",
+      "url": "http://arxiv.org/abs/2605.25518v1",
+      "sent_at": "2026-05-31T23:04:30.737261+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.24159v1",
+      "source": "arxiv",
+      "title": "EchoVQA: Enabling Conversational Assistance for Point-of-Care Cardiac Ultrasound",
+      "url": "http://arxiv.org/abs/2605.24159v1",
+      "sent_at": "2026-05-31T23:04:30.737261+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/42185185/",
+      "source": "pubmed",
+      "title": "Contrast-Enhanced Ultrasound With Ultrasound Localization Microscopy for Differentiating Benign From Malignant Focal Liver Lesions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42185185/",
+      "sent_at": "2026-05-31T23:04:30.737261+00:00"
     }
   ]
 }
