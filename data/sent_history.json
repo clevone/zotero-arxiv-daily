@@ -769,6 +769,27 @@
       "title": "Contrast-Enhanced Ultrasound With Ultrasound Localization Microscopy for Differentiating Benign From Malignant Focal Liver Lesions.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42185185/",
       "sent_at": "2026-05-31T23:04:30.737261+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.31549v1",
+      "source": "arxiv",
+      "title": "Microwave Linear Analog Computer (MiLAC) for Simultaneous Active and Passive Beamforming",
+      "url": "http://arxiv.org/abs/2605.31549v1",
+      "sent_at": "2026-06-01T23:46:01.246505+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.05.22.26353889v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Assessing Lipid Core Burden Index with Depolarization-Sensitive Optical Frequency Domain Imaging",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.22.26353889v1.full.pdf",
+      "sent_at": "2026-06-01T23:46:01.246505+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.31279v1",
+      "source": "arxiv",
+      "title": "Practical Cross-Band Channel Prediction for AI-RAN via Physics-Guided Deep Unfolding",
+      "url": "http://arxiv.org/abs/2605.31279v1",
+      "sent_at": "2026-06-01T23:46:01.246505+00:00"
     }
   ]
 }
