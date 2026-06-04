@@ -790,6 +790,27 @@
       "title": "Practical Cross-Band Channel Prediction for AI-RAN via Physics-Guided Deep Unfolding",
       "url": "http://arxiv.org/abs/2605.31279v1",
       "sent_at": "2026-06-01T23:46:01.246505+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.02782v1",
+      "source": "arxiv",
+      "title": "Short-Acquisition Contrast-Free Super-Resolution Microvascular Imaging in Rabbit Kidney",
+      "url": "http://arxiv.org/abs/2606.02782v1",
+      "sent_at": "2026-06-04T00:09:08.256995+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.02634v1",
+      "source": "arxiv",
+      "title": "Echo-POSED: Geometric Self-Distillation for Echocardiography Guidance",
+      "url": "http://arxiv.org/abs/2606.02634v1",
+      "sent_at": "2026-06-04T00:09:08.256995+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.03372v1",
+      "source": "arxiv",
+      "title": "Instantaneous Risk Minimization for Secure Integrated Sensing and Communication",
+      "url": "http://arxiv.org/abs/2606.03372v1",
+      "sent_at": "2026-06-04T00:09:08.256995+00:00"
     }
   ]
 }
