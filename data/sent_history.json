@@ -811,6 +811,27 @@
       "title": "Instantaneous Risk Minimization for Secure Integrated Sensing and Communication",
       "url": "http://arxiv.org/abs/2606.03372v1",
       "sent_at": "2026-06-04T00:09:08.256995+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.05.29.26354195v1.full.pdf",
+      "source": "medrxiv",
+      "title": "AutoClip: AI-Guided TEE Semantic Segmentation for TEER A Proof-of-Concept Study",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.29.26354195v1.full.pdf",
+      "sent_at": "2026-06-06T23:24:08.019071+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.05628v1",
+      "source": "arxiv",
+      "title": "Transcranial FUS Therapy and Monitoring using Nonlinear Acoustics",
+      "url": "http://arxiv.org/abs/2606.05628v1",
+      "sent_at": "2026-06-06T23:24:08.019071+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.26325v1",
+      "source": "arxiv",
+      "title": "Real-time, Directionality Aware 3D Ultrasound Reconstruction and Re-Slicing",
+      "url": "http://arxiv.org/abs/2605.26325v1",
+      "sent_at": "2026-06-06T23:24:08.019071+00:00"
     }
   ]
 }
