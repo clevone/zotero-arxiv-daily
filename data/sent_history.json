@@ -832,6 +832,27 @@
       "title": "Real-time, Directionality Aware 3D Ultrasound Reconstruction and Re-Slicing",
       "url": "http://arxiv.org/abs/2605.26325v1",
       "sent_at": "2026-06-06T23:24:08.019071+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.00890v1",
+      "source": "arxiv",
+      "title": "Cohort-Scale Neural Atlases of Ultrasound Video",
+      "url": "http://arxiv.org/abs/2606.00890v1",
+      "sent_at": "2026-06-07T23:05:03.918902+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.29570v1",
+      "source": "arxiv",
+      "title": "DefSynUS: Real-time Patient-specific Intrahepatic Vessel Identification via Deformation-Aware CT-US Domain Adaptation",
+      "url": "http://arxiv.org/abs/2605.29570v1",
+      "sent_at": "2026-06-07T23:05:03.918902+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.29122v1",
+      "source": "arxiv",
+      "title": "Robust Cross-Domain Generalization Using Unlabeled Target Data with Source-Domain Supervision",
+      "url": "http://arxiv.org/abs/2605.29122v1",
+      "sent_at": "2026-06-07T23:05:03.918902+00:00"
     }
   ]
 }
