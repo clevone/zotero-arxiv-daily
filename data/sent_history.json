@@ -853,6 +853,41 @@
       "title": "Robust Cross-Domain Generalization Using Unlabeled Target Data with Source-Domain Supervision",
       "url": "http://arxiv.org/abs/2605.29122v1",
       "sent_at": "2026-06-07T23:05:03.918902+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.06725v1",
+      "source": "arxiv",
+      "title": "Compute-Optimal Network Design for Echocardiography Myocardial Segmentation and Perfusion Quantification using Neural Scaling Laws",
+      "url": "http://arxiv.org/abs/2606.06725v1",
+      "sent_at": "2026-06-08T23:50:33.259638+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.06958v1",
+      "source": "arxiv",
+      "title": "MVSegNet: A Lightweight Boundary-Aware Network for Fetal Lateral Ventricle Segmentation and Atrial Width Estimation in Prenatal Ultrasound",
+      "url": "http://arxiv.org/abs/2606.06958v1",
+      "sent_at": "2026-06-08T23:50:33.259638+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.06732v1",
+      "source": "arxiv",
+      "title": "Angular Sector-Based Sparse Array Design for Adaptive Beamforming Using Deep Learning",
+      "url": "http://arxiv.org/abs/2606.06732v1",
+      "sent_at": "2026-06-08T23:50:33.259638+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.07104v1",
+      "source": "arxiv",
+      "title": "Robust Secure Beamforming for Movable Antenna Enhanced Integrated Sensing and Communications",
+      "url": "http://arxiv.org/abs/2606.07104v1",
+      "sent_at": "2026-06-08T23:50:33.259638+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.06723v1",
+      "source": "arxiv",
+      "title": "Deep Learning Based Sparse Array Design with Pre-Steering for Adaptive Beamforming",
+      "url": "http://arxiv.org/abs/2606.06723v1",
+      "sent_at": "2026-06-08T23:50:33.259638+00:00"
     }
   ]
 }
