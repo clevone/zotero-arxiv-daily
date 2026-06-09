@@ -888,6 +888,41 @@
       "title": "Deep Learning Based Sparse Array Design with Pre-Steering for Adaptive Beamforming",
       "url": "http://arxiv.org/abs/2606.06723v1",
       "sent_at": "2026-06-08T23:50:33.259638+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.09264v1",
+      "source": "arxiv",
+      "title": "Block-Term Decomposition Approach to Blind Multi-trial Functional Ultrasound Unmixing",
+      "url": "http://arxiv.org/abs/2606.09264v1",
+      "sent_at": "2026-06-09T23:58:27.094418+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.07851v1",
+      "source": "arxiv",
+      "title": "ULMShare: A Large-Scale In Vivo Ultrasound Localization Microscopy Dataset for Microvascular Imaging",
+      "url": "http://arxiv.org/abs/2606.07851v1",
+      "sent_at": "2026-06-09T23:58:27.094418+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.09378v1",
+      "source": "arxiv",
+      "title": "Echo-DM: Ultrasound Marker Removal via Conditional Latent Diffusion and Region-Aware Fusion",
+      "url": "http://arxiv.org/abs/2606.09378v1",
+      "sent_at": "2026-06-09T23:58:27.094418+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.08385v1",
+      "source": "arxiv",
+      "title": "A Switching Beamformer for Highly Non-Stationary Environments",
+      "url": "http://arxiv.org/abs/2606.08385v1",
+      "sent_at": "2026-06-09T23:58:27.094418+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.09497v1",
+      "source": "arxiv",
+      "title": "Experimental Validation of Skull Acoustic Modelling Strategies for Transcranial Focused Ultrasound Simulation: A Cross-Comparison Study",
+      "url": "http://arxiv.org/abs/2606.09497v1",
+      "sent_at": "2026-06-09T23:58:27.094418+00:00"
     }
   ]
 }
