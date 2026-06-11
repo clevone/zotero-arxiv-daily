@@ -944,6 +944,41 @@
       "title": "FADA: Accessible fetal ultrasound interpretation and annotation with a selectively distilled unified vision-language model",
       "url": "http://arxiv.org/abs/2606.11106v1",
       "sent_at": "2026-06-11T00:02:44.242841+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.06.07.730604v1.full.pdf",
+      "source": "biorxiv",
+      "title": "A Fully Endovascular Neural Interface",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.730604v1.full.pdf",
+      "sent_at": "2026-06-11T23:48:34.968792+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.11829v1",
+      "source": "arxiv",
+      "title": "Parametric Channel Estimation with Hardware Impaired Hybrid Beamformers: Sensing, Communications, and Power Efficiency Tradeoffs",
+      "url": "http://arxiv.org/abs/2606.11829v1",
+      "sent_at": "2026-06-11T23:48:34.968792+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.12321v1",
+      "source": "arxiv",
+      "title": "Bending the Rules of Propagation: Caustic Beamforming for Next-Generation Wireless Systems",
+      "url": "http://arxiv.org/abs/2606.12321v1",
+      "sent_at": "2026-06-11T23:48:34.968792+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.11756v1",
+      "source": "arxiv",
+      "title": "Intercoupling of bulk acoustic streaming and acoustothermal effect: A high-frequency focused beam example",
+      "url": "http://arxiv.org/abs/2606.11756v1",
+      "sent_at": "2026-06-11T23:48:34.968792+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.11342v1",
+      "source": "arxiv",
+      "title": "Beamforming Gain with Single-RF Movable Arrays",
+      "url": "http://arxiv.org/abs/2606.11342v1",
+      "sent_at": "2026-06-11T23:48:34.968792+00:00"
     }
   ]
 }
