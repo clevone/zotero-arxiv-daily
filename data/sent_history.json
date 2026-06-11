@@ -923,6 +923,27 @@
       "title": "Experimental Validation of Skull Acoustic Modelling Strategies for Transcranial Focused Ultrasound Simulation: A Cross-Comparison Study",
       "url": "http://arxiv.org/abs/2606.09497v1",
       "sent_at": "2026-06-09T23:58:27.094418+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.11103v1",
+      "source": "arxiv",
+      "title": "Spatially heterogeneous power-law attenuation with multiple relaxation mechanisms for ultrasound modeling",
+      "url": "http://arxiv.org/abs/2606.11103v1",
+      "sent_at": "2026-06-11T00:02:44.242841+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.10378v1",
+      "source": "arxiv",
+      "title": "FSS-Net: Frequency-Spatial Synergy Network with Wavelet Attention for Carotid Artery Ultrasound Segmentation",
+      "url": "http://arxiv.org/abs/2606.10378v1",
+      "sent_at": "2026-06-11T00:02:44.242841+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.11106v1",
+      "source": "arxiv",
+      "title": "FADA: Accessible fetal ultrasound interpretation and annotation with a selectively distilled unified vision-language model",
+      "url": "http://arxiv.org/abs/2606.11106v1",
+      "sent_at": "2026-06-11T00:02:44.242841+00:00"
     }
   ]
 }
