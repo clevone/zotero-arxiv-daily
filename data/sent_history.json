@@ -979,6 +979,27 @@
       "title": "Beamforming Gain with Single-RF Movable Arrays",
       "url": "http://arxiv.org/abs/2606.11342v1",
       "sent_at": "2026-06-11T23:48:34.968792+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.13259v1",
+      "source": "arxiv",
+      "title": "ffdas: Volumetric ultrasound reconstruction at warp speed",
+      "url": "http://arxiv.org/abs/2606.13259v1",
+      "sent_at": "2026-06-12T23:50:51.041910+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.12870v1",
+      "source": "arxiv",
+      "title": "Rotatable Antenna-Enabled Near-Field Integrated Sensing and Communication",
+      "url": "http://arxiv.org/abs/2606.12870v1",
+      "sent_at": "2026-06-12T23:50:51.041910+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.12831v1",
+      "source": "arxiv",
+      "title": "Sub-array Selection Optimization for Joint Self-Interference and Multi-User Interference Suppression in FD mMIMO",
+      "url": "http://arxiv.org/abs/2606.12831v1",
+      "sent_at": "2026-06-12T23:50:51.041910+00:00"
     }
   ]
 }
