@@ -1000,6 +1000,27 @@
       "title": "Sub-array Selection Optimization for Joint Self-Interference and Multi-User Interference Suppression in FD mMIMO",
       "url": "http://arxiv.org/abs/2606.12831v1",
       "sent_at": "2026-06-12T23:50:51.041910+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.00630v1",
+      "source": "arxiv",
+      "title": "A Systematic Benchmark of Intraoperative Ultrasound-to-MR Synthesis for Brain Tumour Surgery",
+      "url": "http://arxiv.org/abs/2606.00630v1",
+      "sent_at": "2026-06-13T23:08:52.516787+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.25402v3",
+      "source": "arxiv",
+      "title": "Anatomy-Anchored Self-Supervision: Distilling Vision Foundation Models for Invariant Ultrasound Representation",
+      "url": "http://arxiv.org/abs/2605.25402v3",
+      "sent_at": "2026-06-13T23:08:52.516787+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.05848v1",
+      "source": "arxiv",
+      "title": "Visuotactile and Explicitly Force-Controlled Robotic Ultrasound for Abdominal Volumetric Reconstruction",
+      "url": "http://arxiv.org/abs/2606.05848v1",
+      "sent_at": "2026-06-13T23:08:52.516787+00:00"
     }
   ]
 }
