@@ -1021,6 +1021,27 @@
       "title": "Visuotactile and Explicitly Force-Controlled Robotic Ultrasound for Abdominal Volumetric Reconstruction",
       "url": "http://arxiv.org/abs/2606.05848v1",
       "sent_at": "2026-06-13T23:08:52.516787+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.29020v1",
+      "source": "arxiv",
+      "title": "Interaction mechanics of acoustic cavitation with fibrin networks",
+      "url": "http://arxiv.org/abs/2605.29020v1",
+      "sent_at": "2026-06-14T23:18:21.227497+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.09652v1",
+      "source": "arxiv",
+      "title": "Throughput Analysis for Near-Field Mobile Communications: Beamfocusing or Caustic Beamforming?",
+      "url": "http://arxiv.org/abs/2606.09652v1",
+      "sent_at": "2026-06-14T23:18:21.227497+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2605.26774v2",
+      "source": "arxiv",
+      "title": "Cesarean Scar Defect Segmentation in Transvaginal Ultrasound Images: a Dataset and Benchmark",
+      "url": "http://arxiv.org/abs/2605.26774v2",
+      "sent_at": "2026-06-14T23:18:21.227497+00:00"
     }
   ]
 }
