@@ -1042,6 +1042,27 @@
       "title": "Cesarean Scar Defect Segmentation in Transvaginal Ultrasound Images: a Dataset and Benchmark",
       "url": "http://arxiv.org/abs/2605.26774v2",
       "sent_at": "2026-06-14T23:18:21.227497+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.14067v1",
+      "source": "arxiv",
+      "title": "Vision-Based Efficient Joint Trajectory and Channel Tracking in Near-Field XL-MIMO Systems",
+      "url": "http://arxiv.org/abs/2606.14067v1",
+      "sent_at": "2026-06-15T23:54:12.321174+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.14658v1",
+      "source": "arxiv",
+      "title": "Giving AI a Headache: Acoustic Adversarial Attacks to Computer Vision Applications",
+      "url": "http://arxiv.org/abs/2606.14658v1",
+      "sent_at": "2026-06-15T23:54:12.321174+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.14499v1",
+      "source": "arxiv",
+      "title": "Beamforming Design for Stem-Connected Microwave Linear Analog Computer (MiLAC)-Aided Multiuser MISO Downlinks",
+      "url": "http://arxiv.org/abs/2606.14499v1",
+      "sent_at": "2026-06-15T23:54:12.321174+00:00"
     }
   ]
 }
