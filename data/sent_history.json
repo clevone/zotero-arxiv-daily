@@ -1098,6 +1098,41 @@
       "title": "BBR-Net: Boundary-Balanced Replay for Continual Medical Image Segmentation",
       "url": "http://arxiv.org/abs/2606.14731v1",
       "sent_at": "2026-06-17T00:01:21.459796+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.17718v1",
+      "source": "arxiv",
+      "title": "BASIIS: Bistatic Angular Sampling and Interpolation for ISAC Setups",
+      "url": "http://arxiv.org/abs/2606.17718v1",
+      "sent_at": "2026-06-17T23:48:57.502039+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.17641v1",
+      "source": "arxiv",
+      "title": "Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and Communication with Rydberg Atomic Receivers",
+      "url": "http://arxiv.org/abs/2606.17641v1",
+      "sent_at": "2026-06-17T23:48:57.502039+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.17484v1",
+      "source": "arxiv",
+      "title": "Exploiting RIS Optimization Limits for Multi-User Beamforming and Signal Suppression",
+      "url": "http://arxiv.org/abs/2606.17484v1",
+      "sent_at": "2026-06-17T23:48:57.502039+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.17306v1",
+      "source": "arxiv",
+      "title": "Robust Beamforming Design for Secure Uplink NOMA-ISAC",
+      "url": "http://arxiv.org/abs/2606.17306v1",
+      "sent_at": "2026-06-17T23:48:57.502039+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.17900v1",
+      "source": "arxiv",
+      "title": "Time-Slotted Multi-Cluster UAV AirComp with Energy-Awareness: A Pointer Network-Assisted Soft Actor-Critic Learning Framework",
+      "url": "http://arxiv.org/abs/2606.17900v1",
+      "sent_at": "2026-06-17T23:48:57.502039+00:00"
     }
   ]
 }
