@@ -1133,6 +1133,41 @@
       "title": "Time-Slotted Multi-Cluster UAV AirComp with Energy-Awareness: A Pointer Network-Assisted Soft Actor-Critic Learning Framework",
       "url": "http://arxiv.org/abs/2606.17900v1",
       "sent_at": "2026-06-17T23:48:57.502039+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.18887v1",
+      "source": "arxiv",
+      "title": "Efficient Image Registration for Ultrasound Localization Microscopy by Obtaining Gradients via Integration Across Iterations",
+      "url": "http://arxiv.org/abs/2606.18887v1",
+      "sent_at": "2026-06-19T00:19:04.168832+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.06.16.732762v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Bayesian-enhanced closed-loop optimization of ultrasound protocols for targeted and precise neuromodulation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732762v1.full.pdf",
+      "sent_at": "2026-06-19T00:19:04.168832+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.18825v1",
+      "source": "arxiv",
+      "title": "DreamReg: Belief-Driven World Model for 2D-3D Ultrasound Registration",
+      "url": "http://arxiv.org/abs/2606.18825v1",
+      "sent_at": "2026-06-19T00:19:04.168832+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.18723v1",
+      "source": "arxiv",
+      "title": "Clinically Aligned Geometry Constraints for Robust IVUS Vessel Boundary Segmentation",
+      "url": "http://arxiv.org/abs/2606.18723v1",
+      "sent_at": "2026-06-19T00:19:04.168832+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.18990v1",
+      "source": "arxiv",
+      "title": "Quantitative Multi-Modal Optical Coherence Photoacoustic Elastography",
+      "url": "http://arxiv.org/abs/2606.18990v1",
+      "sent_at": "2026-06-19T00:19:04.168832+00:00"
     }
   ]
 }
