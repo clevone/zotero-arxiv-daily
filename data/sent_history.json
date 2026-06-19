@@ -1168,6 +1168,41 @@
       "title": "Quantitative Multi-Modal Optical Coherence Photoacoustic Elastography",
       "url": "http://arxiv.org/abs/2606.18990v1",
       "sent_at": "2026-06-19T00:19:04.168832+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.06.18.733085v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Ultrasound-Based Spatiotemporal Monitoring of Coagulation and Thrombolysis via Speed-of-Sound Shift Imaging",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733085v1.full.pdf",
+      "sent_at": "2026-06-19T23:19:43.290942+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.19666v1",
+      "source": "arxiv",
+      "title": "Degrees of Freedom and Beamforming for Large Intelligent Surfaces",
+      "url": "http://arxiv.org/abs/2606.19666v1",
+      "sent_at": "2026-06-19T23:19:43.290942+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.19715v1",
+      "source": "arxiv",
+      "title": "Generalized Pinching-Antenna Systems: A Radio-Stripe-Based Realization",
+      "url": "http://arxiv.org/abs/2606.19715v1",
+      "sent_at": "2026-06-19T23:19:43.290942+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.06.18.733116v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Vibrational optoacoustic detection of lipid-membrane dynamics enables label-free imaging of cell membrane potential",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733116v1.full.pdf",
+      "sent_at": "2026-06-19T23:19:43.290942+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.19804v1",
+      "source": "arxiv",
+      "title": "HypOProto: Hyperbolic Ordinal Prototypes for Left Ventricular Filling Pressure Classification",
+      "url": "http://arxiv.org/abs/2606.19804v1",
+      "sent_at": "2026-06-19T23:19:43.290942+00:00"
     }
   ]
 }
