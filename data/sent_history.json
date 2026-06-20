@@ -1203,6 +1203,27 @@
       "title": "HypOProto: Hyperbolic Ordinal Prototypes for Left Ventricular Filling Pressure Classification",
       "url": "http://arxiv.org/abs/2606.19804v1",
       "sent_at": "2026-06-19T23:19:43.290942+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.18489v1",
+      "source": "arxiv",
+      "title": "GHOST-CAT: An Efficient and Practical Network for Mesh Generation from 3D Echocardiography",
+      "url": "http://arxiv.org/abs/2606.18489v1",
+      "sent_at": "2026-06-20T23:12:00.171167+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.04427v1",
+      "source": "arxiv",
+      "title": "Implicit Fuzzification via Bounded Noise Injection for Robust Medical Image Segmentation",
+      "url": "http://arxiv.org/abs/2606.04427v1",
+      "sent_at": "2026-06-20T23:12:00.171167+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.07347v1",
+      "source": "arxiv",
+      "title": "CSI Phase Averaging for High-Sensitivity Wi-Fi Sensing in Low-Multipath Environments",
+      "url": "http://arxiv.org/abs/2606.07347v1",
+      "sent_at": "2026-06-20T23:12:00.171167+00:00"
     }
   ]
 }
