@@ -1224,6 +1224,27 @@
       "title": "CSI Phase Averaging for High-Sensitivity Wi-Fi Sensing in Low-Multipath Environments",
       "url": "http://arxiv.org/abs/2606.07347v1",
       "sent_at": "2026-06-20T23:12:00.171167+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.01110v1",
+      "source": "arxiv",
+      "title": "Accelerating physics-informed neural networks for full waveform inversion using a hybrid quantum-classical finite-basis architecture",
+      "url": "http://arxiv.org/abs/2606.01110v1",
+      "sent_at": "2026-06-21T23:21:50.415088+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.18766v1",
+      "source": "arxiv",
+      "title": "Rotatable Antenna-Enhanced Secure Integrated Sensing and Communications Under Imperfect CSI",
+      "url": "http://arxiv.org/abs/2606.18766v1",
+      "sent_at": "2026-06-21T23:21:50.415088+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.07658v1",
+      "source": "arxiv",
+      "title": "What neurosurgeons need to see: synthetic intra-operative MRI from ultrasound for brain-shift compensation in brain tumour surgery",
+      "url": "http://arxiv.org/abs/2606.07658v1",
+      "sent_at": "2026-06-21T23:21:50.415088+00:00"
     }
   ]
 }
