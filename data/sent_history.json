@@ -1266,6 +1266,55 @@
       "title": "What's Under the Skin? Estimating Swine Body Condition",
       "url": "http://arxiv.org/abs/2606.05611v1",
       "sent_at": "2026-06-22T23:42:33.190867+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.22333v1",
+      "source": "arxiv",
+      "title": "Towards Whole Hand and Wrist Kinematic Tracking with a Wearable A-Mode Ultrasound Probe",
+      "url": "http://arxiv.org/abs/2606.22333v1",
+      "sent_at": "2026-06-23T23:53:11.770236+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.22319v1",
+      "source": "arxiv",
+      "title": "EmbodiedUS-FS: Fast Slow Intelligence for Ultrasound Robotics",
+      "url": "http://arxiv.org/abs/2606.22319v1",
+      "sent_at": "2026-06-23T23:53:11.770236+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.22522v1",
+      "source": "arxiv",
+      "title": "Generative Site-Specific Beamforming for UPAs via Decoupled Channel Sensing",
+      "url": "http://arxiv.org/abs/2606.22522v1",
+      "sent_at": "2026-06-23T23:53:11.770236+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.22308v1",
+      "source": "arxiv",
+      "title": "Specificity- and Calibration-Aware Breast Ultrasound Segmentation via Entropy-Guided Boundary Supervision",
+      "url": "http://arxiv.org/abs/2606.22308v1",
+      "sent_at": "2026-06-23T23:53:11.770236+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.22081v1",
+      "source": "arxiv",
+      "title": "Steerable Radiation Forces with Frequency-Detuned Acoustic Metasurfaces",
+      "url": "http://arxiv.org/abs/2606.22081v1",
+      "sent_at": "2026-06-23T23:53:11.770236+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/42308082/",
+      "source": "pubmed",
+      "title": "Microbubble Track-based Functional Ultrasound Localization Microscopy in Awake Mice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42308082/",
+      "sent_at": "2026-06-23T23:53:11.770236+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/42185183/",
+      "source": "pubmed",
+      "title": "Cardiac Labeling of Phase-Change Nanodroplets Enables Contrast-Controllable Super-Resolution Ultrasound.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42185183/",
+      "sent_at": "2026-06-23T23:53:11.770236+00:00"
     }
   ]
 }
