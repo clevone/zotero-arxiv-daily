@@ -1315,6 +1315,27 @@
       "title": "Cardiac Labeling of Phase-Change Nanodroplets Enables Contrast-Controllable Super-Resolution Ultrasound.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42185183/",
       "sent_at": "2026-06-23T23:53:11.770236+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.24885v1",
+      "source": "arxiv",
+      "title": "Sonus Health: Calibrated Heart-Murmur Detection from Smartphone-Based Veterinary Auscultation",
+      "url": "http://arxiv.org/abs/2606.24885v1",
+      "sent_at": "2026-06-24T23:34:59.334727+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.23986v1",
+      "source": "arxiv",
+      "title": "How Many RF Chains Does a Microwave Linear Analog Computer (MiLAC) Need to Match the Fully-Digital Cramér-Rao Bound?",
+      "url": "http://arxiv.org/abs/2606.23986v1",
+      "sent_at": "2026-06-24T23:34:59.334727+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.22487v1",
+      "source": "arxiv",
+      "title": "FetSelect: Task-Specific Architectures and Self-Supervised Learning for Automated Fetal Ultrasound Frame Selection",
+      "url": "http://arxiv.org/abs/2606.22487v1",
+      "sent_at": "2026-06-24T23:34:59.334727+00:00"
     }
   ]
 }
