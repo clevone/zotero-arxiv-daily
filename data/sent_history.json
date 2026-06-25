@@ -1336,6 +1336,34 @@
       "title": "FetSelect: Task-Specific Architectures and Self-Supervised Learning for Automated Fetal Ultrasound Frame Selection",
       "url": "http://arxiv.org/abs/2606.22487v1",
       "sent_at": "2026-06-24T23:34:59.334727+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.25009v1",
+      "source": "arxiv",
+      "title": "Noise-Aware Boundary-Enhanced Generative Learning for Ultrasound Speckle Reduction",
+      "url": "http://arxiv.org/abs/2606.25009v1",
+      "sent_at": "2026-06-25T23:50:44.533551+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.25385v1",
+      "source": "arxiv",
+      "title": "Direct stress imaging from shear wave propagation",
+      "url": "http://arxiv.org/abs/2606.25385v1",
+      "sent_at": "2026-06-25T23:50:44.533551+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.06.23.26356383v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Multi-task artificial intelligence annotation of echocardiographic images: a retrospective multi-cohort study",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.23.26356383v1.full.pdf",
+      "sent_at": "2026-06-25T23:50:44.533551+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.25254v1",
+      "source": "arxiv",
+      "title": "Dual Agreement Consistency Learning for Semi-Supervised Fetal Ultrasound Segmentation",
+      "url": "http://arxiv.org/abs/2606.25254v1",
+      "sent_at": "2026-06-25T23:50:44.533551+00:00"
     }
   ]
 }
