@@ -1364,6 +1364,27 @@
       "title": "Dual Agreement Consistency Learning for Semi-Supervised Fetal Ultrasound Segmentation",
       "url": "http://arxiv.org/abs/2606.25254v1",
       "sent_at": "2026-06-25T23:50:44.533551+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.06.23.26356282v1.full.pdf",
+      "source": "medrxiv",
+      "title": "A Conformable CMOS Ultrasound System for Point-of-Care Imaging",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.23.26356282v1.full.pdf",
+      "sent_at": "2026-06-26T23:37:33.764005+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.26957v1",
+      "source": "arxiv",
+      "title": "Angle Estimation via WFRFT Spatial-Domain Basis Decomposition: Breaking the Rayleigh Resolution Limit with Structured Waveform Diversity",
+      "url": "http://arxiv.org/abs/2606.26957v1",
+      "sent_at": "2026-06-26T23:37:33.764005+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.23005v1",
+      "source": "arxiv",
+      "title": "From Point Estimates to Distributions: GMM Pooling for MIL in Preterm Birth Prediction",
+      "url": "http://arxiv.org/abs/2606.23005v1",
+      "sent_at": "2026-06-26T23:37:33.764005+00:00"
     }
   ]
 }
