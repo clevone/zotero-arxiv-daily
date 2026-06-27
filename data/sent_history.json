@@ -1385,6 +1385,27 @@
       "title": "From Point Estimates to Distributions: GMM Pooling for MIL in Preterm Birth Prediction",
       "url": "http://arxiv.org/abs/2606.23005v1",
       "sent_at": "2026-06-26T23:37:33.764005+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.22943v1",
+      "source": "arxiv",
+      "title": "Evaluating self-supervised echocardiographic representations across downstream extraction strategies for left-ventricular segmentation and ejection fraction estimation",
+      "url": "http://arxiv.org/abs/2606.22943v1",
+      "sent_at": "2026-06-27T23:25:15.605324+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.20741v1",
+      "source": "arxiv",
+      "title": "Beamforming and RIS-Aided Ambient Backscatter Communications with Residual-Feature SVM Detection",
+      "url": "http://arxiv.org/abs/2606.20741v1",
+      "sent_at": "2026-06-27T23:25:15.605324+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.21723v1",
+      "source": "arxiv",
+      "title": "A Compact Cross-Structured Dynamic Antenna for Reconfigurable Directional Modulation",
+      "url": "http://arxiv.org/abs/2606.21723v1",
+      "sent_at": "2026-06-27T23:25:15.605324+00:00"
     }
   ]
 }
