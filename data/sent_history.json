@@ -1427,6 +1427,41 @@
       "title": "Integrating Sensing into Covert Communications: Opportunities and Challenges",
       "url": "http://arxiv.org/abs/2606.23073v1",
       "sent_at": "2026-06-28T23:13:42.019860+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.27777v1",
+      "source": "arxiv",
+      "title": "TRUST: Efficient Abdominal Trauma Recognition via Image-to-Ultrasound-Video Transfer Learning",
+      "url": "http://arxiv.org/abs/2606.27777v1",
+      "sent_at": "2026-06-29T23:27:34.533902+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.06.23.733923v1.full.pdf",
+      "source": "biorxiv",
+      "title": "In vivo real-time elastography with unmodified commercial endoscopes using noise-correlation-inspired method and laser speckle imaging",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.23.733923v1.full.pdf",
+      "sent_at": "2026-06-29T23:27:34.533902+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.27970v1",
+      "source": "arxiv",
+      "title": "A Beamforming Microwave Interferometric Radiometer for High-resolution Passive Imaging: Concept, Modeling, and Preliminary Demonstration",
+      "url": "http://arxiv.org/abs/2606.27970v1",
+      "sent_at": "2026-06-29T23:27:34.533902+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.06.25.26356543v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Contractile and Hemodynamic Modulation of Skeletal Muscle Viscoelasticity Quantified In Vivo by Ultrasound Time-Harmonic Elastography",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356543v1.full.pdf",
+      "sent_at": "2026-06-29T23:27:34.533902+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.28164v1",
+      "source": "arxiv",
+      "title": "EchoSonar-R: A Multi-View Reasoning-Enabled Model for Disease Classification and Report Generation in Echocardiography",
+      "url": "http://arxiv.org/abs/2606.28164v1",
+      "sent_at": "2026-06-29T23:27:34.533902+00:00"
     }
   ]
 }

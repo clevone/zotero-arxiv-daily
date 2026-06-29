@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.06.28.735147v1.full.pdf",
+      "added_at": "2026-06-29T23:13:20.937559+00:00",
+      "last_seen_at": "2026-06-29T23:13:20.937559+00:00",
+      "paper": {
+        "source": "biorxiv",
+        "title": "Development and Characterization of Ultrasound-Activated Polymeric Microdroplets for Targeted Chemotherapy",
+        "authors": [
+          "Whiting, J. A.",
+          "Dara, A. Y. A. H.",
+          "Kwan, J. F.",
+          "Kubanek, J."
+        ],
+        "abstract": "Potent antineoplastics, such as afatinib and freebase doxorubicin, are associated with systemic toxicity. To address this issue, we developed a carrier that releases drugs, including afatinib and doxorubicin, specifically at the focus of low-intensity ultrasound. This remotely triggered and focal approach enables the release of drugs specifically at the ultrasound focus, thus mitigating undesirable off-target effects, and at concentrations governed by the duration of the applied ultrasound. We produced ultrasound-sensitive microdroplets with high encapsulation efficiencies (39.6% for afatinib and 46.6% for doxorubicin). The microdroplets consist of an ultrasound-sensitive drug delivery system based on a methoxy poly(ethylene glycol)-poly(D, L-lactide) diblock copolymer (mPEG-PDLLA) and perfluorooctyl bromide (PFOB). Antineoplastic agents were encapsulated within these microdroplets via co-evaporation during particle synthesis. The microdroplets released doxorubicin and afatinib in an ultrasound-pressure-dependent manner, with fitted half-maximal release pressures (P50) of 0.61 MPa and 0.72 MPa, respectively. Together, the effective encapsulation of hydrophobic antineoplastic agents and the dose-dependent ultrasound-triggered release provide a new method for targeted drug delivery and a foundation for future targeted chemotherapies.",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735147v1.full.pdf",
+        "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735147v1.full.pdf",
+        "full_text": null,
+        "tldr": null,
+        "title_zh": null,
+        "tldr_en": null,
+        "tldr_zh": null,
+        "affiliations": null,
+        "score": 2.9264967925754766
+      }
+    },
+    {
       "key": "url::https://www.biorxiv.org/content/10.64898/2026.06.17.733032v1.full.pdf",
       "added_at": "2026-06-23T23:43:58.611023+00:00",
       "last_seen_at": "2026-06-23T23:43:58.611023+00:00",
