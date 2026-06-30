@@ -1462,6 +1462,41 @@
       "title": "EchoSonar-R: A Multi-View Reasoning-Enabled Model for Disease Classification and Report Generation in Echocardiography",
       "url": "http://arxiv.org/abs/2606.28164v1",
       "sent_at": "2026-06-29T23:27:34.533902+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.29586v1",
+      "source": "arxiv",
+      "title": "SonoCLIP: Mask-Guided Region-Aware Vision-Language Pretraining for Fetal Ultrasound Analysis",
+      "url": "http://arxiv.org/abs/2606.29586v1",
+      "sent_at": "2026-06-30T23:34:01.299110+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.29589v1",
+      "source": "arxiv",
+      "title": "EchoHawk: A Reproducible Acoustic Pipeline for Drone Detection, Classification, and Direction-Finding, with a Cautionary Study of Session-Level Data Leakage",
+      "url": "http://arxiv.org/abs/2606.29589v1",
+      "sent_at": "2026-06-30T23:34:01.299110+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.29928v1",
+      "source": "arxiv",
+      "title": "Latent-CURE for Breast Cancer Diagnosis",
+      "url": "http://arxiv.org/abs/2606.29928v1",
+      "sent_at": "2026-06-30T23:34:01.299110+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.28454v1",
+      "source": "arxiv",
+      "title": "From Focusing to Con-Focusing: Optimal Power Transfer in Line-of-Sight Near-Field MIMO",
+      "url": "http://arxiv.org/abs/2606.28454v1",
+      "sent_at": "2026-06-30T23:34:01.299110+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.29074v1",
+      "source": "arxiv",
+      "title": "Physics-Informed Uncertainty-Aware Beamforming for HAPS Massive MIMO under Imperfect CSI",
+      "url": "http://arxiv.org/abs/2606.29074v1",
+      "sent_at": "2026-06-30T23:34:01.299110+00:00"
     }
   ]
 }
