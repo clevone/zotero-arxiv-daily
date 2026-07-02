@@ -1497,6 +1497,41 @@
       "title": "Physics-Informed Uncertainty-Aware Beamforming for HAPS Massive MIMO under Imperfect CSI",
       "url": "http://arxiv.org/abs/2606.29074v1",
       "sent_at": "2026-06-30T23:34:01.299110+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.00058v1",
+      "source": "arxiv",
+      "title": "Joint Medical Image Enhancement and Segmentation with Diffusion-based Symbiotic Information Interaction",
+      "url": "http://arxiv.org/abs/2607.00058v1",
+      "sent_at": "2026-07-02T23:41:20.887683+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.00744v1",
+      "source": "arxiv",
+      "title": "Prototype Memory-Guided Training-Free Anomaly Classification and Localization in Prenatal Ultrasound",
+      "url": "http://arxiv.org/abs/2607.00744v1",
+      "sent_at": "2026-07-02T23:41:20.887683+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.00745v1",
+      "source": "arxiv",
+      "title": "Foundation Model-driven Key Anatomy Frame Selection for Blind-sweep Ultrasound Fetal Birth Weight Estimation",
+      "url": "http://arxiv.org/abs/2607.00745v1",
+      "sent_at": "2026-07-02T23:41:20.887683+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.00954v1",
+      "source": "arxiv",
+      "title": "Channel Estimation and Beamforming for Microwave Linear Analog Computers (MiLACs)-Aided Multiuser MISO Systems",
+      "url": "http://arxiv.org/abs/2607.00954v1",
+      "sent_at": "2026-07-02T23:41:20.887683+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.00748v1",
+      "source": "arxiv",
+      "title": "FrameONE: Hierarchical Motion Modeling for Universal Multi-View Echocardiographic Keyframe Detection",
+      "url": "http://arxiv.org/abs/2607.00748v1",
+      "sent_at": "2026-07-02T23:41:20.887683+00:00"
     }
   ]
 }
