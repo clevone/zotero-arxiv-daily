@@ -1532,6 +1532,41 @@
       "title": "FrameONE: Hierarchical Motion Modeling for Universal Multi-View Echocardiographic Keyframe Detection",
       "url": "http://arxiv.org/abs/2607.00748v1",
       "sent_at": "2026-07-02T23:41:20.887683+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.01295v1",
+      "source": "arxiv",
+      "title": "CNN Models for Microphone Array Covariance Matrix Upsampling and Acoustic Imaging",
+      "url": "http://arxiv.org/abs/2607.01295v1",
+      "sent_at": "2026-07-03T23:35:28.378133+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.01908v1",
+      "source": "arxiv",
+      "title": "Towards Real-World Ultrasound Understanding: Large Vision-Language Models from Multi-Image Examinations with Long-Form Reports",
+      "url": "http://arxiv.org/abs/2607.01908v1",
+      "sent_at": "2026-07-03T23:35:28.378133+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.01648v1",
+      "source": "arxiv",
+      "title": "Boosting Ultrasound Image Classification via Attribute-Guided Dual-Branch Framework",
+      "url": "http://arxiv.org/abs/2607.01648v1",
+      "sent_at": "2026-07-03T23:35:28.378133+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.02209v1",
+      "source": "arxiv",
+      "title": "MedSaab-US: A Backpropagation-Free Multi-Scale Wavelet-Saab Framework for Thyroid Nodule Segmentation in Ultrasound Images",
+      "url": "http://arxiv.org/abs/2607.02209v1",
+      "sent_at": "2026-07-03T23:35:28.378133+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.02185v1",
+      "source": "arxiv",
+      "title": "RadiomicNet: A Hybrid Radiomics-Guided Lightweight Architecture for Interpretable Medical Image Segmentation",
+      "url": "http://arxiv.org/abs/2607.02185v1",
+      "sent_at": "2026-07-03T23:35:28.378133+00:00"
     }
   ]
 }
