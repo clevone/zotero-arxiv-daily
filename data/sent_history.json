@@ -1567,6 +1567,27 @@
       "title": "RadiomicNet: A Hybrid Radiomics-Guided Lightweight Architecture for Interpretable Medical Image Segmentation",
       "url": "http://arxiv.org/abs/2607.02185v1",
       "sent_at": "2026-07-03T23:35:28.378133+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.06.28.735147v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Development and Characterization of Ultrasound-Activated Polymeric Microdroplets for Targeted Chemotherapy",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735147v1.full.pdf",
+      "sent_at": "2026-07-04T22:58:31.090852+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.02091v1",
+      "source": "arxiv",
+      "title": "Multimodal Fusion for Fine-Grained Classification of Breast Fibroadenoma and Phyllodes Tumors",
+      "url": "http://arxiv.org/abs/2607.02091v1",
+      "sent_at": "2026-07-04T22:58:31.090852+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.02384v1",
+      "source": "arxiv",
+      "title": "Robust Transmission Design for RIS-Assisted RSMA-SWIPT Systems With Movable Antennas Under Hardware Distortions",
+      "url": "http://arxiv.org/abs/2607.02384v1",
+      "sent_at": "2026-07-04T22:58:31.090852+00:00"
     }
   ]
 }
