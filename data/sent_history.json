@@ -1630,6 +1630,41 @@
       "title": "Neural Phase Correlation",
       "url": "http://arxiv.org/abs/2606.18496v1",
       "sent_at": "2026-07-06T23:12:13.031419+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.02936v1",
+      "source": "arxiv",
+      "title": "Design of optomechanical transducers for sub-micron resolution ultrasound imaging",
+      "url": "http://arxiv.org/abs/2607.02936v1",
+      "sent_at": "2026-07-07T23:52:11.538011+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.04923v1",
+      "source": "arxiv",
+      "title": "UniSpine-GS: An Efficient Physics-Aware Gaussian Framework for Cross-Modality Multi-view Spine Image Synthesis",
+      "url": "http://arxiv.org/abs/2607.04923v1",
+      "sent_at": "2026-07-07T23:52:11.538011+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.05119v1",
+      "source": "arxiv",
+      "title": "Multiuser MIMO-AFDM Beamforming for ISAC in Doubly Dispersive Channels",
+      "url": "http://arxiv.org/abs/2607.05119v1",
+      "sent_at": "2026-07-07T23:52:11.538011+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.04471v1",
+      "source": "arxiv",
+      "title": "Weakly Guided and Autoregressive Beamformer Parameterization for Generalizable Moving Speaker Extraction in Higher-Order Ambisonics",
+      "url": "http://arxiv.org/abs/2607.04471v1",
+      "sent_at": "2026-07-07T23:52:11.538011+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.02545v1",
+      "source": "arxiv",
+      "title": "Transformer-based Multisensor Data Fusion of Ultrasonic Guided Wave and FBG-based Strain Measurements for Multitask Aerospace Structural Health Monitoring",
+      "url": "http://arxiv.org/abs/2607.02545v1",
+      "sent_at": "2026-07-07T23:52:11.538011+00:00"
     }
   ]
 }
