@@ -1693,6 +1693,41 @@
       "title": "Longitudinal Monitoring of Periodontal Inflammation by Quantitative Ultrasound: Attenuation and Backscatter Intensity Signature",
       "url": "http://arxiv.org/abs/2607.05676v1",
       "sent_at": "2026-07-08T23:24:52.924609+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.07240v1",
+      "source": "arxiv",
+      "title": "An Edge-aware Prompt-enhanced SAM for Ultrasound Image Segmentation",
+      "url": "http://arxiv.org/abs/2607.07240v1",
+      "sent_at": "2026-07-09T23:43:17.259098+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.06919v1",
+      "source": "arxiv",
+      "title": "Compass: Prostate Cancer Detection Needs Multi-View Context",
+      "url": "http://arxiv.org/abs/2607.06919v1",
+      "sent_at": "2026-07-09T23:43:17.259098+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.07542v1",
+      "source": "arxiv",
+      "title": "SonoRank: Towards Calibration-Free Real-Time Finger Flexion Detection from Forearm Ultrasound Sequences",
+      "url": "http://arxiv.org/abs/2607.07542v1",
+      "sent_at": "2026-07-09T23:43:17.259098+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.07580v1",
+      "source": "arxiv",
+      "title": "Automatic Echocardiography Segmentation via Transition Probability Correlation for Stable Semantic Extraction",
+      "url": "http://arxiv.org/abs/2607.07580v1",
+      "sent_at": "2026-07-09T23:43:17.259098+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.07278v1",
+      "source": "arxiv",
+      "title": "Blockage-Robust Beamforming for Near-Field Communications: From Single-Airy to Multi-Airy",
+      "url": "http://arxiv.org/abs/2607.07278v1",
+      "sent_at": "2026-07-09T23:43:17.259098+00:00"
     }
   ]
 }
