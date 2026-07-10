@@ -1728,6 +1728,34 @@
       "title": "Blockage-Robust Beamforming for Near-Field Communications: From Single-Airy to Multi-Airy",
       "url": "http://arxiv.org/abs/2607.07278v1",
       "sent_at": "2026-07-09T23:43:17.259098+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.08073v1",
+      "source": "arxiv",
+      "title": "Cross-Modal Generative Framework for Signal Translation from Fetal-Maternal Electrocardiograms to Fetal Doppler Waveforms",
+      "url": "http://arxiv.org/abs/2607.08073v1",
+      "sent_at": "2026-07-10T23:31:09.615835+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.07.07.26357338v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Thalamic tFUS for Post-Stroke Motor Recovery: A Pilot Multimodal Neurobehavioral Study",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.07.26357338v1.full.pdf",
+      "sent_at": "2026-07-10T23:31:09.615835+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.08141v1",
+      "source": "arxiv",
+      "title": "GenAI-Enhanced Digital Twins for Predictive Interference Management in Ultra-Dense Networks",
+      "url": "http://arxiv.org/abs/2607.08141v1",
+      "sent_at": "2026-07-10T23:31:09.615835+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.08510v1",
+      "source": "arxiv",
+      "title": "Fundamental Sensing Limits of 6G Cooperative MIMO-ISAC Networks: Joint Position-Velocity CRLB and Decoupling Analysis",
+      "url": "http://arxiv.org/abs/2607.08510v1",
+      "sent_at": "2026-07-10T23:31:09.615835+00:00"
     }
   ]
 }
