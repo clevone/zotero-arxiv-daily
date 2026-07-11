@@ -1756,6 +1756,27 @@
       "title": "Fundamental Sensing Limits of 6G Cooperative MIMO-ISAC Networks: Joint Position-Velocity CRLB and Decoupling Analysis",
       "url": "http://arxiv.org/abs/2607.08510v1",
       "sent_at": "2026-07-10T23:31:09.615835+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.03389v1",
+      "source": "arxiv",
+      "title": "Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model",
+      "url": "http://arxiv.org/abs/2607.03389v1",
+      "sent_at": "2026-07-11T22:51:14.886587+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.02827v1",
+      "source": "arxiv",
+      "title": "Metallic Ultrasound Waveguides as a Distributed Tactile Sensing Platform for Contact Localization, Force Estimation, and Material Class Discrimination",
+      "url": "http://arxiv.org/abs/2607.02827v1",
+      "sent_at": "2026-07-11T22:51:14.886587+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.03499v1",
+      "source": "arxiv",
+      "title": "Scale-Free Beamforming using Swarm Arrays for Remote Sensing under Interference",
+      "url": "http://arxiv.org/abs/2607.03499v1",
+      "sent_at": "2026-07-11T22:51:14.886587+00:00"
     }
   ]
 }
