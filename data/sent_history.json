@@ -1777,6 +1777,27 @@
       "title": "Scale-Free Beamforming using Swarm Arrays for Remote Sensing under Interference",
       "url": "http://arxiv.org/abs/2607.03499v1",
       "sent_at": "2026-07-11T22:51:14.886587+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.06768v1",
+      "source": "arxiv",
+      "title": "AirPASS: Over-the-Air Federated Learning via Pinching Antenna Systems",
+      "url": "http://arxiv.org/abs/2607.06768v1",
+      "sent_at": "2026-07-12T22:58:30.710621+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.04748v1",
+      "source": "arxiv",
+      "title": "Dual Fluid Antenna-Assisted UAV MU-MIMO Networks",
+      "url": "http://arxiv.org/abs/2607.04748v1",
+      "sent_at": "2026-07-12T22:58:30.710621+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.03637v1",
+      "source": "arxiv",
+      "title": "STAR-RIS-Assisted Integrated Sensing, Secure Communication, and Power Transfer: A Transmit Power Minimization Framework",
+      "url": "http://arxiv.org/abs/2607.03637v1",
+      "sent_at": "2026-07-12T22:58:30.710621+00:00"
     }
   ]
 }
