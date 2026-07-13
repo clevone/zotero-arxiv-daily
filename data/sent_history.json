@@ -1798,6 +1798,27 @@
       "title": "STAR-RIS-Assisted Integrated Sensing, Secure Communication, and Power Transfer: A Transmit Power Minimization Framework",
       "url": "http://arxiv.org/abs/2607.03637v1",
       "sent_at": "2026-07-12T22:58:30.710621+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.04889v1",
+      "source": "arxiv",
+      "title": "Energy Efficiency Maximization for Hybrid RIS-Aided Communications via Deep Unfolding",
+      "url": "http://arxiv.org/abs/2607.04889v1",
+      "sent_at": "2026-07-13T23:38:19.692762+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.31490v1",
+      "source": "arxiv",
+      "title": "Dynamic Ultrasound Beamforming Using Left-to-Right Arithmetic Adders on FPGA",
+      "url": "http://arxiv.org/abs/2606.31490v1",
+      "sent_at": "2026-07-13T23:38:19.692762+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.30951v1",
+      "source": "arxiv",
+      "title": "Learning Where to Look: A Reinforcement Learning Framework for Robust Micro-Ultrasound Prostate Cancer Detection",
+      "url": "http://arxiv.org/abs/2606.30951v1",
+      "sent_at": "2026-07-13T23:38:19.692762+00:00"
     }
   ]
 }
