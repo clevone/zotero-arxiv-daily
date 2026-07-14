@@ -1819,6 +1819,41 @@
       "title": "Learning Where to Look: A Reinforcement Learning Framework for Robust Micro-Ultrasound Prostate Cancer Detection",
       "url": "http://arxiv.org/abs/2606.30951v1",
       "sent_at": "2026-07-13T23:38:19.692762+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.10648v1",
+      "source": "arxiv",
+      "title": "MUX-USCT: A Noise-Robust Neural Network for Ultrasound Computed Tomography",
+      "url": "http://arxiv.org/abs/2607.10648v1",
+      "sent_at": "2026-07-14T23:41:10.365007+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.10270v1",
+      "source": "arxiv",
+      "title": "Rotating ULA-Enabled Computed Tomography for Efficient 3D Spatial Power Spectrum Synthesis: Architecture and Principled Orientation Design",
+      "url": "http://arxiv.org/abs/2607.10270v1",
+      "sent_at": "2026-07-14T23:41:10.365007+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.11655v1",
+      "source": "arxiv",
+      "title": "Feature-Space Guided Diffusion for Realistic Ultrasound Image Synthesis",
+      "url": "http://arxiv.org/abs/2607.11655v1",
+      "sent_at": "2026-07-14T23:41:10.365007+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.09821v1",
+      "source": "arxiv",
+      "title": "Performance Benchmarking and Optimisation of Clustering Algorithms for Local and Non-Local Similarity Measure in Medical Image Analysis",
+      "url": "http://arxiv.org/abs/2607.09821v1",
+      "sent_at": "2026-07-14T23:41:10.365007+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.10746v1",
+      "source": "arxiv",
+      "title": "Site-Specific Learning for Low-Overhead Multi-User MIMO Beamforming",
+      "url": "http://arxiv.org/abs/2607.10746v1",
+      "sent_at": "2026-07-14T23:41:10.365007+00:00"
     }
   ]
 }
