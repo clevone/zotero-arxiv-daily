@@ -1854,6 +1854,41 @@
       "title": "Site-Specific Learning for Low-Overhead Multi-User MIMO Beamforming",
       "url": "http://arxiv.org/abs/2607.10746v1",
       "sent_at": "2026-07-14T23:41:10.365007+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.12137v1",
+      "source": "arxiv",
+      "title": "WULPUS PRO: Multi-mode Ultra-Low-Power Wearable Ultrasound and Array Imaging with CMUT Support",
+      "url": "http://arxiv.org/abs/2607.12137v1",
+      "sent_at": "2026-07-15T23:05:57.230526+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.12398v1",
+      "source": "arxiv",
+      "title": "Seeing Globally, Refining Locally: Global Visual Guidance and Local Ultrasound Cues for Robust Freehand 3-D Ultrasound Reconstruction",
+      "url": "http://arxiv.org/abs/2607.12398v1",
+      "sent_at": "2026-07-15T23:05:57.230526+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.12062v1",
+      "source": "arxiv",
+      "title": "Learning from Complementary Ultrasound Representations for Liver Disease Classification",
+      "url": "http://arxiv.org/abs/2607.12062v1",
+      "sent_at": "2026-07-15T23:05:57.230526+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.13026v1",
+      "source": "arxiv",
+      "title": "Non-intrusive MEMS microphone sensing of acoustic field state in resonant acoustic levitators",
+      "url": "http://arxiv.org/abs/2607.13026v1",
+      "sent_at": "2026-07-15T23:05:57.230526+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.12054v1",
+      "source": "arxiv",
+      "title": "Analyzing Image Encoder Choices and Graph Homophily in GCN Frameworks for Breast Ultrasound Classification",
+      "url": "http://arxiv.org/abs/2607.12054v1",
+      "sent_at": "2026-07-15T23:05:57.230526+00:00"
     }
   ]
 }
