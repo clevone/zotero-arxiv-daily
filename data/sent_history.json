@@ -1889,6 +1889,27 @@
       "title": "Analyzing Image Encoder Choices and Graph Homophily in GCN Frameworks for Breast Ultrasound Classification",
       "url": "http://arxiv.org/abs/2607.12054v1",
       "sent_at": "2026-07-15T23:05:57.230526+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.07.11.737958v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Can the heartbeat-evoked potential (HEP) be separated from Cardiac Artefact (CA) using beamforming?",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.11.737958v1.full.pdf",
+      "sent_at": "2026-07-18T22:54:07.717441+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.31198v1",
+      "source": "arxiv",
+      "title": "Distilling Temporal Coherence into 2D Networks for Transrectal Ultrasound Prostate Video Segmentation",
+      "url": "http://arxiv.org/abs/2606.31198v1",
+      "sent_at": "2026-07-18T22:54:07.717441+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.07244v1",
+      "source": "arxiv",
+      "title": "The Stability of the Backward Problem for Photoacoustic Imaging in Attenuating Media via Carleman Estimates",
+      "url": "http://arxiv.org/abs/2607.07244v1",
+      "sent_at": "2026-07-18T22:54:07.717441+00:00"
     }
   ]
 }
