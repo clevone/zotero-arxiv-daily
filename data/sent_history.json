@@ -1910,6 +1910,27 @@
       "title": "The Stability of the Backward Problem for Photoacoustic Imaging in Attenuating Media via Carleman Estimates",
       "url": "http://arxiv.org/abs/2607.07244v1",
       "sent_at": "2026-07-18T22:54:07.717441+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.03053v1",
+      "source": "arxiv",
+      "title": "Miniaturized Photoacoustic Spectroscopy Gas Probe for In-Situ Detection in Oil",
+      "url": "http://arxiv.org/abs/2607.03053v1",
+      "sent_at": "2026-07-19T23:11:45.690894+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2606.31785v1",
+      "source": "arxiv",
+      "title": "Self-Supervised Temporal Regularization for Landmark-Based Cardiac Segmentation with Automatic AHA Regional Mapping",
+      "url": "http://arxiv.org/abs/2606.31785v1",
+      "sent_at": "2026-07-19T23:11:45.690894+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.03021v1",
+      "source": "arxiv",
+      "title": "MEMS Fiber-Tip Photoacoustic Spectrometer for In Situ Microscale Trace Gas Sensing",
+      "url": "http://arxiv.org/abs/2607.03021v1",
+      "sent_at": "2026-07-19T23:11:45.690894+00:00"
     }
   ]
 }
