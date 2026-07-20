@@ -1931,6 +1931,27 @@
       "title": "MEMS Fiber-Tip Photoacoustic Spectrometer for In Situ Microscale Trace Gas Sensing",
       "url": "http://arxiv.org/abs/2607.03021v1",
       "sent_at": "2026-07-19T23:11:45.690894+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.15547v1",
+      "source": "arxiv",
+      "title": "Pinching Antenna-Assisted ISAC with Waveguide Mode Selection",
+      "url": "http://arxiv.org/abs/2607.15547v1",
+      "sent_at": "2026-07-20T23:12:03.267870+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.15716v1",
+      "source": "arxiv",
+      "title": "Energy-Efficient Target-Aware Hybrid Beamforming for THz Near-Field ISAC with Sparse Connectivity",
+      "url": "http://arxiv.org/abs/2607.15716v1",
+      "sent_at": "2026-07-20T23:12:03.267870+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.15651v1",
+      "source": "arxiv",
+      "title": "FSIM: Fluid Element Stacked Intelligent Metasurface for Multiuser Downlink Networks",
+      "url": "http://arxiv.org/abs/2607.15651v1",
+      "sent_at": "2026-07-20T23:12:03.267870+00:00"
     }
   ]
 }
