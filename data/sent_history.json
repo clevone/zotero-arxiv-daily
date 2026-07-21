@@ -1952,6 +1952,41 @@
       "title": "FSIM: Fluid Element Stacked Intelligent Metasurface for Multiuser Downlink Networks",
       "url": "http://arxiv.org/abs/2607.15651v1",
       "sent_at": "2026-07-20T23:12:03.267870+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.16304v1",
+      "source": "arxiv",
+      "title": "Dual-Domain Self-Supervised Artifact Removal Framework for Photoacoustic Computed Tomography",
+      "url": "http://arxiv.org/abs/2607.16304v1",
+      "sent_at": "2026-07-21T23:38:04.459628+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.17862v1",
+      "source": "arxiv",
+      "title": "Massive MIMO-OFDM ISAC for Sparse ISAR Imaging: Joint Power and Subcarrier Allocation",
+      "url": "http://arxiv.org/abs/2607.17862v1",
+      "sent_at": "2026-07-21T23:38:04.459628+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.17485v1",
+      "source": "arxiv",
+      "title": "Transmit Beamforming Design for Integrated Sensing and Communication Using Transmissive RIS Transceiver",
+      "url": "http://arxiv.org/abs/2607.17485v1",
+      "sent_at": "2026-07-21T23:38:04.459628+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.16791v1",
+      "source": "arxiv",
+      "title": "Imaging of ultrasound specularity at cortical bone interfaces to detect unbalanced remodeling: A preliminary study",
+      "url": "http://arxiv.org/abs/2607.16791v1",
+      "sent_at": "2026-07-21T23:38:04.459628+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.17551v1",
+      "source": "arxiv",
+      "title": "Hierarchy-Aware and Anatomy-Guided Learning for Lung Ultrasound Video Classification",
+      "url": "http://arxiv.org/abs/2607.17551v1",
+      "sent_at": "2026-07-21T23:38:04.459628+00:00"
     }
   ]
 }
