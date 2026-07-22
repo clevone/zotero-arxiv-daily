@@ -1987,6 +1987,27 @@
       "title": "Hierarchy-Aware and Anatomy-Guided Learning for Lung Ultrasound Video Classification",
       "url": "http://arxiv.org/abs/2607.17551v1",
       "sent_at": "2026-07-21T23:38:04.459628+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.18897v1",
+      "source": "arxiv",
+      "title": "Thinking Fast, Thinking Slow: Adaptive Multimodal Transformer-based Sensor Fusion for Depth Estimation on Ultra-low-power MCUs",
+      "url": "http://arxiv.org/abs/2607.18897v1",
+      "sent_at": "2026-07-22T23:34:37.359582+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.18283v1",
+      "source": "arxiv",
+      "title": "FedCC: A Low-Resource Federated Adaptation of Foundation Models for Robust Corpus Callosum localization in Fetal Ultrasound Images",
+      "url": "http://arxiv.org/abs/2607.18283v1",
+      "sent_at": "2026-07-22T23:34:37.359582+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.18680v1",
+      "source": "arxiv",
+      "title": "Joint Synchronization and Sensing in Networked ISAC via Structured Canonical Polyadic Decomposition",
+      "url": "http://arxiv.org/abs/2607.18680v1",
+      "sent_at": "2026-07-22T23:34:37.359582+00:00"
     }
   ]
 }
