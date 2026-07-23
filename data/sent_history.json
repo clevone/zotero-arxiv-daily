@@ -2008,6 +2008,34 @@
       "title": "Joint Synchronization and Sensing in Networked ISAC via Structured Canonical Polyadic Decomposition",
       "url": "http://arxiv.org/abs/2607.18680v1",
       "sent_at": "2026-07-22T23:34:37.359582+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.19609v1",
+      "source": "arxiv",
+      "title": "CRB-Driven Beamforming and Trajectory Optimization for UAV-assisted ISAC System",
+      "url": "http://arxiv.org/abs/2607.19609v1",
+      "sent_at": "2026-07-23T23:21:16.187689+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.19643v1",
+      "source": "arxiv",
+      "title": "Domain Shift in Echocardiography: Interpretable Quantification and Prediction of Cross-Dataset Left Ventricular Segmentation",
+      "url": "http://arxiv.org/abs/2607.19643v1",
+      "sent_at": "2026-07-23T23:21:16.187689+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.17041v1",
+      "source": "arxiv",
+      "title": "Movable Antenna for Integrated Sensing and Communication in Air Sea Ground Networks",
+      "url": "http://arxiv.org/abs/2607.17041v1",
+      "sent_at": "2026-07-23T23:21:16.187689+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40354206/",
+      "source": "pubmed",
+      "title": "PROTEUS: A Physically Realistic Contrast-Enhanced Ultrasound Simulator-Part II: Imaging Applications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40354206/",
+      "sent_at": "2026-07-23T23:21:16.187689+00:00"
     }
   ]
 }
