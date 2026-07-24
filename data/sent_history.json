@@ -2036,6 +2036,27 @@
       "title": "PROTEUS: A Physically Realistic Contrast-Enhanced Ultrasound Simulator-Part II: Imaging Applications.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40354206/",
       "sent_at": "2026-07-23T23:21:16.187689+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.20691v1",
+      "source": "arxiv",
+      "title": "Spatially Grounded Concept Bottleneck Models for Trustworthy Breast Ultrasound Diagnosis",
+      "url": "http://arxiv.org/abs/2607.20691v1",
+      "sent_at": "2026-07-24T23:35:18.114707+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.17475v1",
+      "source": "arxiv",
+      "title": "Transmissive RIS Transceiver-Empowered ISAC Systems: Energy Efficiency Optimization for Perfect and Imperfect CSI",
+      "url": "http://arxiv.org/abs/2607.17475v1",
+      "sent_at": "2026-07-24T23:35:18.114707+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.10258v1",
+      "source": "arxiv",
+      "title": "Tremerity-Fi: Non-Contact Daily-Life Tremor Severity Assessment by Commercial mmWave Radar",
+      "url": "http://arxiv.org/abs/2607.10258v1",
+      "sent_at": "2026-07-24T23:35:18.114707+00:00"
     }
   ]
 }
