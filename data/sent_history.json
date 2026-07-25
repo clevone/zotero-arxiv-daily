@@ -2057,6 +2057,27 @@
       "title": "Tremerity-Fi: Non-Contact Daily-Life Tremor Severity Assessment by Commercial mmWave Radar",
       "url": "http://arxiv.org/abs/2607.10258v1",
       "sent_at": "2026-07-24T23:35:18.114707+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.10215v1",
+      "source": "arxiv",
+      "title": "Low-Altitude ISAC With Spherical Directly-Connected Antenna Array: Performance Analysis and Beamforming Optimization",
+      "url": "http://arxiv.org/abs/2607.10215v1",
+      "sent_at": "2026-07-25T22:58:50.843018+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.18036v1",
+      "source": "arxiv",
+      "title": "Self-Interference-Aware AS-Assisted Tri-Hybrid Beamforming for Full-Duplex Massive MIMO",
+      "url": "http://arxiv.org/abs/2607.18036v1",
+      "sent_at": "2026-07-25T22:58:50.843018+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.16306v1",
+      "source": "arxiv",
+      "title": "Robust and Feasible QoS-Aware mmWave Massive MIMO Hybrid Beamforming",
+      "url": "http://arxiv.org/abs/2607.16306v1",
+      "sent_at": "2026-07-25T22:58:50.843018+00:00"
     }
   ]
 }
