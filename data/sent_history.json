@@ -2099,6 +2099,41 @@
       "title": "Robust Hierarchical Matrix Compression of Acoustic Volume and Boundary Integral Operators",
       "url": "http://arxiv.org/abs/2607.19500v1",
       "sent_at": "2026-07-26T22:58:02.209332+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.22351v1",
+      "source": "arxiv",
+      "title": "IQ-JEPA: A Joint-Embedding Predictive Architecture with a Hermitian Vision Transformer for Sound Speed and Attenuation Estimation from Ultrasound IQ Data",
+      "url": "http://arxiv.org/abs/2607.22351v1",
+      "sent_at": "2026-07-27T23:32:48.464605+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.21787v1",
+      "source": "arxiv",
+      "title": "Risk-Routed Implicit Boundary Refinement for Robust Ultrasound Image Segmentation",
+      "url": "http://arxiv.org/abs/2607.21787v1",
+      "sent_at": "2026-07-27T23:32:48.464605+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.07.22.737513v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Human decompression in real time: programmable ultrasound imaging during hyperbaric exposure",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.737513v1.full.pdf",
+      "sent_at": "2026-07-27T23:32:48.464605+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.07.23.26358829v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Morphology, Not Motion: Benchmarking Vision-Language Models on Multi-Sign Lung Ultrasound Interpretation",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.23.26358829v1.full.pdf",
+      "sent_at": "2026-07-27T23:32:48.464605+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.22509v1",
+      "source": "arxiv",
+      "title": "Microwave Linear Analog Computers (MiLACs) for Communications: Opportunities and Challenges",
+      "url": "http://arxiv.org/abs/2607.22509v1",
+      "sent_at": "2026-07-27T23:32:48.464605+00:00"
     }
   ]
 }
