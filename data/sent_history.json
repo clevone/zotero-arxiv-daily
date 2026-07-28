@@ -2134,6 +2134,41 @@
       "title": "Microwave Linear Analog Computers (MiLACs) for Communications: Opportunities and Challenges",
       "url": "http://arxiv.org/abs/2607.22509v1",
       "sent_at": "2026-07-27T23:32:48.464605+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.24529v1",
+      "source": "arxiv",
+      "title": "Efficient Ultrasound Image Segmentation with Token-Conditioned Neural Cellular Automata",
+      "url": "http://arxiv.org/abs/2607.24529v1",
+      "sent_at": "2026-07-28T23:37:14.249974+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.07.15.738689v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Simultaneous Proportional Control of Two Degrees-of-Freedom Human Machine Interface Using Highly Sparse Sonomyography",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738689v1.full.pdf",
+      "sent_at": "2026-07-28T23:37:14.249974+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.22789v1",
+      "source": "arxiv",
+      "title": "Learning-based Hierarchical Tracheal Anatomy Understanding from Sparse Surgical Demonstration Annotations for Ultrasound Robots",
+      "url": "http://arxiv.org/abs/2607.22789v1",
+      "sent_at": "2026-07-28T23:37:14.249974+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.24374v1",
+      "source": "arxiv",
+      "title": "Stacked Intelligent Metasurfaces Assisted UAV Communications",
+      "url": "http://arxiv.org/abs/2607.24374v1",
+      "sent_at": "2026-07-28T23:37:14.249974+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.23005v1",
+      "source": "arxiv",
+      "title": "Mobile Tracking via Target-Mounted IRS-Assisted ISAC System",
+      "url": "http://arxiv.org/abs/2607.23005v1",
+      "sent_at": "2026-07-28T23:37:14.249974+00:00"
     }
   ]
 }
