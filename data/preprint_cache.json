@@ -1,31 +1,6 @@
 {
   "items": [
     {
-      "key": "url::http://arxiv.org/abs/2607.21373v1",
-      "added_at": "2026-07-26T22:56:22.962920+00:00",
-      "last_seen_at": "2026-07-26T22:56:22.962920+00:00",
-      "paper": {
-        "source": "arxiv",
-        "title": "3D Uncertainty Quantification for the Photo-Acoustic Tomography",
-        "authors": [
-          "Babak Maboudi Afkham",
-          "Amal Mohammed A Alghami",
-          "Hassan Yazdanian",
-          "Tanja Tarvainen"
-        ],
-        "abstract": "Photoacoustic tomography (PAT) is a promising modality for high-resolution biomedical imaging, motivating the need for reliable uncertainty quantification (UQ) of reconstructed images. Bayesian approaches provide a rigorous framework for UQ but remain computationally challenging for realistic three-dimensional PAT and are sensitive to numerical approximations in the governing wave equation. We develop a finite-element Bayesian UQ framework for PAT that accommodates complex computational domains and detector geometries while enabling large-scale three-dimensional inference. The proposed methodology reformulates the randomize-then-optimize (RTO) sampling strategy as a matrix-free algorithm that generates independent posterior samples using only forward and adjoint wave propagations. Particular attention is given to constructing an adjoint discretization that forms an exact transpose pair with the discrete forward operator while remaining consistent with the continuous PAT adjoint, enabling efficient least-squares solvers within the sampling procedure. We investigate the influence of temporal discretization, artificial boundary conditions, and adjoint consistency on posterior uncertainty and identify discretization strategies that avoid numerical artifacts. The framework is validated against exact posterior statistics, existing Bayesian PAT methods, and Hamiltonian Monte Carlo using the No-U-Turn Sampler (NUTS), and is demonstrated on a three-dimensional problem with approximately $2\\times 10^5$ unknowns on a general finite-element domain. To the best of our knowledge, this is the first large-scale Bayesian PAT study on general three-dimensional finite-element geometries, and the methodology extends naturally to a broad class of linear PDE-constrained inverse problems.",
-        "url": "http://arxiv.org/abs/2607.21373v1",
-        "pdf_url": "https://arxiv.org/pdf/2607.21373v1",
-        "full_text": null,
-        "tldr": null,
-        "title_zh": null,
-        "tldr_en": null,
-        "tldr_zh": null,
-        "affiliations": null,
-        "score": 3.4308251563054624
-      }
-    },
-    {
       "key": "url::http://arxiv.org/abs/2607.11576v1",
       "added_at": "2026-07-26T22:56:22.962920+00:00",
       "last_seen_at": "2026-07-26T22:56:22.962920+00:00",

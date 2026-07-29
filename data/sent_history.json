@@ -2169,6 +2169,27 @@
       "title": "Mobile Tracking via Target-Mounted IRS-Assisted ISAC System",
       "url": "http://arxiv.org/abs/2607.23005v1",
       "sent_at": "2026-07-28T23:37:14.249974+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.24979v1",
+      "source": "arxiv",
+      "title": "Conceptual and Signal Processing Principles of Spread-Spectrum Color Doppler Ultrasound",
+      "url": "http://arxiv.org/abs/2607.24979v1",
+      "sent_at": "2026-07-29T23:34:20.699815+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.25967v1",
+      "source": "arxiv",
+      "title": "Quasi-SVD: Learning a Lie-constrained matrix factorisation for real-time imaging",
+      "url": "http://arxiv.org/abs/2607.25967v1",
+      "sent_at": "2026-07-29T23:34:20.699815+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.21373v1",
+      "source": "arxiv",
+      "title": "3D Uncertainty Quantification for the Photo-Acoustic Tomography",
+      "url": "http://arxiv.org/abs/2607.21373v1",
+      "sent_at": "2026-07-29T23:34:20.699815+00:00"
     }
   ]
 }
