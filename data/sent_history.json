@@ -2190,6 +2190,27 @@
       "title": "3D Uncertainty Quantification for the Photo-Acoustic Tomography",
       "url": "http://arxiv.org/abs/2607.21373v1",
       "sent_at": "2026-07-29T23:34:20.699815+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.26721v1",
+      "source": "arxiv",
+      "title": "Amplitude-based echo-mode speed-of-sound tomography",
+      "url": "http://arxiv.org/abs/2607.26721v1",
+      "sent_at": "2026-07-30T23:29:58.424042+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.26401v1",
+      "source": "arxiv",
+      "title": "Sensor-Placement-Agnostic Sonomyography: Toward Continuous High-Dimensional Control by Users with Tetraplegia",
+      "url": "http://arxiv.org/abs/2607.26401v1",
+      "sent_at": "2026-07-30T23:29:58.424042+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.07.27.740119v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Quantitative Ultrasound Analysis of Gas Embolic Disease in Bycaught Sea Turtles",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740119v1.full.pdf",
+      "sent_at": "2026-07-30T23:29:58.424042+00:00"
     }
   ]
 }
