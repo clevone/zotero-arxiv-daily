@@ -2211,6 +2211,41 @@
       "title": "Quantitative Ultrasound Analysis of Gas Embolic Disease in Bycaught Sea Turtles",
       "url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740119v1.full.pdf",
       "sent_at": "2026-07-30T23:29:58.424042+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.28414v1",
+      "source": "arxiv",
+      "title": "A reduced viscoelastic FDTD formulation for ultrasound-driven shear wave propagation in soft tissue",
+      "url": "http://arxiv.org/abs/2607.28414v1",
+      "sent_at": "2026-07-31T23:35:41.431825+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.27396v1",
+      "source": "arxiv",
+      "title": "Characterization of Continuous Electromagnetic Manifolds via Calculus of Variations",
+      "url": "http://arxiv.org/abs/2607.27396v1",
+      "sent_at": "2026-07-31T23:35:41.431825+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.28224v1",
+      "source": "arxiv",
+      "title": "CRLB-Driven Beamforming and Power Allocation for Multi-BS Cooperative ISAC Networks",
+      "url": "http://arxiv.org/abs/2607.28224v1",
+      "sent_at": "2026-07-31T23:35:41.431825+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.28081v1",
+      "source": "arxiv",
+      "title": "Beamforming and Phase Shift Design for STAR-RIS Assisted Secure Sensing and Communication in ISAC Systems",
+      "url": "http://arxiv.org/abs/2607.28081v1",
+      "sent_at": "2026-07-31T23:35:41.431825+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.27992v1",
+      "source": "arxiv",
+      "title": "Power-Efficient XL-MIMO Design for Mixed Near- and Far-Field SWIPT Systems",
+      "url": "http://arxiv.org/abs/2607.27992v1",
+      "sent_at": "2026-07-31T23:35:41.431825+00:00"
     }
   ]
 }
