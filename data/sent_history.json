@@ -2246,6 +2246,27 @@
       "title": "Power-Efficient XL-MIMO Design for Mixed Near- and Far-Field SWIPT Systems",
       "url": "http://arxiv.org/abs/2607.27992v1",
       "sent_at": "2026-07-31T23:35:41.431825+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.11576v1",
+      "source": "arxiv",
+      "title": "Physics-Informed Neural Networks for the High-Resolution Reconstruction of Flow Measurement Indicators in Fluid Dynamics",
+      "url": "http://arxiv.org/abs/2607.11576v1",
+      "sent_at": "2026-08-01T23:17:42.299929+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.16906v1",
+      "source": "arxiv",
+      "title": "Neural operator preconditioning from mixed dataset for the Helmholtz equations: Application to transcranial ultrasound",
+      "url": "http://arxiv.org/abs/2607.16906v1",
+      "sent_at": "2026-08-01T23:17:42.299929+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.12126v1",
+      "source": "arxiv",
+      "title": "FPGA-Based Mini X-Ray Detector Front-End",
+      "url": "http://arxiv.org/abs/2607.12126v1",
+      "sent_at": "2026-08-01T23:17:42.299929+00:00"
     }
   ]
 }
