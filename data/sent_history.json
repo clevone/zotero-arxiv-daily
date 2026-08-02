@@ -2267,6 +2267,27 @@
       "title": "FPGA-Based Mini X-Ray Detector Front-End",
       "url": "http://arxiv.org/abs/2607.12126v1",
       "sent_at": "2026-08-01T23:17:42.299929+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.13409v1",
+      "source": "arxiv",
+      "title": "AnomExpert: Identifying and Selecting Anatomical Planes for Prenatal Ultrasound Anomaly Diagnosis",
+      "url": "http://arxiv.org/abs/2607.13409v1",
+      "sent_at": "2026-08-02T23:20:07.870932+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.10817v1",
+      "source": "arxiv",
+      "title": "An Efficient Bayesian Framework for Uncertainty Quantification in Nonlinear Imaging Inverse Problems",
+      "url": "http://arxiv.org/abs/2607.10817v1",
+      "sent_at": "2026-08-02T23:20:07.870932+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.24553v1",
+      "source": "arxiv",
+      "title": "EchoBridge: Long-Tail-Aware ECG-Echocardiography Text Alignment for Echocardiography-Derived Cardiac Findings",
+      "url": "http://arxiv.org/abs/2607.24553v1",
+      "sent_at": "2026-08-02T23:20:07.870932+00:00"
     }
   ]
 }
