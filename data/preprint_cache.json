@@ -1,32 +1,6 @@
 {
   "items": [
     {
-      "key": "url::http://arxiv.org/abs/2607.12054v2",
-      "added_at": "2026-07-26T22:56:22.962920+00:00",
-      "last_seen_at": "2026-07-26T22:56:22.962920+00:00",
-      "paper": {
-        "source": "arxiv",
-        "title": "Analyzing Image Encoder Choices and Graph Homophily in GCN Frameworks for Breast Ultrasound Classification",
-        "authors": [
-          "Sabahattin Mert Daloglu",
-          "Ceren Coskun",
-          "Harvey Castro",
-          "Soner Hacihaliloglu",
-          "Ilker Hacihaliloglu"
-        ],
-        "abstract": "Breast ultrasound is widely used for screening, yet automated analysis remains challenging due to speckle noise, acquisition variability, and weak separation of benign and malignant cases in standard ultrasound imaging. Graph convolutional networks (GCNs) have recently emerged as a promising approach by leveraging relationships among similar patient samples. However, it remains unclear how the choice of image encoder influences graph construction and downstream classification performance. In this work, we systematically evaluate five image encoders spanning convolutional and transformer-based architectures for GCN-based breast ultrasound classification. Image embeddings are used to construct cosine similarity k-nearest-neighbor graphs, which are classified using a single-layer GCN with a linear classification head. Across three patientwise cross-validation folds, higher-capacity encoders consistently improve graph homophily and downstream classification performance, yielding gains in accuracy, AUC, sensitivity, specificity, and F1-score. Moreover, test-set graph homophily exhibits a strong linear correlation with classification accuracy, with higher-capacity encoders consistently occupying the high-homophily, high-accuracy region suggesting that encoder-driven improvements in graph structure are a key mechanism underlying the observed performance gains. These findings establish encoder selection as a critical factor in graph-based breast ultrasound classification and identify graph homophily as a key indicator linking representation quality to downstream classification performance.",
-        "url": "http://arxiv.org/abs/2607.12054v2",
-        "pdf_url": "https://arxiv.org/pdf/2607.12054v2",
-        "full_text": null,
-        "tldr": null,
-        "title_zh": null,
-        "tldr_en": null,
-        "tldr_zh": null,
-        "affiliations": null,
-        "score": 2.8236269646422163
-      }
-    },
-    {
       "key": "url::http://arxiv.org/abs/2607.23021v1",
       "added_at": "2026-07-28T23:27:45.234940+00:00",
       "last_seen_at": "2026-07-28T23:27:45.234940+00:00",

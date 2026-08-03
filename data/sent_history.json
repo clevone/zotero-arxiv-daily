@@ -2288,6 +2288,27 @@
       "title": "EchoBridge: Long-Tail-Aware ECG-Echocardiography Text Alignment for Echocardiography-Derived Cardiac Findings",
       "url": "http://arxiv.org/abs/2607.24553v1",
       "sent_at": "2026-08-02T23:20:07.870932+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.29182v1",
+      "source": "arxiv",
+      "title": "Few-shot Deep Learning for Phase-Amplitude Aberration Correction in Transcranial Focused Ultrasound",
+      "url": "http://arxiv.org/abs/2607.29182v1",
+      "sent_at": "2026-08-03T23:33:02.717141+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.29200v1",
+      "source": "arxiv",
+      "title": "UltraSAM3: A Concept-Driven Foundation Model for Universal Ultrasound Image Segmentation",
+      "url": "http://arxiv.org/abs/2607.29200v1",
+      "sent_at": "2026-08-03T23:33:02.717141+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.12054v2",
+      "source": "arxiv",
+      "title": "Analyzing Image Encoder Choices and Graph Homophily in GCN Frameworks for Breast Ultrasound Classification",
+      "url": "http://arxiv.org/abs/2607.12054v2",
+      "sent_at": "2026-08-03T23:33:02.717141+00:00"
     }
   ]
 }
