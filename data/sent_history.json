@@ -2309,6 +2309,41 @@
       "title": "Analyzing Image Encoder Choices and Graph Homophily in GCN Frameworks for Breast Ultrasound Classification",
       "url": "http://arxiv.org/abs/2607.12054v2",
       "sent_at": "2026-08-03T23:33:02.717141+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.02203v1",
+      "source": "arxiv",
+      "title": "MEMS Microphones as Ultrasonic Transducers: Nonlinear Electrostatic Actuation and a Parametric Array Prototype",
+      "url": "http://arxiv.org/abs/2608.02203v1",
+      "sent_at": "2026-08-04T23:59:32.445942+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.01839v1",
+      "source": "arxiv",
+      "title": "tFUSOperator: Operator Learning for Transcranial Focused Ultrasound Digital Twins",
+      "url": "http://arxiv.org/abs/2608.01839v1",
+      "sent_at": "2026-08-04T23:59:32.445942+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.01854v1",
+      "source": "arxiv",
+      "title": "Movable Subarray-Aided ISAC in Hybrid Near-Far Field Channels",
+      "url": "http://arxiv.org/abs/2608.01854v1",
+      "sent_at": "2026-08-04T23:59:32.445942+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.07.29.741617v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Psychophysical validation of calibrated white-noise and tuned-noise auditory masks for transcranial focused ultrasound",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741617v1.full.pdf",
+      "sent_at": "2026-08-04T23:59:32.445942+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.01809v1",
+      "source": "arxiv",
+      "title": "Multi-Hop RIS ISAC for Target Positioning: A Tensor Decomposition-based Approach",
+      "url": "http://arxiv.org/abs/2608.01809v1",
+      "sent_at": "2026-08-04T23:59:32.445942+00:00"
     }
   ]
 }
