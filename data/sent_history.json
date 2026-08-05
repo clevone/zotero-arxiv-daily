@@ -2344,6 +2344,27 @@
       "title": "Multi-Hop RIS ISAC for Target Positioning: A Tensor Decomposition-based Approach",
       "url": "http://arxiv.org/abs/2608.01809v1",
       "sent_at": "2026-08-04T23:59:32.445942+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.03615v1",
+      "source": "arxiv",
+      "title": "Pattern Zooming: Near-Field Wideband Beam Training with Wavenumber-Domain Codebook",
+      "url": "http://arxiv.org/abs/2608.03615v1",
+      "sent_at": "2026-08-05T23:36:28.254900+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.03787v1",
+      "source": "arxiv",
+      "title": "CMT-Aware Channel Modeling and Transmit-Power Minimization for Pinching-Antenna Systems",
+      "url": "http://arxiv.org/abs/2608.03787v1",
+      "sent_at": "2026-08-05T23:36:28.254900+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.03342v1",
+      "source": "arxiv",
+      "title": "When Oracle Conditioning Misleads Deployment: Conditioning-Availability Bias in Echocardiographic Segmentation",
+      "url": "http://arxiv.org/abs/2608.03342v1",
+      "sent_at": "2026-08-05T23:36:28.254900+00:00"
     }
   ]
 }
