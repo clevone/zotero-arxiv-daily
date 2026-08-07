@@ -2386,6 +2386,27 @@
       "title": "RIS-Enabled Energy-Efficient ISAC for Vehicular Applications",
       "url": "http://arxiv.org/abs/2608.04361v1",
       "sent_at": "2026-08-07T02:07:12.478236+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.06321v1",
+      "source": "arxiv",
+      "title": "An open-source framework for predicting ultrasound neuromodulation: bridging tissue elastomechanics and neuron firing dynamics",
+      "url": "http://arxiv.org/abs/2608.06321v1",
+      "sent_at": "2026-08-07T23:08:53.924696+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.05471v1",
+      "source": "arxiv",
+      "title": "A Foundational EDM2-Based Generative Model for High-Resolution Synthetic Fetal Ultrasound Imaging from Open Datasets",
+      "url": "http://arxiv.org/abs/2608.05471v1",
+      "sent_at": "2026-08-07T23:08:53.924696+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.08.06.743316v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Blood-Mediated Opto-Acoustic Stimulation of Brain Cortex at Sub-millimeter Precision",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743316v1.full.pdf",
+      "sent_at": "2026-08-07T23:08:53.924696+00:00"
     }
   ]
 }
