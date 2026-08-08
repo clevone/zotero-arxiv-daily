@@ -2407,6 +2407,41 @@
       "title": "Blood-Mediated Opto-Acoustic Stimulation of Brain Cortex at Sub-millimeter Precision",
       "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743316v1.full.pdf",
       "sent_at": "2026-08-07T23:08:53.924696+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.00444v1",
+      "source": "arxiv",
+      "title": "Reconstruction-Shift Discrimination via Mask-Guided Latent Diffusion for Medical Anomaly Detection",
+      "url": "http://arxiv.org/abs/2608.00444v1",
+      "sent_at": "2026-08-08T22:38:05.299935+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.01218v1",
+      "source": "arxiv",
+      "title": "Bayesian Bandit Beamforming with Implicit Channel Learning for RIS under Hybrid Near/Far-Field Propagation",
+      "url": "http://arxiv.org/abs/2608.01218v1",
+      "sent_at": "2026-08-08T22:38:05.299935+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.02169v1",
+      "source": "arxiv",
+      "title": "Performance Analysis and Joint Beamforming for Hybrid RIS-Aided Massive MIMO ISAC",
+      "url": "http://arxiv.org/abs/2608.02169v1",
+      "sent_at": "2026-08-08T22:38:05.299935+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/38702285/",
+      "source": "pubmed",
+      "title": "Ultrafast 3-D Transcutaneous Super Resolution Ultrasound Using Row-Column Array Specific Coherence-Based Beamforming and Rolling Acoustic Sub-aperture Processing: In Vitro, in Rabbit and in Human Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38702285/",
+      "sent_at": "2026-08-08T22:38:05.299935+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40764398/",
+      "source": "pubmed",
+      "title": "Imaging the brain by traversing the skull with light and sound.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40764398/",
+      "sent_at": "2026-08-08T22:38:05.299935+00:00"
     }
   ]
 }
