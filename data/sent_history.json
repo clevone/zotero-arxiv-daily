@@ -2442,6 +2442,27 @@
       "title": "Imaging the brain by traversing the skull with light and sound.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40764398/",
       "sent_at": "2026-08-08T22:38:05.299935+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.01602v1",
+      "source": "arxiv",
+      "title": "When Measurement Conventions Masquerade as Calibration Gains in Cardiac Digital Twins",
+      "url": "http://arxiv.org/abs/2608.01602v1",
+      "sent_at": "2026-08-09T22:39:41.010373+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.23021v1",
+      "source": "arxiv",
+      "title": "Electromagnetic Neural Network for Direction-of-Arrival Estimation",
+      "url": "http://arxiv.org/abs/2607.23021v1",
+      "sent_at": "2026-08-09T22:39:41.010373+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.01681v1",
+      "source": "arxiv",
+      "title": "Channel-Estimation-Free Beamforming for RIS-Assisted Systems with Limited Feedback",
+      "url": "http://arxiv.org/abs/2608.01681v1",
+      "sent_at": "2026-08-09T22:39:41.010373+00:00"
     }
   ]
 }
