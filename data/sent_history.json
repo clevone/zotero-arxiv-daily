@@ -2463,6 +2463,41 @@
       "title": "Channel-Estimation-Free Beamforming for RIS-Assisted Systems with Limited Feedback",
       "url": "http://arxiv.org/abs/2608.01681v1",
       "sent_at": "2026-08-09T22:39:41.010373+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.07389v1",
+      "source": "arxiv",
+      "title": "An Angular Spectrum Method for Nonlinear Propagation in Heterogeneous Tissue with Immersed Sources for Ultrasound",
+      "url": "http://arxiv.org/abs/2608.07389v1",
+      "sent_at": "2026-08-10T23:09:55.519909+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.06853v1",
+      "source": "arxiv",
+      "title": "Lens-Aware Differentiable Beamforming for In Vivo Distributed Aberration Correction with Curvilinear Transducers",
+      "url": "http://arxiv.org/abs/2608.06853v1",
+      "sent_at": "2026-08-10T23:09:55.519909+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.06541v1",
+      "source": "arxiv",
+      "title": "A 28-GHz Varactor-Based RIS With Continuous Phase Control: From Unit-Cell Modeling to Programmable Wavefront Control and Synthesis",
+      "url": "http://arxiv.org/abs/2608.06541v1",
+      "sent_at": "2026-08-10T23:09:55.519909+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.06781v1",
+      "source": "arxiv",
+      "title": "Tracking-Assisted Robust Secure Transmission Against a Mobile Eavesdropper in Cell-Free ISAC Networks",
+      "url": "http://arxiv.org/abs/2608.06781v1",
+      "sent_at": "2026-08-10T23:09:55.519909+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.07170v1",
+      "source": "arxiv",
+      "title": "DRL-Based Secure Transmission for Rotatable Antenna-Enabled Low-Altitude ISAC Systems",
+      "url": "http://arxiv.org/abs/2608.07170v1",
+      "sent_at": "2026-08-10T23:09:55.519909+00:00"
     }
   ]
 }
