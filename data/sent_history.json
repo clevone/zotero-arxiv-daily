@@ -2498,6 +2498,27 @@
       "title": "DRL-Based Secure Transmission for Rotatable Antenna-Enabled Low-Altitude ISAC Systems",
       "url": "http://arxiv.org/abs/2608.07170v1",
       "sent_at": "2026-08-10T23:09:55.519909+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.10898v1",
+      "source": "arxiv",
+      "title": "Adaptive Source-Channel Coding for Bi-static Integrated Sensing and Semantic Communications",
+      "url": "http://arxiv.org/abs/2608.10898v1",
+      "sent_at": "2026-08-12T23:22:52.407772+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.10222v1",
+      "source": "arxiv",
+      "title": "A JEPA-Based Field-Layer World Model for Bridging Channel Prediction and Estimation",
+      "url": "http://arxiv.org/abs/2608.10222v1",
+      "sent_at": "2026-08-12T23:22:52.407772+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.08.06.743260v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Transcranial ultrasound stimulation of the aMCC transiently improves performance, modulates N2 and conflict monitoring dynamics",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743260v1.full.pdf",
+      "sent_at": "2026-08-12T23:22:52.407772+00:00"
     }
   ]
 }
