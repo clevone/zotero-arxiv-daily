@@ -2519,6 +2519,48 @@
       "title": "Transcranial ultrasound stimulation of the aMCC transiently improves performance, modulates N2 and conflict monitoring dynamics",
       "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743260v1.full.pdf",
       "sent_at": "2026-08-12T23:22:52.407772+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.12169v1",
+      "source": "arxiv",
+      "title": "Reducing Spectral Oscillations for Robust Reference Frequency-Based Ultrasound Attenuation Estimation in Harmonic Imaging",
+      "url": "http://arxiv.org/abs/2608.12169v1",
+      "sent_at": "2026-08-13T23:16:47.482460+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.12200v1",
+      "source": "arxiv",
+      "title": "A 2D Hydrothermodynamic Analytical Model for Rapid Tumor Ablation using High-Intensity Focused Ultrasound",
+      "url": "http://arxiv.org/abs/2608.12200v1",
+      "sent_at": "2026-08-13T23:16:47.482460+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.11476v1",
+      "source": "arxiv",
+      "title": "Extremely Large Beyond-Diagonal RIS: Low-Rank Modal Optimization for Near-Field Communications",
+      "url": "http://arxiv.org/abs/2608.11476v1",
+      "sent_at": "2026-08-13T23:16:47.482460+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.11651v1",
+      "source": "arxiv",
+      "title": "A Frequency-Space Terahertz Transceiver Chip for Multi-Agent Communications and Spatial Awareness",
+      "url": "http://arxiv.org/abs/2608.11651v1",
+      "sent_at": "2026-08-13T23:16:47.482460+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.11798v1",
+      "source": "arxiv",
+      "title": "TRACE: A Modular Framework for RIS-Assisted Channel Estimation and Differential Channel-Aware Reconfiguration",
+      "url": "http://arxiv.org/abs/2608.11798v1",
+      "sent_at": "2026-08-13T23:16:47.482460+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40738972/",
+      "source": "pubmed",
+      "title": "Non-invasive characterization of pericyte dysfunction in mouse brain using functional ultrasound localization microscopy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40738972/",
+      "sent_at": "2026-08-13T23:16:47.482460+00:00"
     }
   ]
 }
