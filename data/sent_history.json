@@ -2561,6 +2561,41 @@
       "title": "Non-invasive characterization of pericyte dysfunction in mouse brain using functional ultrasound localization microscopy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40738972/",
       "sent_at": "2026-08-13T23:16:47.482460+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.21838v1",
+      "source": "arxiv",
+      "title": "Noncoherent Detection and Interference Nulling for Terrestrial-Satellite Downlinz Coexistence in the Upper Mid-Band",
+      "url": "http://arxiv.org/abs/2607.21838v1",
+      "sent_at": "2026-08-16T22:31:39.749840+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.11596v1",
+      "source": "arxiv",
+      "title": "Small Language Model enabled Autonomous agent for Language-Conditioned Cognitive Radar",
+      "url": "http://arxiv.org/abs/2608.11596v1",
+      "sent_at": "2026-08-16T22:31:39.749840+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.14179v1",
+      "source": "arxiv",
+      "title": "OvAi Focus: AI-based Multi-class Segmentation of Functional Ovaries and Adnexal Masses in Gynecological Ultrasound",
+      "url": "http://arxiv.org/abs/2607.14179v1",
+      "sent_at": "2026-08-16T22:31:39.749840+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/34727030/",
+      "source": "pubmed",
+      "title": "In Vivo Ultrasound Localization Microscopy Imaging of the Kidney's Microvasculature With Block-Matching 3-D Denoising.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34727030/",
+      "sent_at": "2026-08-16T22:31:39.749840+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/37756182/",
+      "source": "pubmed",
+      "title": "Longitudinal 3-D Visualization of Microvascular Disruption and Perfusion Changes in Mice During the Evolution of Glioblastoma Using Super-Resolution Ultrasound.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37756182/",
+      "sent_at": "2026-08-16T22:31:39.749840+00:00"
     }
   ]
 }
