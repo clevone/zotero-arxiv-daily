@@ -2596,6 +2596,41 @@
       "title": "Longitudinal 3-D Visualization of Microvascular Disruption and Perfusion Changes in Mice During the Evolution of Glioblastoma Using Super-Resolution Ultrasound.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/37756182/",
       "sent_at": "2026-08-16T22:31:39.749840+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.08.14.744961v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Ultrasound-reconfigurable scaffolds enable dynamic control of biochemical and biophysical cues for vascular network formation",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744961v1.full.pdf",
+      "sent_at": "2026-08-17T22:47:33.312521+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.13765v1",
+      "source": "arxiv",
+      "title": "Energy Efficient Multi-User Beamforming and 3D Position Optimization for SIM-Assisted UAVs",
+      "url": "http://arxiv.org/abs/2608.13765v1",
+      "sent_at": "2026-08-17T22:47:33.312521+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.08.13.744654v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Systemic Nanobubbles Enable Ultrasound-Guided STING Immunotherapy in Breast Cancer",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744654v1.full.pdf",
+      "sent_at": "2026-08-17T22:47:33.312521+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.13939v1",
+      "source": "arxiv",
+      "title": "CMCNet: Aligning Ultrasound Image Embeddings with Textual TI-RADS Representations for Fine-Grained Thyroid Classification",
+      "url": "http://arxiv.org/abs/2608.13939v1",
+      "sent_at": "2026-08-17T22:47:33.312521+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.14086v1",
+      "source": "arxiv",
+      "title": "Integrated Sensing, Communication, and Computing in Multi-Tier Systems: Joint Hybrid Beamforming Design and Computation Resource Allocation",
+      "url": "http://arxiv.org/abs/2608.14086v1",
+      "sent_at": "2026-08-17T22:47:33.312521+00:00"
     }
   ]
 }
