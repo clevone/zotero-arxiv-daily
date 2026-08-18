@@ -2631,6 +2631,41 @@
       "title": "Integrated Sensing, Communication, and Computing in Multi-Tier Systems: Joint Hybrid Beamforming Design and Computation Resource Allocation",
       "url": "http://arxiv.org/abs/2608.14086v1",
       "sent_at": "2026-08-17T22:47:33.312521+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.15009v1",
+      "source": "arxiv",
+      "title": "ForceU-VLA: A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Scanning",
+      "url": "http://arxiv.org/abs/2608.15009v1",
+      "sent_at": "2026-08-18T22:59:08.753370+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.16074v1",
+      "source": "arxiv",
+      "title": "US-VLA: An Ultrasound Vision-Language-Action Model for Embodied Abdomina",
+      "url": "http://arxiv.org/abs/2608.16074v1",
+      "sent_at": "2026-08-18T22:59:08.753370+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.14796v1",
+      "source": "arxiv",
+      "title": "Zero-Shot Adaptation of Medical Vision Foundation Models for High-Frequency Micro-Ultrasound Prostate Segmentation",
+      "url": "http://arxiv.org/abs/2608.14796v1",
+      "sent_at": "2026-08-18T22:59:08.753370+00:00"
+    },
+    {
+      "key": "url::https://www.biorxiv.org/content/10.64898/2026.08.12.744037v1.full.pdf",
+      "source": "biorxiv",
+      "title": "Neurobehavioral effects of focused ultrasound-mediated blood-brain barrier opening",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.12.744037v1.full.pdf",
+      "sent_at": "2026-08-18T22:59:08.753370+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.14763v1",
+      "source": "arxiv",
+      "title": "Cross-Modal Ultrasound-MRI Learning for Fetal Brain Ventricular Volumetry and Abnormality Screening",
+      "url": "http://arxiv.org/abs/2608.14763v1",
+      "sent_at": "2026-08-18T22:59:08.753370+00:00"
     }
   ]
 }
