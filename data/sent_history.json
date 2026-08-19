@@ -2666,6 +2666,41 @@
       "title": "Cross-Modal Ultrasound-MRI Learning for Fetal Brain Ventricular Volumetry and Abnormality Screening",
       "url": "http://arxiv.org/abs/2608.14763v1",
       "sent_at": "2026-08-18T22:59:08.753370+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.17983v1",
+      "source": "arxiv",
+      "title": "Dual Co-Train: Cross-Dataset Ultrasound Tongue Segmentation Under Extreme Data Scarcity",
+      "url": "http://arxiv.org/abs/2608.17983v1",
+      "sent_at": "2026-08-19T23:00:33.198910+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.08.17.26360254v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Quantifying Human-AI Workflow in Abdominal Ultrasound: A Prospective Randomised Crossover Study",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360254v1.full.pdf",
+      "sent_at": "2026-08-19T23:00:33.198910+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.17122v1",
+      "source": "arxiv",
+      "title": "Physically Consistent Channel Modeling and Signal Processing for Reconfigurable Wireless Systems",
+      "url": "http://arxiv.org/abs/2608.17122v1",
+      "sent_at": "2026-08-19T23:00:33.198910+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.17923v1",
+      "source": "arxiv",
+      "title": "AppendiGrade: An XAI-Enhanced Deep Learning Framework for Grading Appendicitis in Ultrasound with Gaussian Blur and Grad-CAM",
+      "url": "http://arxiv.org/abs/2608.17923v1",
+      "sent_at": "2026-08-19T23:00:33.198910+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.17635v1",
+      "source": "arxiv",
+      "title": "MaLViL: Multi-axis Low-rank Vision-LSTM for Medical Image Segmentation",
+      "url": "http://arxiv.org/abs/2608.17635v1",
+      "sent_at": "2026-08-19T23:00:33.198910+00:00"
     }
   ]
 }
