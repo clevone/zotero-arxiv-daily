@@ -2701,6 +2701,34 @@
       "title": "MaLViL: Multi-axis Low-rank Vision-LSTM for Medical Image Segmentation",
       "url": "http://arxiv.org/abs/2608.17635v1",
       "sent_at": "2026-08-19T23:00:33.198910+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.18252v1",
+      "source": "arxiv",
+      "title": "Angle-domain null subtraction imaging from beamformed plane-wave data",
+      "url": "http://arxiv.org/abs/2608.18252v1",
+      "sent_at": "2026-08-20T22:50:27.355449+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.18616v1",
+      "source": "arxiv",
+      "title": "SPARC: Slice-to-volume Pipeline for Automated Reconstruction of gated 3D+time fetal Cardiac MRI",
+      "url": "http://arxiv.org/abs/2608.18616v1",
+      "sent_at": "2026-08-20T22:50:27.355449+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.18867v1",
+      "source": "arxiv",
+      "title": "Ultra-wideband MRE of the human liver and spleen for viscoelastic model identification in hepatic inflammation",
+      "url": "http://arxiv.org/abs/2608.18867v1",
+      "sent_at": "2026-08-20T22:50:27.355449+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.18515v1",
+      "source": "arxiv",
+      "title": "Cross-Modal MRI Ovary Segmentation in Endometriosis Using Unpaired TVUS Prototype Priors",
+      "url": "http://arxiv.org/abs/2608.18515v1",
+      "sent_at": "2026-08-20T22:50:27.355449+00:00"
     }
   ]
 }
