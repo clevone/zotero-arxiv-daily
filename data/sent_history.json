@@ -2729,6 +2729,27 @@
       "title": "Cross-Modal MRI Ovary Segmentation in Endometriosis Using Unpaired TVUS Prototype Priors",
       "url": "http://arxiv.org/abs/2608.18515v1",
       "sent_at": "2026-08-20T22:50:27.355449+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.16290v1",
+      "source": "arxiv",
+      "title": "Beamforming and Filter Design for Bistatic ISAC under Known and Unknown Transmit Symbols",
+      "url": "http://arxiv.org/abs/2608.16290v1",
+      "sent_at": "2026-08-22T22:46:58.055247+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.16866v1",
+      "source": "arxiv",
+      "title": "Exploiting Movable-Element STARS for Rate Splitting Multiple Access",
+      "url": "http://arxiv.org/abs/2608.16866v1",
+      "sent_at": "2026-08-22T22:46:58.055247+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.16790v1",
+      "source": "arxiv",
+      "title": "Rank-Aware Element Grouping for Power-Efficient Multiuser ISAC With an Extremely Large-Scale IRS",
+      "url": "http://arxiv.org/abs/2608.16790v1",
+      "sent_at": "2026-08-22T22:46:58.055247+00:00"
     }
   ]
 }
