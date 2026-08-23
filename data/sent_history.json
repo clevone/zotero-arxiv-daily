@@ -2750,6 +2750,27 @@
       "title": "Rank-Aware Element Grouping for Power-Efficient Multiuser ISAC With an Extremely Large-Scale IRS",
       "url": "http://arxiv.org/abs/2608.16790v1",
       "sent_at": "2026-08-22T22:46:58.055247+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.15556v1",
+      "source": "arxiv",
+      "title": "Robust Beamforming Design for Integrated Sensing and Communications with Mutual Coupling Effect",
+      "url": "http://arxiv.org/abs/2608.15556v1",
+      "sent_at": "2026-08-23T22:26:19.618887+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.14749v1",
+      "source": "arxiv",
+      "title": "Incision trajectory tracing for electrosurgical navigation by CNN-based knife contacting frames extraction method",
+      "url": "http://arxiv.org/abs/2608.14749v1",
+      "sent_at": "2026-08-23T22:26:19.618887+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.15506v1",
+      "source": "arxiv",
+      "title": "Enhancing Sensing Privacy in ISAC Through Joint Signal and Artificial Noise Beamforming",
+      "url": "http://arxiv.org/abs/2608.15506v1",
+      "sent_at": "2026-08-23T22:26:19.618887+00:00"
     }
   ]
 }
