@@ -2771,6 +2771,41 @@
       "title": "Enhancing Sensing Privacy in ISAC Through Joint Signal and Artificial Noise Beamforming",
       "url": "http://arxiv.org/abs/2608.15506v1",
       "sent_at": "2026-08-23T22:26:19.618887+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.21820v1",
+      "source": "arxiv",
+      "title": "On the Fundamental Limits of Single-snapshot Compressive Ultrasound Imaging Using Random Aberrative Masks",
+      "url": "http://arxiv.org/abs/2608.21820v1",
+      "sent_at": "2026-08-25T23:11:06.980201+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.22487v1",
+      "source": "arxiv",
+      "title": "Pulse-Echo Ultrasound Methods for Speed-of-Sound Estimation: A Review",
+      "url": "http://arxiv.org/abs/2608.22487v1",
+      "sent_at": "2026-08-25T23:11:06.980201+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.22621v1",
+      "source": "arxiv",
+      "title": "ISAC Beamforming Design Based on a Matrix Nearness Formulation With Improved Efficiency",
+      "url": "http://arxiv.org/abs/2608.22621v1",
+      "sent_at": "2026-08-25T23:11:06.980201+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.21770v1",
+      "source": "arxiv",
+      "title": "Adaptive Payload-Aided Near-Field Beam Tracking via Thompson Sampling",
+      "url": "http://arxiv.org/abs/2608.21770v1",
+      "sent_at": "2026-08-25T23:11:06.980201+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.22156v1",
+      "source": "arxiv",
+      "title": "Efficient Alternating Optimization for Hybrid Digital-Wave Beamforming in SIM-Assisted Cell-Free Massive MIMO",
+      "url": "http://arxiv.org/abs/2608.22156v1",
+      "sent_at": "2026-08-25T23:11:06.980201+00:00"
     }
   ]
 }
