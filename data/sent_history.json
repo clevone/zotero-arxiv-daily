@@ -2806,6 +2806,27 @@
       "title": "Efficient Alternating Optimization for Hybrid Digital-Wave Beamforming in SIM-Assisted Cell-Free Massive MIMO",
       "url": "http://arxiv.org/abs/2608.22156v1",
       "sent_at": "2026-08-25T23:11:06.980201+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.24422v1",
+      "source": "arxiv",
+      "title": "ZODIAC: Zero-shot Octree-based Diffusion for Anatomical Completion",
+      "url": "http://arxiv.org/abs/2608.24422v1",
+      "sent_at": "2026-08-27T03:00:15.997509+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.24305v1",
+      "source": "arxiv",
+      "title": "Metalens stereoscopic optical palpation for imaging cancer mechanics",
+      "url": "http://arxiv.org/abs/2608.24305v1",
+      "sent_at": "2026-08-27T03:00:15.997509+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.21809v1",
+      "source": "arxiv",
+      "title": "An integrated micro-thermometer for mid-infrared photothermal spectroscopy of dense materials built in a CMOS 200 mm pilot line",
+      "url": "http://arxiv.org/abs/2608.21809v1",
+      "sent_at": "2026-08-27T03:00:15.997509+00:00"
     }
   ]
 }
