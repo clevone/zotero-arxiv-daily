@@ -2827,6 +2827,41 @@
       "title": "An integrated micro-thermometer for mid-infrared photothermal spectroscopy of dense materials built in a CMOS 200 mm pilot line",
       "url": "http://arxiv.org/abs/2608.21809v1",
       "sent_at": "2026-08-27T03:00:15.997509+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.26891v1",
+      "source": "arxiv",
+      "title": "Sparse Delta Integration method for the calculation of spatiotemporal pressure fields of arbitrary ultrasound transducer geometries",
+      "url": "http://arxiv.org/abs/2608.26891v1",
+      "sent_at": "2026-08-28T06:36:06.332271+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.27302v1",
+      "source": "arxiv",
+      "title": "QuantumBoostNet: A Hybrid Classical-Quantum Architecture for Enhanced Accuracy in Cardiac Ultrasound View Identification",
+      "url": "http://arxiv.org/abs/2608.27302v1",
+      "sent_at": "2026-08-28T06:36:06.332271+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.27051v1",
+      "source": "arxiv",
+      "title": "Anatomy-Guided Foundation Model Adaptation with Within-Case Prototype Supervision for Standard Plane Detection in Fetal Ultrasound Blind Sweeps",
+      "url": "http://arxiv.org/abs/2608.27051v1",
+      "sent_at": "2026-08-28T06:36:06.332271+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.27240v1",
+      "source": "arxiv",
+      "title": "UniFLM: United Segmentation and Measurement on Fetal Limb Ultrasonic Image",
+      "url": "http://arxiv.org/abs/2608.27240v1",
+      "sent_at": "2026-08-28T06:36:06.332271+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.26727v1",
+      "source": "arxiv",
+      "title": "Amortized Neural SVD for XL-MIMO: Structure-Guided Factor Prediction for Beamforming and Multi-Stream Utility",
+      "url": "http://arxiv.org/abs/2608.26727v1",
+      "sent_at": "2026-08-28T06:36:06.332271+00:00"
     }
   ]
 }
