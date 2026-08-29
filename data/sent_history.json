@@ -2883,6 +2883,27 @@
       "title": "VSWR-Resilient Mm-Wave and Cm-Wave PAs for Large-Scale Phased Arrays",
       "url": "http://arxiv.org/abs/2608.00351v1",
       "sent_at": "2026-08-29T04:08:53.701040+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.00803v1",
+      "source": "arxiv",
+      "title": "SoniSpeech: A Large-Scale Open-Vocabulary Tri-Modal Dataset for Wearable Silent Speech Interfaces",
+      "url": "http://arxiv.org/abs/2608.00803v1",
+      "sent_at": "2026-08-29T23:57:22.888087+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.17448v1",
+      "source": "arxiv",
+      "title": "Multi-Sensor Edge Angle Detection for Performance Analysis in Ski Jumping",
+      "url": "http://arxiv.org/abs/2608.17448v1",
+      "sent_at": "2026-08-29T23:57:22.888087+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2607.23214v1",
+      "source": "arxiv",
+      "title": "Movable-Antenna Assisted Energy Minimization in UAV-Enabled Mobile Edge Computing Systems",
+      "url": "http://arxiv.org/abs/2607.23214v1",
+      "sent_at": "2026-08-29T23:57:22.888087+00:00"
     }
   ]
 }
