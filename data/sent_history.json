@@ -2862,6 +2862,27 @@
       "title": "Amortized Neural SVD for XL-MIMO: Structure-Guided Factor Prediction for Beamforming and Multi-Stream Utility",
       "url": "http://arxiv.org/abs/2608.26727v1",
       "sent_at": "2026-08-28T06:36:06.332271+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.00940v1",
+      "source": "arxiv",
+      "title": "A Wideband Multibeam Planar Quasi-Yagi Array Antenna Based on Parasitic Pixel Strips",
+      "url": "http://arxiv.org/abs/2608.00940v1",
+      "sent_at": "2026-08-29T04:08:53.701040+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.01518v1",
+      "source": "arxiv",
+      "title": "UCBound-Net: Uncertainty-Guided Boundary-Aware Continual Learning for Domain-Incremental Ultrasound Segmentation",
+      "url": "http://arxiv.org/abs/2608.01518v1",
+      "sent_at": "2026-08-29T04:08:53.701040+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.00351v1",
+      "source": "arxiv",
+      "title": "VSWR-Resilient Mm-Wave and Cm-Wave PAs for Large-Scale Phased Arrays",
+      "url": "http://arxiv.org/abs/2608.00351v1",
+      "sent_at": "2026-08-29T04:08:53.701040+00:00"
     }
   ]
 }
