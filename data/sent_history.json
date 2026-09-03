@@ -2974,6 +2974,34 @@
       "title": "Medical Foundation Model Features as Perceptual Loss for Brain MRI Contrast Dose Simulation",
       "url": "http://arxiv.org/abs/2608.28773v1",
       "sent_at": "2026-09-02T00:39:13.039978+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.00473v1",
+      "source": "arxiv",
+      "title": "Expert-like Bone Ultrasound Segmentation through Expert-in-the-loop Mask-conditioned Progressive Learning",
+      "url": "http://arxiv.org/abs/2609.00473v1",
+      "sent_at": "2026-09-03T00:19:56.518828+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.00559v1",
+      "source": "arxiv",
+      "title": "Delay-Doppler Sensing Performance Analysis for MIMO-OFDM ISAC Systems",
+      "url": "http://arxiv.org/abs/2609.00559v1",
+      "sent_at": "2026-09-03T00:19:56.518828+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.01313v1",
+      "source": "arxiv",
+      "title": "Why Is Cubic-Phase Airy Beamforming Sufficient for Blockage Recovery?",
+      "url": "http://arxiv.org/abs/2609.01313v1",
+      "sent_at": "2026-09-03T00:19:56.518828+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.00615v1",
+      "source": "arxiv",
+      "title": "BeamRMX: Radiation-Pattern-Driven Learning for Generalizable Beam Radio Map Prediction and Beam Management",
+      "url": "http://arxiv.org/abs/2609.00615v1",
+      "sent_at": "2026-09-03T00:19:56.518828+00:00"
     }
   ]
 }
