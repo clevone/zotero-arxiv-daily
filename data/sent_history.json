@@ -3002,6 +3002,27 @@
       "title": "BeamRMX: Radiation-Pattern-Driven Learning for Generalizable Beam Radio Map Prediction and Beam Management",
       "url": "http://arxiv.org/abs/2609.00615v1",
       "sent_at": "2026-09-03T00:19:56.518828+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.02696v1",
+      "source": "arxiv",
+      "title": "A viscoelastic theory for ultrasound-induced intracellular streaming",
+      "url": "http://arxiv.org/abs/2609.02696v1",
+      "sent_at": "2026-09-04T00:25:59.291874+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.02657v1",
+      "source": "arxiv",
+      "title": "ARFT: A Synchronized Multimodal RF-Acoustic Dataset for Positioning in Distributed Environments",
+      "url": "http://arxiv.org/abs/2609.02657v1",
+      "sent_at": "2026-09-04T00:25:59.291874+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.02026v1",
+      "source": "arxiv",
+      "title": "Pinching-Antenna Systems-enabled Secure ISAC: A Two-Timescale Optimization Framework",
+      "url": "http://arxiv.org/abs/2609.02026v1",
+      "sent_at": "2026-09-04T00:25:59.291874+00:00"
     }
   ]
 }
