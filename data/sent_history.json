@@ -3023,6 +3023,48 @@
       "title": "Pinching-Antenna Systems-enabled Secure ISAC: A Two-Timescale Optimization Framework",
       "url": "http://arxiv.org/abs/2609.02026v1",
       "sent_at": "2026-09-04T00:25:59.291874+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.03137v1",
+      "source": "arxiv",
+      "title": "A single-precision floating-point systolic Givens-QRD Triangular Solver for MVDR Beamforming",
+      "url": "http://arxiv.org/abs/2609.03137v1",
+      "sent_at": "2026-09-05T00:08:25.776683+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.03644v1",
+      "source": "arxiv",
+      "title": "HPC Modeling of Coupled Elastic-Acoustic Wave Propagation in Biological Media: Numerical Validation",
+      "url": "http://arxiv.org/abs/2609.03644v1",
+      "sent_at": "2026-09-05T00:08:25.776683+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.02.26361270v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Interpretable photoacoustic phenotyping of distal microcirculation for peripheral artery disease diagnosis with exploratory perioperative assessment",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26361270v1.full.pdf",
+      "sent_at": "2026-09-05T00:08:25.776683+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.01.26360987v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Reconstructing synthetic hearts from ECG using flow matching",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.01.26360987v1.full.pdf",
+      "sent_at": "2026-09-05T00:08:25.776683+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/30136938/",
+      "source": "pubmed",
+      "title": "Adaptive Multifocus Beamforming for Contrast-Enhanced-Super-Resolution Ultrasound Imaging in Deep Tissue.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30136938/",
+      "sent_at": "2026-09-05T00:08:25.776683+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/35218672/",
+      "source": "pubmed",
+      "title": "In vivo assessment of hypertensive nephrosclerosis using ultrasound localization microscopy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35218672/",
+      "sent_at": "2026-09-05T00:08:25.776683+00:00"
     }
   ]
 }
