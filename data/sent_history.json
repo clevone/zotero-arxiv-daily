@@ -3086,6 +3086,27 @@
       "title": "Task-Relevant Feature-Dynamics Fidelity Enables Zero-Shot Sim-to-Real Transfer for Robotic Ultrasound Scanning",
       "url": "http://arxiv.org/abs/2608.29516v1",
       "sent_at": "2026-09-06T00:06:45.347352+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.26033v1",
+      "source": "arxiv",
+      "title": "UltraPIPS: Improving model perception in B-mode ultrasound with foundation models",
+      "url": "http://arxiv.org/abs/2608.26033v1",
+      "sent_at": "2026-09-06T23:42:12.923445+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.03835v1",
+      "source": "arxiv",
+      "title": "Tailoring Mechanical and Acoustic Properties of Liquid-Filled Elastomers as Reusable Ultrasound Couplants",
+      "url": "http://arxiv.org/abs/2609.03835v1",
+      "sent_at": "2026-09-06T23:42:12.923445+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.27302v2",
+      "source": "arxiv",
+      "title": "QuantumBoostNet: Hybrid Classical-Quantum Cardiac View Identification",
+      "url": "http://arxiv.org/abs/2608.27302v2",
+      "sent_at": "2026-09-06T23:42:12.923445+00:00"
     }
   ]
 }
