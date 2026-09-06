@@ -3065,6 +3065,27 @@
       "title": "In vivo assessment of hypertensive nephrosclerosis using ultrasound localization microscopy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/35218672/",
       "sent_at": "2026-09-05T00:08:25.776683+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.30639v1",
+      "source": "arxiv",
+      "title": "Energy Efficiency in Microwave Linear Analog Computer (MiLAC)-Enabled Communications",
+      "url": "http://arxiv.org/abs/2608.30639v1",
+      "sent_at": "2026-09-06T00:06:45.347352+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.25472v1",
+      "source": "arxiv",
+      "title": "PAGS: Autofocusing Photoacoustic Tomography via Speed-of-Sound-Adaptive Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2608.25472v1",
+      "sent_at": "2026-09-06T00:06:45.347352+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.29516v1",
+      "source": "arxiv",
+      "title": "Task-Relevant Feature-Dynamics Fidelity Enables Zero-Shot Sim-to-Real Transfer for Robotic Ultrasound Scanning",
+      "url": "http://arxiv.org/abs/2608.29516v1",
+      "sent_at": "2026-09-06T00:06:45.347352+00:00"
     }
   ]
 }
