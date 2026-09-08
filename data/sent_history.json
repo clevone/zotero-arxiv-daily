@@ -3107,6 +3107,27 @@
       "title": "QuantumBoostNet: Hybrid Classical-Quantum Cardiac View Identification",
       "url": "http://arxiv.org/abs/2608.27302v2",
       "sent_at": "2026-09-06T23:42:12.923445+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.04365v1",
+      "source": "arxiv",
+      "title": "Ultrasound-Based Prediction of Cirrhosis Decompensation Using Large-Scale Computer Vision Models",
+      "url": "http://arxiv.org/abs/2609.04365v1",
+      "sent_at": "2026-09-08T00:05:24.066388+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.04390v1",
+      "source": "arxiv",
+      "title": "Development and Evaluation of Ultrasound Image Learning Pipelines for MASLD Risk Stratification",
+      "url": "http://arxiv.org/abs/2609.04390v1",
+      "sent_at": "2026-09-08T00:05:24.066388+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.04836v1",
+      "source": "arxiv",
+      "title": "Hierarchical Codebook Design and Low-Overhead Beam Training for Near-Field Communications With Uniform Circular Arrays",
+      "url": "http://arxiv.org/abs/2609.04836v1",
+      "sent_at": "2026-09-08T00:05:24.066388+00:00"
     }
   ]
 }
