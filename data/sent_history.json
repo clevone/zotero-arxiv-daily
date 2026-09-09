@@ -3128,6 +3128,27 @@
       "title": "Hierarchical Codebook Design and Low-Overhead Beam Training for Near-Field Communications With Uniform Circular Arrays",
       "url": "http://arxiv.org/abs/2609.04836v1",
       "sent_at": "2026-09-08T00:05:24.066388+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.30721v1",
+      "source": "arxiv",
+      "title": "Eigenvalue Asymptotics in High-Contrast Media",
+      "url": "http://arxiv.org/abs/2608.30721v1",
+      "sent_at": "2026-09-09T00:01:56.067876+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.20809v1",
+      "source": "arxiv",
+      "title": "TRACE: Training-time Report-guided and Clinically Ordered Concept Editing",
+      "url": "http://arxiv.org/abs/2608.20809v1",
+      "sent_at": "2026-09-09T00:01:56.067876+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.25192v2",
+      "source": "arxiv",
+      "title": "CRESSim-Neo: A Batched GPU Simulation Engine for Surgical Robotics and Robot Learning",
+      "url": "http://arxiv.org/abs/2608.25192v2",
+      "sent_at": "2026-09-09T00:01:56.067876+00:00"
     }
   ]
 }
