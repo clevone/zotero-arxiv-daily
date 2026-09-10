@@ -3149,6 +3149,41 @@
       "title": "CRESSim-Neo: A Batched GPU Simulation Engine for Surgical Robotics and Robot Learning",
       "url": "http://arxiv.org/abs/2608.25192v2",
       "sent_at": "2026-09-09T00:01:56.067876+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.08631v1",
+      "source": "arxiv",
+      "title": "CrossRAFT: Cross-Domain Complex-Valued Feature Extraction for Ultrasound Motion Estimation",
+      "url": "http://arxiv.org/abs/2609.08631v1",
+      "sent_at": "2026-09-10T00:48:27.896773+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.07995v1",
+      "source": "arxiv",
+      "title": "Characterization of Beam-Squint and Beam-Split Effects in RIS-assisted Multi-Frequency Networks",
+      "url": "http://arxiv.org/abs/2609.07995v1",
+      "sent_at": "2026-09-10T00:48:27.896773+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.06136v1",
+      "source": "arxiv",
+      "title": "Fundamental Limits of Adaptive Beamforming Under Finite Training",
+      "url": "http://arxiv.org/abs/2609.06136v1",
+      "sent_at": "2026-09-10T00:48:27.896773+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.06790v1",
+      "source": "arxiv",
+      "title": "Tri-Hybrid Beamforming Design for DMA-Aided Secure ISAC Systems",
+      "url": "http://arxiv.org/abs/2609.06790v1",
+      "sent_at": "2026-09-10T00:48:27.896773+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.08187v1",
+      "source": "arxiv",
+      "title": "BeamFocusNet: Beamforming-based Explicit Spatial Signal Focusing for Robust DoA Estimation under Low-SNR and Single-Snapshot Conditions",
+      "url": "http://arxiv.org/abs/2609.08187v1",
+      "sent_at": "2026-09-10T00:48:27.896773+00:00"
     }
   ]
 }
