@@ -3184,6 +3184,34 @@
       "title": "BeamFocusNet: Beamforming-based Explicit Spatial Signal Focusing for Robust DoA Estimation under Low-SNR and Single-Snapshot Conditions",
       "url": "http://arxiv.org/abs/2609.08187v1",
       "sent_at": "2026-09-10T00:48:27.896773+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.09951v1",
+      "source": "arxiv",
+      "title": "An angular distortion matrix approach for joint wave-speed tomography and aberration correction in scattering media",
+      "url": "http://arxiv.org/abs/2609.09951v1",
+      "sent_at": "2026-09-11T00:21:05.072991+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.09577v1",
+      "source": "arxiv",
+      "title": "Myocardial Strain Drift Correction in Deep Learning Based Ultrasound Tracking",
+      "url": "http://arxiv.org/abs/2609.09577v1",
+      "sent_at": "2026-09-11T00:21:05.072991+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.04.26362282v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Optoacoustic molecular signatures of muscle involvement in facioscapulohumeral dystrophy compared to conventional imaging",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.04.26362282v1.full.pdf",
+      "sent_at": "2026-09-11T00:21:05.072991+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.10200v1",
+      "source": "arxiv",
+      "title": "Robust Beam Prediction for V2X Networks with Multi-Modal Sensing",
+      "url": "http://arxiv.org/abs/2609.10200v1",
+      "sent_at": "2026-09-11T00:21:05.072991+00:00"
     }
   ]
 }
