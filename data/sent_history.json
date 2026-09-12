@@ -3212,6 +3212,34 @@
       "title": "Robust Beam Prediction for V2X Networks with Multi-Modal Sensing",
       "url": "http://arxiv.org/abs/2609.10200v1",
       "sent_at": "2026-09-11T00:21:05.072991+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.25965v1",
+      "source": "arxiv",
+      "title": "Less Contouring, More Accuracy: Lesion-Guided ROI Deep Learning for Ovarian Ultrasound Classification",
+      "url": "http://arxiv.org/abs/2608.25965v1",
+      "sent_at": "2026-09-12T23:40:55.693808+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.06252v1",
+      "source": "arxiv",
+      "title": "Brain-Inspired User Positioning for mmWave Beam Management",
+      "url": "http://arxiv.org/abs/2609.06252v1",
+      "sent_at": "2026-09-12T23:40:55.693808+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.06996v1",
+      "source": "arxiv",
+      "title": "Joint Communication Sensing Beamforming and Uplink Power Control for Network-Assisted Full-Duplex Cell-Free ISAC Systems",
+      "url": "http://arxiv.org/abs/2609.06996v1",
+      "sent_at": "2026-09-12T23:40:55.693808+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/38575577/",
+      "source": "pubmed",
+      "title": "Context-aware deep learning enables high-efficacy localization of high concentration microbubbles for super-resolution ultrasound localization microscopy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38575577/",
+      "sent_at": "2026-09-12T23:40:55.693808+00:00"
     }
   ]
 }
