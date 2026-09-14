@@ -1,33 +1,3 @@
 {
-  "items": [
-    {
-      "key": "url::http://arxiv.org/abs/2608.27620v1",
-      "added_at": "2026-09-05T23:47:37.592511+00:00",
-      "last_seen_at": "2026-09-05T23:47:37.592511+00:00",
-      "paper": {
-        "source": "arxiv",
-        "title": "Visual Cue Interactions in AR-Guided Needle Insertion: A Prostate Biopsy-Inspired Phantom Study",
-        "authors": [
-          "Xinrui Zou",
-          "Mingxu Liu",
-          "Thomas T. Jones",
-          "Braden Millan",
-          "Sandeep Gurram",
-          "Peter A. Pinto",
-          "Raisa Z. Freidlin",
-          "Alejandro Martin-Gomez"
-        ],
-        "abstract": "Despite the apparent simplicity of the motor action involved during percutaneous needle procedures, manipulating the tool's direction becomes challenging when clinicians cannot directly visualize internal anatomy and must rely on ultrasound images, which increase cognitive demand. Augmented reality (AR) offers the promise to assist with these tasks by providing pertinent visual information in the clinician's field of view. However, simply providing visual information that ignores meaningful visual cues can complicate depth perception and spatial understanding. In this work, we introduce and evaluate three visualization techniques for needle alignment developed during design sessions with medical experts: a localized focus-and-context window, a color-based proximity encoding, and an explicit trajectory overlay. These techniques were evaluated in a user study (n=26) including clinical experts (n=7) using a prostate-biopsy-inspired phantom. Results from this study suggest that cue effects depended on the surrounding cue configuration and user expertise. For novices, explicit trajectory overlay improved targeting accuracy and reduced retreat behavior, but its effect on completion time varied across cue configurations, with slower performance when the overlay was presented alone. For experts, the focus-and-context window reduced completion time and retreat events, while color-based proximity overlay improved completion time. Subjectively, color cues were often perceived as helpful even when their effects on accuracy were not consistent. These results suggest that AR guidance strategies for percutaneous interventions should consider user expertise and visual context.",
-        "url": "http://arxiv.org/abs/2608.27620v1",
-        "pdf_url": "https://arxiv.org/pdf/2608.27620v1",
-        "full_text": null,
-        "tldr": null,
-        "title_zh": null,
-        "tldr_en": null,
-        "tldr_zh": null,
-        "affiliations": null,
-        "score": 2.6593597356962495
-      }
-    }
-  ]
+  "items": []
 }

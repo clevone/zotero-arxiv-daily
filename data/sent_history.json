@@ -3240,6 +3240,20 @@
       "title": "Context-aware deep learning enables high-efficacy localization of high concentration microbubbles for super-resolution ultrasound localization microscopy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/38575577/",
       "sent_at": "2026-09-12T23:40:55.693808+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.09.26362667v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Magnetic Resonance Elastography of Regional Aortic Mechanics and True- and False-Lumen Stiffness in Aortic Dissection: A Feasibility Study",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362667v1.full.pdf",
+      "sent_at": "2026-09-14T00:26:16.175247+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2608.27620v1",
+      "source": "arxiv",
+      "title": "Visual Cue Interactions in AR-Guided Needle Insertion: A Prostate Biopsy-Inspired Phantom Study",
+      "url": "http://arxiv.org/abs/2608.27620v1",
+      "sent_at": "2026-09-14T00:26:16.175247+00:00"
     }
   ]
 }
