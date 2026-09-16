@@ -3254,6 +3254,41 @@
       "title": "Visual Cue Interactions in AR-Guided Needle Insertion: A Prostate Biopsy-Inspired Phantom Study",
       "url": "http://arxiv.org/abs/2608.27620v1",
       "sent_at": "2026-09-14T00:26:16.175247+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.14771v1",
+      "source": "arxiv",
+      "title": "A Novel Pulse Radar Framework for ISAC-FD-enabled URLLC Systems",
+      "url": "http://arxiv.org/abs/2609.14771v1",
+      "sent_at": "2026-09-16T00:53:22.044511+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.14511v1",
+      "source": "arxiv",
+      "title": "Combating Suppressive Jamming with Dynamic Agile Reconfigurable Intelligent Surface Antenna Array (DARISAA)",
+      "url": "http://arxiv.org/abs/2609.14511v1",
+      "sent_at": "2026-09-16T00:53:22.044511+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.15150v1",
+      "source": "arxiv",
+      "title": "Weakly Supervised Spatial Grounding for Discriminative Attention-Based Ultrasound-Histopathology Alignment in Prostate Cancer Grading",
+      "url": "http://arxiv.org/abs/2609.15150v1",
+      "sent_at": "2026-09-16T00:53:22.044511+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.15285v1",
+      "source": "arxiv",
+      "title": "AlignUS: MRI-Guided Ultrasound Representation Learning for ALS Classification from Tongue Images",
+      "url": "http://arxiv.org/abs/2609.15285v1",
+      "sent_at": "2026-09-16T00:53:22.044511+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.13340v1",
+      "source": "arxiv",
+      "title": "ProtoCAM: Interpretable Few-Shot Mask-Guided Prototypical Learning for Breast Lesion Classification in Ultrasound Imaging",
+      "url": "http://arxiv.org/abs/2609.13340v1",
+      "sent_at": "2026-09-16T00:53:22.044511+00:00"
     }
   ]
 }
