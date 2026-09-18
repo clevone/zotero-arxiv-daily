@@ -3289,6 +3289,41 @@
       "title": "ProtoCAM: Interpretable Few-Shot Mask-Guided Prototypical Learning for Breast Lesion Classification in Ultrasound Imaging",
       "url": "http://arxiv.org/abs/2609.13340v1",
       "sent_at": "2026-09-16T00:53:22.044511+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.18546v1",
+      "source": "arxiv",
+      "title": "STUNet-Fusion: Spatiotemporal Needle-Tip Localization in Ultrasound Video via Multi-Channel Motion Fusion",
+      "url": "http://arxiv.org/abs/2609.18546v1",
+      "sent_at": "2026-09-18T00:05:22.046557+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.17793v1",
+      "source": "arxiv",
+      "title": "The Magnetic-Resonance-Based, Omni-Directional Hydrophone",
+      "url": "http://arxiv.org/abs/2609.17793v1",
+      "sent_at": "2026-09-18T00:05:22.046557+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.18256v1",
+      "source": "arxiv",
+      "title": "Evolving Error States: Failure-Aware Progressive Repair for Ultrasound Lesion Segmentation",
+      "url": "http://arxiv.org/abs/2609.18256v1",
+      "sent_at": "2026-09-18T00:05:22.046557+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.19030v1",
+      "source": "arxiv",
+      "title": "Reconfigurable Holographic Surface for Simultaneous Wireless Information and Power Transfer",
+      "url": "http://arxiv.org/abs/2609.19030v1",
+      "sent_at": "2026-09-18T00:05:22.046557+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.19049v1",
+      "source": "arxiv",
+      "title": "FreqTune-PASS: Frequency-Tuned Beamforming for Multi-User Pinching-Antenna Systems",
+      "url": "http://arxiv.org/abs/2609.19049v1",
+      "sent_at": "2026-09-18T00:05:22.046557+00:00"
     }
   ]
 }
