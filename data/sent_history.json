@@ -3324,6 +3324,41 @@
       "title": "FreqTune-PASS: Frequency-Tuned Beamforming for Multi-User Pinching-Antenna Systems",
       "url": "http://arxiv.org/abs/2609.19049v1",
       "sent_at": "2026-09-18T00:05:22.046557+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.19525v1",
+      "source": "arxiv",
+      "title": "Compression Hurts, Pooling Helps: Information Loss in Rayleigh-Scale Estimation from B-Mode Ultrasound",
+      "url": "http://arxiv.org/abs/2609.19525v1",
+      "sent_at": "2026-09-19T00:37:14.176027+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.19230v1",
+      "source": "arxiv",
+      "title": "Open ultrasound foundation model for robust segmentation and clinical measurement across heterogeneous settings",
+      "url": "http://arxiv.org/abs/2609.19230v1",
+      "sent_at": "2026-09-19T00:37:14.176027+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.19458v1",
+      "source": "arxiv",
+      "title": "Closed-form weak-wave propagation pressure amplitudes for arbitrary power-law attenuation",
+      "url": "http://arxiv.org/abs/2609.19458v1",
+      "sent_at": "2026-09-19T00:37:14.176027+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.20340v1",
+      "source": "arxiv",
+      "title": "FreqDINO++: A Frequency-Guided Multi-Task Routing Vision Foundation Model for Universal Ultrasound Analysis",
+      "url": "http://arxiv.org/abs/2609.20340v1",
+      "sent_at": "2026-09-19T00:37:14.176027+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/38195266/",
+      "source": "pubmed",
+      "title": "Biopathologic Characterization and Grade Assessment of Breast Cancer With 3-D Multiparametric Ultrasound Combining Shear Wave Elastography and Backscatter Tensor Imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38195266/",
+      "sent_at": "2026-09-19T00:37:14.176027+00:00"
     }
   ]
 }
