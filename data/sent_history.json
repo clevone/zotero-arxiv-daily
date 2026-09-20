@@ -3359,6 +3359,27 @@
       "title": "Biopathologic Characterization and Grade Assessment of Breast Cancer With 3-D Multiparametric Ultrasound Combining Shear Wave Elastography and Backscatter Tensor Imaging.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/38195266/",
       "sent_at": "2026-09-19T00:37:14.176027+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.14566v1",
+      "source": "arxiv",
+      "title": "Multi-Mode Pinching-Antenna Systems: An Inter-Mode-Interference-Free Perspective",
+      "url": "http://arxiv.org/abs/2609.14566v1",
+      "sent_at": "2026-09-20T00:09:08.732776+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.15458v1",
+      "source": "arxiv",
+      "title": "Mobility- and Feedback-Aware Multi-Level Conflict-Triggered Hybrid Beamforming for Multi-User mmWave UAV Systems",
+      "url": "http://arxiv.org/abs/2609.15458v1",
+      "sent_at": "2026-09-20T00:09:08.732776+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.13271v1",
+      "source": "arxiv",
+      "title": "CANAL: Channel-Aware Noise Allocation for Differentially Private Feature Distillation in Medical Image Segmentation",
+      "url": "http://arxiv.org/abs/2609.13271v1",
+      "sent_at": "2026-09-20T00:09:08.732776+00:00"
     }
   ]
 }
