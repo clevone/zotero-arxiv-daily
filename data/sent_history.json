@@ -3380,6 +3380,27 @@
       "title": "CANAL: Channel-Aware Noise Allocation for Differentially Private Feature Distillation in Medical Image Segmentation",
       "url": "http://arxiv.org/abs/2609.13271v1",
       "sent_at": "2026-09-20T00:09:08.732776+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.17.26363353v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Myocardial Stiffness Tracking & Assessment Toolkit Driven by Artificial Intelligence For Reproducible Benchmarking of Temporal Segmentation and Shear-Wave Velocity Stabilization on Synthetic Data",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363353v1.full.pdf",
+      "sent_at": "2026-09-21T00:21:14.179494+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.17.26363289v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Full-Field Ultrasound Time-Harmonic Elastography Quantifies Task-Dependent Thoracolumbar Fascia and Multifidus Mechanics During Back Extension",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363289v1.full.pdf",
+      "sent_at": "2026-09-21T00:21:14.179494+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.16.26363272v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Use of Renal Duplex To Detect Renal Artery Stenosis in Fibromuscular Dysplasia",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26363272v1.full.pdf",
+      "sent_at": "2026-09-21T00:21:14.179494+00:00"
     }
   ]
 }
