@@ -3422,6 +3422,48 @@
       "title": "Concept-Grounded Reasoning with Prompt-Driven Localization for Interpretable Structured Report Generation",
       "url": "http://arxiv.org/abs/2609.15334v1",
       "sent_at": "2026-09-22T01:00:45.675536+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.14459v1",
+      "source": "arxiv",
+      "title": "Sum Secrecy Rate Maximization for Secure ISAC",
+      "url": "http://arxiv.org/abs/2609.14459v1",
+      "sent_at": "2026-09-28T00:32:07.773891+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.14974v1",
+      "source": "arxiv",
+      "title": "Discrete Antenna Positioning and Beamforming Design for RIS-Assisted MA Secure ISAC Systems",
+      "url": "http://arxiv.org/abs/2609.14974v1",
+      "sent_at": "2026-09-28T00:32:07.773891+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.15225v1",
+      "source": "arxiv",
+      "title": "Deep Learning-based Intelligent Diagnosis of Congenital Uterine Anomalies in 3D Ultrasound",
+      "url": "http://arxiv.org/abs/2609.15225v1",
+      "sent_at": "2026-09-28T00:32:07.773891+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40478722/",
+      "source": "pubmed",
+      "title": "Using Image Quality Metrics to Optimize the Design of Integrated Medical Ultrasound ADCs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40478722/",
+      "sent_at": "2026-09-28T00:32:07.773891+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/30295619/",
+      "source": "pubmed",
+      "title": "SUSHI: Sparsity-Based Ultrasound Super-Resolution Hemodynamic Imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30295619/",
+      "sent_at": "2026-09-28T00:32:07.773891+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/32406833/",
+      "source": "pubmed",
+      "title": "Spherical Array System for High-Precision Transcranial Ultrasound Stimulation and Optoacoustic Imaging in Rodents.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32406833/",
+      "sent_at": "2026-09-28T00:32:07.773891+00:00"
     }
   ]
 }
