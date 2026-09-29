@@ -3464,6 +3464,62 @@
       "title": "Spherical Array System for High-Precision Transcranial Ultrasound Stimulation and Optoacoustic Imaging in Rodents.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32406833/",
       "sent_at": "2026-09-28T00:32:07.773891+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.30686v1",
+      "source": "arxiv",
+      "title": "A 2D autocorrelation-based frequency estimator reflecting spatial tissue distribution to improve Ultrasound H-scan tissue characterization",
+      "url": "http://arxiv.org/abs/2609.30686v1",
+      "sent_at": "2026-09-29T02:07:58.632645+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.30928v1",
+      "source": "arxiv",
+      "title": "UltraG-Bench: A Multi-task Benchmark for assessing Large Vision-Language Models on Pixel-level Evidence Grounding in Ultrasound",
+      "url": "http://arxiv.org/abs/2609.30928v1",
+      "sent_at": "2026-09-29T02:07:58.632645+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.30618v1",
+      "source": "arxiv",
+      "title": "MBFormer: Microbubble Transformer for 3D Time-Series Da-ta Processing to Improve Bound Bubble Detection in Nonde-structive Ultrasound Molecular Imaging",
+      "url": "http://arxiv.org/abs/2609.30618v1",
+      "sent_at": "2026-09-29T02:07:58.632645+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.31455v1",
+      "source": "arxiv",
+      "title": "Depth-resolved elastic property tomography using higher-order shear-horizontal modes",
+      "url": "http://arxiv.org/abs/2609.31455v1",
+      "sent_at": "2026-09-29T02:07:58.632645+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.31376v1",
+      "source": "arxiv",
+      "title": "Towards Whole-Study Screening for Congenital Heart Disease in Fetal Ultrasound Using Multiple Instance Learning",
+      "url": "http://arxiv.org/abs/2609.31376v1",
+      "sent_at": "2026-09-29T02:07:58.632645+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/34735340/",
+      "source": "pubmed",
+      "title": "Dual-Mode Volumetric Optoacoustic and Contrast Enhanced Ultrasound Imaging With Spherical Matrix Arrays.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34735340/",
+      "sent_at": "2026-09-29T02:07:58.632645+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/38607709/",
+      "source": "pubmed",
+      "title": "ULM-MbCNRT: In Vivo Ultrafast Ultrasound Localization Microscopy by Combining Multibranch CNN and Recursive Transformer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38607709/",
+      "sent_at": "2026-09-29T02:07:58.632645+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/32962891/",
+      "source": "pubmed",
+      "title": "Temperature Elevation in an Instrumented Phantom Insonated by B-Mode Imaging, Pulse Doppler and Shear Wave Elastography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32962891/",
+      "sent_at": "2026-09-29T02:07:58.632645+00:00"
     }
   ]
 }
