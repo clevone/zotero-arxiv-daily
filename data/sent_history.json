@@ -3520,6 +3520,48 @@
       "title": "Temperature Elevation in an Instrumented Phantom Insonated by B-Mode Imaging, Pulse Doppler and Shear Wave Elastography.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32962891/",
       "sent_at": "2026-09-29T02:07:58.632645+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.36646v1",
+      "source": "arxiv",
+      "title": "TRACE: A Trilinear Channel Estimation Framework for Tri-Hybrid Architectures with Reconfigurable Antennas",
+      "url": "http://arxiv.org/abs/2609.36646v1",
+      "sent_at": "2026-10-01T01:29:30.020324+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.36586v2",
+      "source": "arxiv",
+      "title": "Surrogate-Enhanced Fractional Programming for MIMO Device-to-Device Interference Networks",
+      "url": "http://arxiv.org/abs/2609.36586v2",
+      "sent_at": "2026-10-01T01:29:30.020324+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.30800v1",
+      "source": "arxiv",
+      "title": "Movable-Element STARS-Assisted NOMA Communications",
+      "url": "http://arxiv.org/abs/2609.30800v1",
+      "sent_at": "2026-10-01T01:29:30.020324+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/34045095/",
+      "source": "pubmed",
+      "title": "Super-Resolution Ultrasound Localization Microscopy on a Rabbit Liver VX2 Tumor Model: An Initial Feasibility Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34045095/",
+      "sent_at": "2026-10-01T01:29:30.020324+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/36441030/",
+      "source": "pubmed",
+      "title": "Non-invasive High-Intensity Focused Ultrasound Treatment of Liver Tissues in an In Vivo Porcine Model: Fast, Large and Safe Ablations Using a Toroidal Transducer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36441030/",
+      "sent_at": "2026-10-01T01:29:30.020324+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/36197870/",
+      "source": "pubmed",
+      "title": "Quantitative Assessment of Boiling Histotripsy Progression Based on Color Doppler Measurements.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36197870/",
+      "sent_at": "2026-10-01T01:29:30.020324+00:00"
     }
   ]
 }
