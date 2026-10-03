@@ -3562,6 +3562,48 @@
       "title": "Quantitative Assessment of Boiling Histotripsy Progression Based on Color Doppler Measurements.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/36197870/",
       "sent_at": "2026-10-01T01:29:30.020324+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.01602v1",
+      "source": "arxiv",
+      "title": "Open-Source Live-Reconfigurable Multi-Mode Wearable Ultrasound",
+      "url": "http://arxiv.org/abs/2610.01602v1",
+      "sent_at": "2026-10-03T01:15:28.933949+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.01623v1",
+      "source": "arxiv",
+      "title": "Open-Source Multi-Wire SPI Readout for Wearable Ultrasound Probes",
+      "url": "http://arxiv.org/abs/2610.01623v1",
+      "sent_at": "2026-10-03T01:15:28.933949+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.01930v1",
+      "source": "arxiv",
+      "title": "Towards 3D fully randomized frequency-domain reconstruction of the speed of sound in breast ultrasound computed tomography",
+      "url": "http://arxiv.org/abs/2610.01930v1",
+      "sent_at": "2026-10-03T01:15:28.933949+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.01603v1",
+      "source": "arxiv",
+      "title": "U-Sonic: An Open-Source 8-Channel Ultrasound Transmit IP in a 130 nm RISC-V SoC",
+      "url": "http://arxiv.org/abs/2610.01603v1",
+      "sent_at": "2026-10-03T01:15:28.933949+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.01015v1",
+      "source": "arxiv",
+      "title": "Initial condition recovery in nonlinear damped viscous photoacoustic tomography using a convolutional neural network-guided gradient-free optimization framework",
+      "url": "http://arxiv.org/abs/2610.01015v1",
+      "sent_at": "2026-10-03T01:15:28.933949+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/32553692/",
+      "source": "pubmed",
+      "title": "Introduction of a Measurement Setup to Monitor the Pressure Applied During Handheld Ultrasound Elastography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32553692/",
+      "sent_at": "2026-10-03T01:15:28.933949+00:00"
     }
   ]
 }
