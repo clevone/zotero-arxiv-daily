@@ -3604,6 +3604,27 @@
       "title": "Introduction of a Measurement Setup to Monitor the Pressure Applied During Handheld Ultrasound Elastography.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32553692/",
       "sent_at": "2026-10-03T01:15:28.933949+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.01474v1",
+      "source": "arxiv",
+      "title": "Cramér-Rao Bound Optimization for Joint Beamforming and Mode Selection in RDARS-Assisted ISAC Systems",
+      "url": "http://arxiv.org/abs/2610.01474v1",
+      "sent_at": "2026-10-04T00:36:14.575438+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2609.18837v1",
+      "source": "arxiv",
+      "title": "From Multimode Near-Field Coupling to Friis",
+      "url": "http://arxiv.org/abs/2609.18837v1",
+      "sent_at": "2026-10-04T00:36:14.575438+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.00216v1",
+      "source": "arxiv",
+      "title": "RIS-Assisted Secure ISAC: Fundamentals, Applications, and Future Directions",
+      "url": "http://arxiv.org/abs/2610.00216v1",
+      "sent_at": "2026-10-04T00:36:14.575438+00:00"
     }
   ]
 }
