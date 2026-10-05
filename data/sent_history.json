@@ -3625,6 +3625,20 @@
       "title": "RIS-Assisted Secure ISAC: Fundamentals, Applications, and Future Directions",
       "url": "http://arxiv.org/abs/2610.00216v1",
       "sent_at": "2026-10-04T00:36:14.575438+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.14.26361683v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Detection of Severe Structural Heart Disease Using an AI-Enhanced Portable 1-Lead ECG: The ACCESS-SHD Study",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26361683v1.full.pdf",
+      "sent_at": "2026-10-05T00:30:53.362266+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.09.11.26362753v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Surgically Modifiable Insertion Geometry Drives Thrombogenic Flow in the Modified Blalock-Taussig-Thomas Shunt",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.11.26362753v1.full.pdf",
+      "sent_at": "2026-10-05T00:30:53.362266+00:00"
     }
   ]
 }
