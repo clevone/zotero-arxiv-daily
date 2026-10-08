@@ -3674,6 +3674,41 @@
       "title": "ThyCLIPNet: A BiomedCLIP-Guided Lightweight Attention-Enhanced DeepLabV3+ Framework for Robust Thyroid Nodule Segmentation",
       "url": "http://arxiv.org/abs/2610.04743v1",
       "sent_at": "2026-10-07T02:00:14.139021+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.07941v1",
+      "source": "arxiv",
+      "title": "UltraDiff: Differentiable Ray Tracing in Ultrasound for Shape Optimization",
+      "url": "http://arxiv.org/abs/2610.07941v1",
+      "sent_at": "2026-10-08T01:48:12.810349+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.08080v1",
+      "source": "arxiv",
+      "title": "Laplace-Domain Beamforming for Ultrafast Plane-Wave Imaging",
+      "url": "http://arxiv.org/abs/2610.08080v1",
+      "sent_at": "2026-10-08T01:48:12.810349+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.07024v1",
+      "source": "arxiv",
+      "title": "MRI-Free CT-to-Ultrasound Skull Registration in Transcranial Focused Ultrasound using CMUT based Integrated Therapeutic and Imaging Arrays",
+      "url": "http://arxiv.org/abs/2610.07024v1",
+      "sent_at": "2026-10-08T01:48:12.810349+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.08419v1",
+      "source": "arxiv",
+      "title": "Deformable CT-US Registration via Anatomy-Aware Implicit Neural Representations",
+      "url": "http://arxiv.org/abs/2610.08419v1",
+      "sent_at": "2026-10-08T01:48:12.810349+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.08461v1",
+      "source": "arxiv",
+      "title": "Joint EM-BB Beamforming Design for ISAC Systems With Reconfigurable Antenna Arrays",
+      "url": "http://arxiv.org/abs/2610.08461v1",
+      "sent_at": "2026-10-08T01:48:12.810349+00:00"
     }
   ]
 }
