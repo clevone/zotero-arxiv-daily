@@ -3709,6 +3709,41 @@
       "title": "Joint EM-BB Beamforming Design for ISAC Systems With Reconfigurable Antenna Arrays",
       "url": "http://arxiv.org/abs/2610.08461v1",
       "sent_at": "2026-10-08T01:48:12.810349+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.09682v1",
+      "source": "arxiv",
+      "title": "Self-Supervised Deconvolution of In-Air Sonar Images Using Sensor Ego-Motion",
+      "url": "http://arxiv.org/abs/2610.09682v1",
+      "sent_at": "2026-10-09T02:30:31.402279+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.09677v1",
+      "source": "arxiv",
+      "title": "A Multi-Source Ultrasound Benchmark Revealing the Limits of Contemporary Self-Supervised Anomaly Detection Methods",
+      "url": "http://arxiv.org/abs/2610.09677v1",
+      "sent_at": "2026-10-09T02:30:31.402279+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.09785v1",
+      "source": "arxiv",
+      "title": "UltraWorld: Learning Interactive Ultrasound World Models from Untracked Clinical Videos with Acoustic Sampling Map",
+      "url": "http://arxiv.org/abs/2610.09785v1",
+      "sent_at": "2026-10-09T02:30:31.402279+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.08849v1",
+      "source": "arxiv",
+      "title": "Abdominal Ultrasound Simulation from Semantic Labels using Paired Label-to-Physics-Based Image Translation",
+      "url": "http://arxiv.org/abs/2610.08849v1",
+      "sent_at": "2026-10-09T02:30:31.402279+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.08892v1",
+      "source": "arxiv",
+      "title": "Hybrid++: The Bridge between PDE Models and Deep Learning for Gamma Noise Removal",
+      "url": "http://arxiv.org/abs/2610.08892v1",
+      "sent_at": "2026-10-09T02:30:31.402279+00:00"
     }
   ]
 }
