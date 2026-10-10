@@ -3744,6 +3744,41 @@
       "title": "Hybrid++: The Bridge between PDE Models and Deep Learning for Gamma Noise Removal",
       "url": "http://arxiv.org/abs/2610.08892v1",
       "sent_at": "2026-10-09T02:30:31.402279+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.11610v1",
+      "source": "arxiv",
+      "title": "Beyond Report Imitation: Clinically Aware Multi-Image Ultrasound Report Generation from Visible Evidence",
+      "url": "http://arxiv.org/abs/2610.11610v1",
+      "sent_at": "2026-10-10T01:47:03.506912+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.12273v1",
+      "source": "arxiv",
+      "title": "Deep preferential evolution guided by pairwise comparisons enables motion correction in photoacoustic tomography",
+      "url": "http://arxiv.org/abs/2610.12273v1",
+      "sent_at": "2026-10-10T01:47:03.506912+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.11431v1",
+      "source": "arxiv",
+      "title": "EchoDiST: Self-distillation-based joint learning for diffusion-conditioned echocardiographic myocardial motion estimation",
+      "url": "http://arxiv.org/abs/2610.11431v1",
+      "sent_at": "2026-10-10T01:47:03.506912+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.11755v1",
+      "source": "arxiv",
+      "title": "SR-TTA: Spatial-Redundancy Test-Time Adaptation for Interference-Robust Respiration Sensing",
+      "url": "http://arxiv.org/abs/2610.11755v1",
+      "sent_at": "2026-10-10T01:47:03.506912+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.11904v1",
+      "source": "arxiv",
+      "title": "Large-Scale Partition-Based RIS Beamforming For Uplink RIS-Equipped Multi-User Systems: Asymptotic Analysis",
+      "url": "http://arxiv.org/abs/2610.11904v1",
+      "sent_at": "2026-10-10T01:47:03.506912+00:00"
     }
   ]
 }
