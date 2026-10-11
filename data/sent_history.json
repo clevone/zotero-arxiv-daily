@@ -3779,6 +3779,27 @@
       "title": "Large-Scale Partition-Based RIS Beamforming For Uplink RIS-Equipped Multi-User Systems: Asymptotic Analysis",
       "url": "http://arxiv.org/abs/2610.11904v1",
       "sent_at": "2026-10-10T01:47:03.506912+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.05876v1",
+      "source": "arxiv",
+      "title": "RF Chain Count to Mitigate Beam Split in Wideband Hybrid Arrays: From Far-Field to Near-Field",
+      "url": "http://arxiv.org/abs/2610.05876v1",
+      "sent_at": "2026-10-11T00:39:24.230410+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.03956v1",
+      "source": "arxiv",
+      "title": "Latent Score-Based Bayesian Cramér-Rao Bound Estimation for High-Dimensional Imaging Systems",
+      "url": "http://arxiv.org/abs/2610.03956v1",
+      "sent_at": "2026-10-11T00:39:24.230410+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.06494v1",
+      "source": "arxiv",
+      "title": "Topology-Informed Prompt-Conditioned Universal Segmentation of Uterine Structures from Ultrasound and MRI",
+      "url": "http://arxiv.org/abs/2610.06494v1",
+      "sent_at": "2026-10-11T00:39:24.230410+00:00"
     }
   ]
 }
