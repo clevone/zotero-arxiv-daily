@@ -3800,6 +3800,27 @@
       "title": "Topology-Informed Prompt-Conditioned Universal Segmentation of Uterine Structures from Ultrasound and MRI",
       "url": "http://arxiv.org/abs/2610.06494v1",
       "sent_at": "2026-10-11T00:39:24.230410+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.09381v1",
+      "source": "arxiv",
+      "title": "Finite-Aperture Modeling of Pattern-Reconfigurable Antennas for Multiuser Beamforming",
+      "url": "http://arxiv.org/abs/2610.09381v1",
+      "sent_at": "2026-10-12T01:12:34.478596+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.06565v1",
+      "source": "arxiv",
+      "title": "Blind Beamforming for Intelligent Reflecting Surfaces: A Gradient Bandit Approach",
+      "url": "http://arxiv.org/abs/2610.06565v1",
+      "sent_at": "2026-10-12T01:12:34.478596+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.09429v1",
+      "source": "arxiv",
+      "title": "Predictive Beamforming via Echo-Beam Modality Separation with Cross-Attention for ISAC Systems",
+      "url": "http://arxiv.org/abs/2610.09429v1",
+      "sent_at": "2026-10-12T01:12:34.478596+00:00"
     }
   ]
 }
