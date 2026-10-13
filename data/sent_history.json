@@ -3821,6 +3821,48 @@
       "title": "Predictive Beamforming via Echo-Beam Modality Separation with Cross-Attention for ISAC Systems",
       "url": "http://arxiv.org/abs/2610.09429v1",
       "sent_at": "2026-10-12T01:12:34.478596+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.13616v1",
+      "source": "arxiv",
+      "title": "OpenH-RF: A Large-Scale Ultrasound Raw Channel Dataset Initiative",
+      "url": "http://arxiv.org/abs/2610.13616v1",
+      "sent_at": "2026-10-13T03:03:55.614123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.13258v1",
+      "source": "arxiv",
+      "title": "Neural Surrogate Modeling of Ultrasonic Wave Propagation in Heterogeneous Media",
+      "url": "http://arxiv.org/abs/2610.13258v1",
+      "sent_at": "2026-10-13T03:03:55.614123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.12584v1",
+      "source": "arxiv",
+      "title": "Ultrasound and Magnetic Resonance Elastography of the Neck: Biomechanical Basis, Clinical Applications and Methodological Challenges",
+      "url": "http://arxiv.org/abs/2610.12584v1",
+      "sent_at": "2026-10-13T03:03:55.614123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.12604v1",
+      "source": "arxiv",
+      "title": "Low-Complexity Tensor-Based Channel Parameter Estimation for mmWave MIMO-Assisted Systems",
+      "url": "http://arxiv.org/abs/2610.12604v1",
+      "sent_at": "2026-10-13T03:03:55.614123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.13599v1",
+      "source": "arxiv",
+      "title": "EchoTab: Learning Measurement-Grounded Representations for Echocardiographic Diagnosis through Tabular Reconstruction",
+      "url": "http://arxiv.org/abs/2610.13599v1",
+      "sent_at": "2026-10-13T03:03:55.614123+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/40653394/",
+      "source": "pubmed",
+      "title": "Multiparametric ultrasound evaluation of metabolic dysfunction-associated fatty liver disease in minipigs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40653394/",
+      "sent_at": "2026-10-13T03:03:55.614123+00:00"
     }
   ]
 }
