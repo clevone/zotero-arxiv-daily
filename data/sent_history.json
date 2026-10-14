@@ -3863,6 +3863,27 @@
       "title": "Multiparametric ultrasound evaluation of metabolic dysfunction-associated fatty liver disease in minipigs.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40653394/",
       "sent_at": "2026-10-13T03:03:55.614123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.07994v1",
+      "source": "arxiv",
+      "title": "Waveform Randomization for Secure ISAC",
+      "url": "http://arxiv.org/abs/2610.07994v1",
+      "sent_at": "2026-10-14T01:06:20.911269+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.11558v1",
+      "source": "arxiv",
+      "title": "Model-Driven Deep Learning with Rank-One Sensing for Efficient CSI Feedback",
+      "url": "http://arxiv.org/abs/2610.11558v1",
+      "sent_at": "2026-10-14T01:06:20.911269+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.10155v1",
+      "source": "arxiv",
+      "title": "Near-Field Beamforming Design for Multi-IRS Wireless Beam Routing",
+      "url": "http://arxiv.org/abs/2610.10155v1",
+      "sent_at": "2026-10-14T01:06:20.911269+00:00"
     }
   ]
 }
