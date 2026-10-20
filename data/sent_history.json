@@ -3884,6 +3884,41 @@
       "title": "Near-Field Beamforming Design for Multi-IRS Wireless Beam Routing",
       "url": "http://arxiv.org/abs/2610.10155v1",
       "sent_at": "2026-10-14T01:06:20.911269+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.23099v1",
+      "source": "arxiv",
+      "title": "Spatiotemporal Adaptive Eigenspectrum Remapping in Transcranial Ultrasound Localization Microscopy",
+      "url": "http://arxiv.org/abs/2610.23099v1",
+      "sent_at": "2026-10-20T02:27:47.426740+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.23315v1",
+      "source": "arxiv",
+      "title": "Untrained CNN and coefficient-space regularization for joint reconstruction in photoacoustic tomography",
+      "url": "http://arxiv.org/abs/2610.23315v1",
+      "sent_at": "2026-10-20T02:27:47.426740+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.23462v1",
+      "source": "arxiv",
+      "title": "A Smaller Subspace is All You Need: Efficient ISAC Beamforming via Dimensionality Reduction",
+      "url": "http://arxiv.org/abs/2610.23462v1",
+      "sent_at": "2026-10-20T02:27:47.426740+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.23437v1",
+      "source": "arxiv",
+      "title": "Sensing-Driven Secure Transmission with Mobile Eavesdropper Tracking in RIS-Assisted ISAC",
+      "url": "http://arxiv.org/abs/2610.23437v1",
+      "sent_at": "2026-10-20T02:27:47.426740+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.10.18.26362018v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Scaled m-BonacciNet: A Recurrence-Guided Lightweight CNN for Efficient Medical Image Classification",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.18.26362018v1.full.pdf",
+      "sent_at": "2026-10-20T02:27:47.426740+00:00"
     }
   ]
 }
