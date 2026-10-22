@@ -3919,6 +3919,41 @@
       "title": "Scaled m-BonacciNet: A Recurrence-Guided Lightweight CNN for Efficient Medical Image Classification",
       "url": "https://www.medrxiv.org/content/10.64898/2026.10.18.26362018v1.full.pdf",
       "sent_at": "2026-10-20T02:27:47.426740+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.28557v1",
+      "source": "arxiv",
+      "title": "Beamfocusing Versus Airy Beams: Does Antenna Blockage Require Beam Bending?",
+      "url": "http://arxiv.org/abs/2610.28557v1",
+      "sent_at": "2026-10-22T02:33:27.726890+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.27923v1",
+      "source": "arxiv",
+      "title": "When Every Bit Counts in Quantized Beamforming: From CSI Feedback to Low-Resolution Hardware",
+      "url": "http://arxiv.org/abs/2610.27923v1",
+      "sent_at": "2026-10-22T02:33:27.726890+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.27972v1",
+      "source": "arxiv",
+      "title": "RIS Configuration with Low-Overhead Measurements via Physics-Guided Neural Networks",
+      "url": "http://arxiv.org/abs/2610.27972v1",
+      "sent_at": "2026-10-22T02:33:27.726890+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.10.15.26365692v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Left Ventricular Diastolic Intraventricular Pressure Differences and Propagation Velocity with 4D-Flow MRI in Patients with Hypertrophic Cardiomyopathy",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365692v1.full.pdf",
+      "sent_at": "2026-10-22T02:33:27.726890+00:00"
+    },
+    {
+      "key": "url::https://pubmed.ncbi.nlm.nih.gov/30851952/",
+      "source": "pubmed",
+      "title": "Performance of Shear Wave Elastography in Delineating the Radiofrequency Ablation Boundary: An in Vivo experiment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30851952/",
+      "sent_at": "2026-10-22T02:33:27.726890+00:00"
     }
   ]
 }
