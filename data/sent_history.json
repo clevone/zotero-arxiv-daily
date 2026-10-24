@@ -3989,6 +3989,34 @@
       "title": "Zero-group-velocity modes in textured steel plates: experiments and elastic modeling",
       "url": "http://arxiv.org/abs/2610.29693v1",
       "sent_at": "2026-10-23T00:57:41.861586+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.30411v1",
+      "source": "arxiv",
+      "title": "AcoustiPrint: Physics-Guided Neural Design of Manufacturable Acoustic Structures",
+      "url": "http://arxiv.org/abs/2610.30411v1",
+      "sent_at": "2026-10-24T00:40:15.042042+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.31136v1",
+      "source": "arxiv",
+      "title": "Array Rotation in Near-Field ISAC: Communication, Detection, and Estimation Under Low-Complexity Transmit Architectures",
+      "url": "http://arxiv.org/abs/2610.31136v1",
+      "sent_at": "2026-10-24T00:40:15.042042+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.31065v1",
+      "source": "arxiv",
+      "title": "A General-Purpose Dual-Path Interaction Framework for Multi-View Medical Image Segmentation: Alleviating Data Volume Dependency in Small-Sample Regimes",
+      "url": "http://arxiv.org/abs/2610.31065v1",
+      "sent_at": "2026-10-24T00:40:15.042042+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.31139v1",
+      "source": "arxiv",
+      "title": "Pos4CHD: A Positive-Free Mask-Guided Counterfactual Synthesis Framework for Fetal Congenital Heart Defect Analysis",
+      "url": "http://arxiv.org/abs/2610.31139v1",
+      "sent_at": "2026-10-24T00:40:15.042042+00:00"
     }
   ]
 }
