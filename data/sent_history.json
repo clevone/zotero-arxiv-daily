@@ -4017,6 +4017,27 @@
       "title": "Pos4CHD: A Positive-Free Mask-Guided Counterfactual Synthesis Framework for Fetal Congenital Heart Defect Analysis",
       "url": "http://arxiv.org/abs/2610.31139v1",
       "sent_at": "2026-10-24T00:40:15.042042+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.10.21.26366156v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Fine-tuned Medical Vision-Language Model (MedGemma 1.5 4B) with and without Structured Radiologist Descriptors versus EU-TIRADS for Malignancy Risk Stratification of Thyroid Nodules at Ultrasound: A Tunisian Multicenter Diagnostic Accuracy Study",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.21.26366156v1.full.pdf",
+      "sent_at": "2026-10-25T00:13:41.993081+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.10.21.26366184v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Radiological Phenotypes of Acute Brain Injury During Extracorporeal Membrane Oxygenation on Ultra-Low-Field Portable MRI",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.21.26366184v1.full.pdf",
+      "sent_at": "2026-10-25T00:13:41.993081+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.13604v1",
+      "source": "arxiv",
+      "title": "Thyroid Nodule Segmentation in Ultrasound Images with Conformal Uncertainty Estimation",
+      "url": "http://arxiv.org/abs/2610.13604v1",
+      "sent_at": "2026-10-25T00:13:41.993081+00:00"
     }
   ]
 }
