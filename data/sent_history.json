@@ -4038,6 +4038,27 @@
       "title": "Thyroid Nodule Segmentation in Ultrasound Images with Conformal Uncertainty Estimation",
       "url": "http://arxiv.org/abs/2610.13604v1",
       "sent_at": "2026-10-25T00:13:41.993081+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.08973v1",
+      "source": "arxiv",
+      "title": "Beamforming Design for RIS-Assisted Backscatter NOMA in Underlay Cognitive Radio",
+      "url": "http://arxiv.org/abs/2610.08973v1",
+      "sent_at": "2026-10-26T00:22:43.289640+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.04800v1",
+      "source": "arxiv",
+      "title": "MedImageOSWorld: Benchmarking GUI Agents for Medical Image Consoles",
+      "url": "http://arxiv.org/abs/2610.04800v1",
+      "sent_at": "2026-10-26T00:22:43.289640+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.13675v1",
+      "source": "arxiv",
+      "title": "Can Multimodal Decision Models Classify Breast Ultrasound Images? Benchmarking CLEF and CLEF-Flash Across Prompts and Datasets",
+      "url": "http://arxiv.org/abs/2610.13675v1",
+      "sent_at": "2026-10-26T00:22:43.289640+00:00"
     }
   ]
 }
