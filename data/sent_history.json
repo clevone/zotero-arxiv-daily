@@ -4059,6 +4059,41 @@
       "title": "Can Multimodal Decision Models Classify Breast Ultrasound Images? Benchmarking CLEF and CLEF-Flash Across Prompts and Datasets",
       "url": "http://arxiv.org/abs/2610.13675v1",
       "sent_at": "2026-10-26T00:22:43.289640+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.32468v1",
+      "source": "arxiv",
+      "title": "OPTARI: An open-source software framework for clinical translation of optoacoustic imaging",
+      "url": "http://arxiv.org/abs/2610.32468v1",
+      "sent_at": "2026-10-27T01:45:50.832187+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.32948v1",
+      "source": "arxiv",
+      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+      "url": "http://arxiv.org/abs/2610.32948v1",
+      "sent_at": "2026-10-27T01:45:50.832187+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.32816v1",
+      "source": "arxiv",
+      "title": "Sounding Surgical Instrument Localisation through Audio-Visual Correspondence",
+      "url": "http://arxiv.org/abs/2610.32816v1",
+      "sent_at": "2026-10-27T01:45:50.832187+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.10.22.26365566v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Training-free generation of 4D CT and other rare acquisitions improves segmentation across modalities",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.22.26365566v1.full.pdf",
+      "sent_at": "2026-10-27T01:45:50.832187+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.32116v1",
+      "source": "arxiv",
+      "title": "Resilience in Wireless: A Lyapunov-Constrained Integrated Sensing, Communication, and Control Approach",
+      "url": "http://arxiv.org/abs/2610.32116v1",
+      "sent_at": "2026-10-27T01:45:50.832187+00:00"
     }
   ]
 }
