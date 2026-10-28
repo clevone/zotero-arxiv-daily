@@ -4094,6 +4094,41 @@
       "title": "Resilience in Wireless: A Lyapunov-Constrained Integrated Sensing, Communication, and Control Approach",
       "url": "http://arxiv.org/abs/2610.32116v1",
       "sent_at": "2026-10-27T01:45:50.832187+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.33091v1",
+      "source": "arxiv",
+      "title": "EL-DIP: A Deep Image Prior Framework for Accurate,Efficient, and Noise-Robust Elastography",
+      "url": "http://arxiv.org/abs/2610.33091v1",
+      "sent_at": "2026-10-28T02:07:24.593123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.34244v1",
+      "source": "arxiv",
+      "title": "Semantic-Aware Deformable Feature Alignment for Thyroid Nodule Segmentation in Ultrasound",
+      "url": "http://arxiv.org/abs/2610.34244v1",
+      "sent_at": "2026-10-28T02:07:24.593123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.33093v1",
+      "source": "arxiv",
+      "title": "Simulated transcranial ultrasound of human language cortex: verifying heard speech needs far less data and signal than decoding it",
+      "url": "http://arxiv.org/abs/2610.33093v1",
+      "sent_at": "2026-10-28T02:07:24.593123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.34275v1",
+      "source": "arxiv",
+      "title": "RIS-Assisted Downlink Pinching-Antenna Systems With NLOS Environments",
+      "url": "http://arxiv.org/abs/2610.34275v1",
+      "sent_at": "2026-10-28T02:07:24.593123+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.34091v1",
+      "source": "arxiv",
+      "title": "Dynamic Metasurface-Enabled Generalized Pinching-Antenna Systems",
+      "url": "http://arxiv.org/abs/2610.34091v1",
+      "sent_at": "2026-10-28T02:07:24.593123+00:00"
     }
   ]
 }
