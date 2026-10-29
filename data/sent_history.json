@@ -4129,6 +4129,27 @@
       "title": "Dynamic Metasurface-Enabled Generalized Pinching-Antenna Systems",
       "url": "http://arxiv.org/abs/2610.34091v1",
       "sent_at": "2026-10-28T02:07:24.593123+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.10.26.26366517v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Direct measurement of motor unit twitch properties using routine clinical ultrasound and optical flow",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.26.26366517v1.full.pdf",
+      "sent_at": "2026-10-29T01:59:32.703955+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.35438v1",
+      "source": "arxiv",
+      "title": "Movable Antenna Enabled Anti-Jamming: From Local Optimality Guaranteed Design to a Unified Antenna Position Optimization Framework",
+      "url": "http://arxiv.org/abs/2610.35438v1",
+      "sent_at": "2026-10-29T01:59:32.703955+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.34603v1",
+      "source": "arxiv",
+      "title": "Frequency-Dependent Hybrid Digital and Microwave Linear Analog Computer (MiLAC) Beamforming for Multiuser MIMO-OFDM Systems",
+      "url": "http://arxiv.org/abs/2610.34603v1",
+      "sent_at": "2026-10-29T01:59:32.703955+00:00"
     }
   ]
 }
