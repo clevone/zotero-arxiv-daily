@@ -4150,6 +4150,27 @@
       "title": "Frequency-Dependent Hybrid Digital and Microwave Linear Analog Computer (MiLAC) Beamforming for Multiuser MIMO-OFDM Systems",
       "url": "http://arxiv.org/abs/2610.34603v1",
       "sent_at": "2026-10-29T01:59:32.703955+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.10.27.26366648v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Development and evaluation of automated organ segmentation models for abdominal ultrasound in injured children",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.27.26366648v1.full.pdf",
+      "sent_at": "2026-10-30T02:24:35.309071+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.35047v1",
+      "source": "arxiv",
+      "title": "Fluid Antennas Enabled UAV Communication Systems: Fundamentals, Challenges, and Future Directions",
+      "url": "http://arxiv.org/abs/2610.35047v1",
+      "sent_at": "2026-10-30T02:24:35.309071+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.13387v1",
+      "source": "arxiv",
+      "title": "Radiomics-Based Thyroid Nodule Classification with Label-Conditional Conformal Prediction",
+      "url": "http://arxiv.org/abs/2610.13387v1",
+      "sent_at": "2026-10-30T02:24:35.309071+00:00"
     }
   ]
 }
