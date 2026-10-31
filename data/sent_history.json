@@ -4171,6 +4171,41 @@
       "title": "Radiomics-Based Thyroid Nodule Classification with Label-Conditional Conformal Prediction",
       "url": "http://arxiv.org/abs/2610.13387v1",
       "sent_at": "2026-10-30T02:24:35.309071+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.39254v1",
+      "source": "arxiv",
+      "title": "Common Offset Gathers for Efficient Multistatic Beamforming in Frequency Domain",
+      "url": "http://arxiv.org/abs/2610.39254v1",
+      "sent_at": "2026-10-31T02:25:20.294364+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.38794v1",
+      "source": "arxiv",
+      "title": "Joint Antenna Position and Beamforming Optimization for Movable Antenna Enabled Near-Field ISAC Imaging",
+      "url": "http://arxiv.org/abs/2610.38794v1",
+      "sent_at": "2026-10-31T02:25:20.294364+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.39069v1",
+      "source": "arxiv",
+      "title": "Quantitative Ultrasound Perfusion Biomarker: Cross-Modality Validation with Laser Speckle Imaging",
+      "url": "http://arxiv.org/abs/2610.39069v1",
+      "sent_at": "2026-10-31T02:25:20.294364+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.39219v1",
+      "source": "arxiv",
+      "title": "An Efficient SIM Beamforming Scheme Based on Physical-Empowered Projected Gradient",
+      "url": "http://arxiv.org/abs/2610.39219v1",
+      "sent_at": "2026-10-31T02:25:20.294364+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.38395v1",
+      "source": "arxiv",
+      "title": "Beyond Fresnel Approximation: Exact Airy Beamforming for Near-Field THz Communications",
+      "url": "http://arxiv.org/abs/2610.38395v1",
+      "sent_at": "2026-10-31T02:25:20.294364+00:00"
     }
   ]
 }
