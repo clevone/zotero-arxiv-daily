@@ -4206,6 +4206,27 @@
       "title": "Beyond Fresnel Approximation: Exact Airy Beamforming for Near-Field THz Communications",
       "url": "http://arxiv.org/abs/2610.38395v1",
       "sent_at": "2026-10-31T02:25:20.294364+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.38213v1",
+      "source": "arxiv",
+      "title": "Two-Layer Microwave Linear Analog Computer (MiLAC)-Aided Multi-User MIMO Networks",
+      "url": "http://arxiv.org/abs/2610.38213v1",
+      "sent_at": "2026-11-01T01:15:21.798703+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.06034v1",
+      "source": "arxiv",
+      "title": "How well do routinely collected demographic and clinical variables aid point-of-care lung ultrasound TB classification",
+      "url": "http://arxiv.org/abs/2610.06034v1",
+      "sent_at": "2026-11-01T01:15:21.798703+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.29738v1",
+      "source": "arxiv",
+      "title": "Learning to Measure and Diagnose: A Clinical-Dictionary Radiomic Bottleneck Model for Thyroid Nodule Classification",
+      "url": "http://arxiv.org/abs/2610.29738v1",
+      "sent_at": "2026-11-01T01:15:21.798703+00:00"
     }
   ]
 }
