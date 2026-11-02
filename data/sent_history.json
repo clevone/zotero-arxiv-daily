@@ -4227,6 +4227,27 @@
       "title": "Learning to Measure and Diagnose: A Clinical-Dictionary Radiomic Bottleneck Model for Thyroid Nodule Classification",
       "url": "http://arxiv.org/abs/2610.29738v1",
       "sent_at": "2026-11-01T01:15:21.798703+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.10106v1",
+      "source": "arxiv",
+      "title": "Variational Bayesian Inference Based Progressive Multi-Target MIMO Sensing with Nuisance Parameters",
+      "url": "http://arxiv.org/abs/2610.10106v1",
+      "sent_at": "2026-11-02T01:28:18.994572+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.12588v1",
+      "source": "arxiv",
+      "title": "On the Performance of Randomly Generated Codebooks in Near-Field Communications",
+      "url": "http://arxiv.org/abs/2610.12588v1",
+      "sent_at": "2026-11-02T01:28:18.994572+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.39082v1",
+      "source": "arxiv",
+      "title": "Stability-Performance Trade-off in Maritime Integrated Sensing, Communication, and Computation: A Lyapunov-Guided Dual-Timescale Hierarchical RL Approach",
+      "url": "http://arxiv.org/abs/2610.39082v1",
+      "sent_at": "2026-11-02T01:28:18.994572+00:00"
     }
   ]
 }
