@@ -4248,6 +4248,34 @@
       "title": "Stability-Performance Trade-off in Maritime Integrated Sensing, Communication, and Computation: A Lyapunov-Guided Dual-Timescale Hierarchical RL Approach",
       "url": "http://arxiv.org/abs/2610.39082v1",
       "sent_at": "2026-11-02T01:28:18.994572+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.40705v1",
+      "source": "arxiv",
+      "title": "DiffUltra: Task-Guided Pathology Synthesis for Large-Scale Real-World Lung Ultrasound Data",
+      "url": "http://arxiv.org/abs/2610.40705v1",
+      "sent_at": "2026-11-03T04:11:30.338947+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.41897v1",
+      "source": "arxiv",
+      "title": "Quantitative Ultrasound Characterizes Perfusion Trajectories in Healthy and Inflamed Gingival Wound Healing",
+      "url": "http://arxiv.org/abs/2610.41897v1",
+      "sent_at": "2026-11-03T04:11:30.338947+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.40710v1",
+      "source": "arxiv",
+      "title": "Cross-Device Transfer of a Hospital-Trained Fetal Head Circumference Model to a Low-Cost Handheld Ultrasound Probe",
+      "url": "http://arxiv.org/abs/2610.40710v1",
+      "sent_at": "2026-11-03T04:11:30.338947+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2610.41380v1",
+      "source": "arxiv",
+      "title": "Pinching Antennas for ISAC: Waveguide Architectures, Solutions, and Future Directions",
+      "url": "http://arxiv.org/abs/2610.41380v1",
+      "sent_at": "2026-11-03T04:11:30.338947+00:00"
     }
   ]
 }
