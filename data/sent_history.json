@@ -4276,6 +4276,41 @@
       "title": "Pinching Antennas for ISAC: Waveguide Architectures, Solutions, and Future Directions",
       "url": "http://arxiv.org/abs/2610.41380v1",
       "sent_at": "2026-11-03T04:11:30.338947+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.00184v1",
+      "source": "arxiv",
+      "title": "Does Vendor Image Processing Matter? Learning Echocardiography Display Appearance from Native Beamspace Data",
+      "url": "http://arxiv.org/abs/2611.00184v1",
+      "sent_at": "2026-11-04T02:40:25.650862+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.01536v1",
+      "source": "arxiv",
+      "title": "CUFormer: Modality-Aware CT-Ultrasound Point Cloud Registration for Orthopedic Navigation",
+      "url": "http://arxiv.org/abs/2611.01536v1",
+      "sent_at": "2026-11-04T02:40:25.650862+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.03485v1",
+      "source": "arxiv",
+      "title": "Identifying the Shear Piezoelectric Coefficient using Physics-Informed Neural Networks under Exact Boundary and Initial Constraints",
+      "url": "http://arxiv.org/abs/2611.03485v1",
+      "sent_at": "2026-11-04T02:40:25.650862+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.00527v1",
+      "source": "arxiv",
+      "title": "3D Neural Rendering for Automated Ultrasonic Laser Scans",
+      "url": "http://arxiv.org/abs/2611.00527v1",
+      "sent_at": "2026-11-04T02:40:25.650862+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.03360v1",
+      "source": "arxiv",
+      "title": "Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry",
+      "url": "http://arxiv.org/abs/2611.03360v1",
+      "sent_at": "2026-11-04T02:40:25.650862+00:00"
     }
   ]
 }
