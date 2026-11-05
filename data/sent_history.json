@@ -4311,6 +4311,41 @@
       "title": "Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry",
       "url": "http://arxiv.org/abs/2611.03360v1",
       "sent_at": "2026-11-04T02:40:25.650862+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.04251v1",
+      "source": "arxiv",
+      "title": "Differentiable topology optimization for high-fidelity acoustic holography beyond the thin-element approximation",
+      "url": "http://arxiv.org/abs/2611.04251v1",
+      "sent_at": "2026-11-05T03:02:14.274668+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.05206v1",
+      "source": "arxiv",
+      "title": "Diffusion Plug-in Priors for Self-Supervised Ultrasound Video Restoration",
+      "url": "http://arxiv.org/abs/2611.05206v1",
+      "sent_at": "2026-11-05T03:02:14.274668+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.05130v1",
+      "source": "arxiv",
+      "title": "Solving the Nonlinear Westervelt Equation in Ultrasound Propagation Using Physics-Informed Neural Networks",
+      "url": "http://arxiv.org/abs/2611.05130v1",
+      "sent_at": "2026-11-05T03:02:14.274668+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.04058v1",
+      "source": "arxiv",
+      "title": "Multiplicity of elastic wave propagation in random polycrystals",
+      "url": "http://arxiv.org/abs/2611.04058v1",
+      "sent_at": "2026-11-05T03:02:14.274668+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.04798v1",
+      "source": "arxiv",
+      "title": "Current-Future Rate Tradeoffs in ISAC Under Random Path Changes",
+      "url": "http://arxiv.org/abs/2611.04798v1",
+      "sent_at": "2026-11-05T03:02:14.274668+00:00"
     }
   ]
 }
