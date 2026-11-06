@@ -4346,6 +4346,41 @@
       "title": "Current-Future Rate Tradeoffs in ISAC Under Random Path Changes",
       "url": "http://arxiv.org/abs/2611.04798v1",
       "sent_at": "2026-11-05T03:02:14.274668+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.06235v1",
+      "source": "arxiv",
+      "title": "One ISAC Array, Two Worst Cases: Hardware Impairments in Beamforming and AoA Estimation",
+      "url": "http://arxiv.org/abs/2611.06235v1",
+      "sent_at": "2026-11-06T02:58:26.107804+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.05851v1",
+      "source": "arxiv",
+      "title": "Risk Control Certifies Rates, Not Magnitudes: An Audit of Selective Fetal Biometry",
+      "url": "http://arxiv.org/abs/2611.05851v1",
+      "sent_at": "2026-11-06T02:58:26.107804+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.06853v1",
+      "source": "arxiv",
+      "title": "Joint Association and Beamforming Design for Cooperative ISAC Systems",
+      "url": "http://arxiv.org/abs/2611.06853v1",
+      "sent_at": "2026-11-06T02:58:26.107804+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.11.03.26367069v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Similar discrimination, different behaviour under synthetic occlusion: confidence and attribution reproducibility of deep learning models for intraoral ultrasonography",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.11.03.26367069v1.full.pdf",
+      "sent_at": "2026-11-06T02:58:26.107804+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.05989v1",
+      "source": "arxiv",
+      "title": "Look Before You Move: Multimodal Sensing-Aided Trajectory and Beamforming Design for 6DMA",
+      "url": "http://arxiv.org/abs/2611.05989v1",
+      "sent_at": "2026-11-06T02:58:26.107804+00:00"
     }
   ]
 }
