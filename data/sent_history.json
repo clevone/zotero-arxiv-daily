@@ -4381,6 +4381,41 @@
       "title": "Look Before You Move: Multimodal Sensing-Aided Trajectory and Beamforming Design for 6DMA",
       "url": "http://arxiv.org/abs/2611.05989v1",
       "sent_at": "2026-11-06T02:58:26.107804+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.07966v1",
+      "source": "arxiv",
+      "title": "High resolution 3D localization of ultrasound sparse sources using a SAGE algorithm",
+      "url": "http://arxiv.org/abs/2611.07966v1",
+      "sent_at": "2026-11-07T01:59:26.464255+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.06992v1",
+      "source": "arxiv",
+      "title": "Task-Aware Bitrate Thresholds for Codec-Robust Ultrasound Segmentation",
+      "url": "http://arxiv.org/abs/2611.06992v1",
+      "sent_at": "2026-11-07T01:59:26.464255+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.08352v1",
+      "source": "arxiv",
+      "title": "USB Gym: A Gymnasium Testbed for Closed-Loop Ultrasound View Matching",
+      "url": "http://arxiv.org/abs/2611.08352v1",
+      "sent_at": "2026-11-07T01:59:26.464255+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.08331v1",
+      "source": "arxiv",
+      "title": "Electromagnetically Consistent Monostatic ISAC Beamforming: Mutual Coupling, Active Mismatch and Tx-Rx Leakage in Compact Dipole Arrays",
+      "url": "http://arxiv.org/abs/2611.08331v1",
+      "sent_at": "2026-11-07T01:59:26.464255+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.07135v1",
+      "source": "arxiv",
+      "title": "Finite Element Elastographic Analysis of Kidney MRI for Computational Assessment of Chronic Kidney Disease",
+      "url": "http://arxiv.org/abs/2611.07135v1",
+      "sent_at": "2026-11-07T01:59:26.464255+00:00"
     }
   ]
 }
