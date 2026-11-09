@@ -4437,6 +4437,27 @@
       "title": "Fundamental Limits and Joint Design for Monostatic Joint Communications and Sensing in LEO Satellites",
       "url": "http://arxiv.org/abs/2611.01164v1",
       "sent_at": "2026-11-08T01:18:04.602899+00:00"
+    },
+    {
+      "key": "url::https://www.medrxiv.org/content/10.64898/2026.11.06.26367432v1.full.pdf",
+      "source": "medrxiv",
+      "title": "Computational Modeling of the Acoustic Radiation Force and Viscoelastic Displacement for Transcranial Focused Ultrasound Neuromodulation",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367432v1.full.pdf",
+      "sent_at": "2026-11-09T01:38:28.381601+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.00867v1",
+      "source": "arxiv",
+      "title": "Harnessing Inter-Waveguide Evanescent Coupling in Pinching-Antenna Systems",
+      "url": "http://arxiv.org/abs/2611.00867v1",
+      "sent_at": "2026-11-09T01:38:28.381601+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.01694v1",
+      "source": "arxiv",
+      "title": "Direct Covariance-to-Beamformer Mapping for Low-Latency Hybrid ISAC Beamforming with Subsequent DoA Estimation",
+      "url": "http://arxiv.org/abs/2611.01694v1",
+      "sent_at": "2026-11-09T01:38:28.381601+00:00"
     }
   ]
 }
