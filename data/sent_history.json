@@ -4458,6 +4458,41 @@
       "title": "Direct Covariance-to-Beamformer Mapping for Low-Latency Hybrid ISAC Beamforming with Subsequent DoA Estimation",
       "url": "http://arxiv.org/abs/2611.01694v1",
       "sent_at": "2026-11-09T01:38:28.381601+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.09002v1",
+      "source": "arxiv",
+      "title": "Smart Spectral Doppler Ultrasound Imaging using Motion Tracking based on Wide-beam transmission and Neural Networks: Preliminary Results",
+      "url": "http://arxiv.org/abs/2611.09002v1",
+      "sent_at": "2026-11-10T04:48:03.526772+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.08826v1",
+      "source": "arxiv",
+      "title": "An Ultra-Low-Noise Tunable TIA in 45nm Silicon Photonics for Electro-Optical Ultrasound Data Acquisition",
+      "url": "http://arxiv.org/abs/2611.08826v1",
+      "sent_at": "2026-11-10T04:48:03.526772+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.09435v1",
+      "source": "arxiv",
+      "title": "Pinching Antenna Systems (PASS) for Air-Ground Integrated Sensing and Communications (ISAC)",
+      "url": "http://arxiv.org/abs/2611.09435v1",
+      "sent_at": "2026-11-10T04:48:03.526772+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.09058v1",
+      "source": "arxiv",
+      "title": "ProtoCouncil: Multi-Encoder Anatomical Prototypes for Prostate Cancer Detection in Micro-Ultrasound",
+      "url": "http://arxiv.org/abs/2611.09058v1",
+      "sent_at": "2026-11-10T04:48:03.526772+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.09591v1",
+      "source": "arxiv",
+      "title": "Multi-Mode Pinching-Antenna-Based OFDM Systems: A Robust Design Perspective",
+      "url": "http://arxiv.org/abs/2611.09591v1",
+      "sent_at": "2026-11-10T04:48:03.526772+00:00"
     }
   ]
 }
