@@ -4493,6 +4493,41 @@
       "title": "Multi-Mode Pinching-Antenna-Based OFDM Systems: A Robust Design Perspective",
       "url": "http://arxiv.org/abs/2611.09591v1",
       "sent_at": "2026-11-10T04:48:03.526772+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.11178v1",
+      "source": "arxiv",
+      "title": "Deep Learning-based Quantitative Ultrasound (DeepQUS) for Multiparametric Hepatic Steatosis Assessment",
+      "url": "http://arxiv.org/abs/2611.11178v1",
+      "sent_at": "2026-11-11T02:54:24.235298+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.11951v1",
+      "source": "arxiv",
+      "title": "UltraVoxelGS: Voxel-First Feed-Forward Gaussian Splatting for 3D Ultrasound Reconstruction",
+      "url": "http://arxiv.org/abs/2611.11951v1",
+      "sent_at": "2026-11-11T02:54:24.235298+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.10197v1",
+      "source": "arxiv",
+      "title": "Physics-Based Differentiable Beamforming for Deep Learning-Based Contrast Enhanced Ultrasound Super-Resolution Imaging",
+      "url": "http://arxiv.org/abs/2611.10197v1",
+      "sent_at": "2026-11-11T02:54:24.235298+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.12299v1",
+      "source": "arxiv",
+      "title": "Physics-Informed Sinusoidal Representation Networks for Damage Identification in Ultrasonic Guided Wave Structural Health Monitoring",
+      "url": "http://arxiv.org/abs/2611.12299v1",
+      "sent_at": "2026-11-11T02:54:24.235298+00:00"
+    },
+    {
+      "key": "url::http://arxiv.org/abs/2611.10757v1",
+      "source": "arxiv",
+      "title": "Simultaneous 3D acoustic modulation and imaging of proton-induced nanodroplet vaporization for proton therapy monitoring",
+      "url": "http://arxiv.org/abs/2611.10757v1",
+      "sent_at": "2026-11-11T02:54:24.235298+00:00"
     }
   ]
 }
